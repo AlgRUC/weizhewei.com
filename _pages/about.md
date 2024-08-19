@@ -14,7 +14,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office: Room 1715, Lide Building</p>
@@ -27,8 +27,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently a Professor at Gaoling School of Artificial Intelligence, Renmin University of China.  I worked as a Professor (Jul 2019 - Jul 2020), and as an Associated Professor (Sep 2014 - Jun 2019) at School of Information, Renmin University of China. I was a Postdoc researcher at <a title="http://www.madalgo.au.dk/" href="http://www.madalgo.au.dk/">MADALGO (Center for Massive Data Algorithmics)</a>, <a title="http://www.au.dk/en/" href="http://www.au.dk/en/">Aarhus University</a>, from September 2012 to August 2014, working with <a title="http://www.madalgo.au.dk/~large/" href="http://www.madalgo.au.dk/%7Elarge/">Prof. Lars Arge</a>. I was a Postdoc at the <a class="class1" title="http://www.cse.ust.hk/" href="http://www.cse.ust.hk/">Department of Computer Science and <span>Engineering</span></a>, <a class="class2" title="http://www.ust.hk/" href="http://www.ust.hk/">HKUST</a>, from March to August 2012. I obtained my PhD at <a title="http://www.cse.ust.hk/" href="http://www.cse.ust.hk/">Department of Computer Science and Engineering</a>, <a title="http://www.ust.hk/" href="http://www.ust.hk/">HKUST</a> in March 2012. My supervisor is <a title="http://www.cse.ust.hk/~yike/" href="http://www.cse.ust.hk/~yike/">Prof. Ke Yi</a>. I received my B.Sc. Degree in the <a title="http://www.math.pku.edu.cn:8000/en/" href="http://www.math.pku.edu.cn:8000/en/">School of Mathematical Sciences</a> at <a title="http://www.pku.edu.cn/" href="http://www.pku.edu.cn/">Peking University</a> in June 2008.
