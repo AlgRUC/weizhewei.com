@@ -1,6 +1,3 @@
-{% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
-{% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
 {% endif %}
@@ -118,11 +115,17 @@
 {% if site.zotero_username %}
   <a href="https://www.zotero.org/{{ site.zotero_username }}" title="Zotero"><i class="ai ai-zotero"></i></a>
 {% endif %}
+
+<!-- Customized -->
+<a href="https://www.zhihu.com/column/c_1022440593678594048" title="Zhihu"><i class="fa-brands fa-zhihu"></i></a>
+<a href="https://space.bilibili.com/686686349" title="bilibili"><i class="fa-brands fa-bilibili"></i></a>
+<a href="{{ site.baseurl }}" title="xiaohongshu"><img src="{{ site.baseurl }}/assets/img/XiaohongshuLOGO.svg" style="height: 40px;filter: brightness(0) saturate(100%) invert(10%) sepia(78%) saturate(7470%) hue-rotate(299deg) brightness(97%) contrast(96%);padding-bottom: 5.5px;margin-top: -3px;"></img></a>
+
 {% if site.rss_icon %}
   <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
 {% endif %}
 {% if site.wechat_qr %}
-  <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
+  <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin" style="color: var(--global-theme-color);"></i></a>
   <div id="WeChatMod" class="wechat-modal">
     <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
   </div>

@@ -2,9 +2,6 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.font.im/css?family=Noto+Serif');
-
 // Typography
 
 p,
@@ -20,7 +17,6 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Noto Serif", serif;
 }
 
 hr {
@@ -242,6 +238,10 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+
+  img {
+    height: 3rem;
+  }
 }
 
 .navbar .dropdown-menu {
@@ -1297,4 +1297,13 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.social-header {
+  font-size: 2rem;
+
+  img {
+    height: 2rem;
+    filter: brightness(0) saturate(100%) invert(10%) sepia(78%) saturate(7470%) hue-rotate(299deg) brightness(97%) contrast(96%);
+  }
 }
