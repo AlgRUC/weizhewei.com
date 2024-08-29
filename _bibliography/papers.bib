@@ -1,114 +1,43 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{yin2024optimal,
+  abbr={VLDB},
+  title={Optimal Matrix Sketching over Sliding Windows},
+  author={Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei*, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
+  journal={VLDB 2024},
+  arxiv={2405.07792},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
+  code={https://github.com/yinhanyan/DS-FD},
+  doi={10.14778/3665844.3665847},
+  pdf={https://www.vldb.org/pvldb/vol17/p2149-yin.pdf},
+  year={2024},
+  month={August},
+  abstract={Matrix sketching, aimed at approximating a matrix \(\boldsymbol\{A\} \in \mathbb\{R\}^\{N \times d\}\) consisting of vector streams of length \(N\) with a smaller sketching matrix \(\boldsymbol\{B\}\in\mathbb\{R\}^\{\ell\times d\}\), \(\ell \ll N\), has garnered increasing attention in fields such as large-scale data analytics and machine learning. A well-known deterministic matrix sketching method is the Frequent Directions algorithm, which achieves the optimal \(O\left(\{d\over \varepsilon\}\right)\) space bound and provides a covariance error guarantee of \(\varepsilon=\lVert \boldsymbol\{A\}^\top\boldsymbol\{A\}-\boldsymbol\{B\}^\top\boldsymbol\{B\}\rVert_2/\lVert \boldsymbol\{A\}\rVert_F^2\). The matrix sketching problem becomes particularly interesting in the context of sliding windows, where the goal is to approximate the matrix \(\boldsymbol\{A\}_W\), formed by input vectors over the most recent \(N\) time units. However, despite recent efforts, whether achieving the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound on sliding windows is possible has remained an open question.
+    In this paper, we introduce the DS-FD algorithm, which achieves the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound for matrix sketching over row-normalized, sequence-based sliding windows. We also present matching upper and lower space bounds for time-based and unnormalized sliding windows, demonstrating the generality and optimality of DS-FD across various sliding window models. This conclusively answers the open question regarding the optimal space bound for matrix sketching over sliding windows. Furthermore, we conduct extensive experiments with both synthetic and real-world datasets, validating our theoretical claims and thus confirming the correctness and effectiveness of our algorithm, both theoretically and empirically. },
+  selected={true},
   volume={17},
-  pages={549--560},
-  year={1905}
+  issue={9},
+  pages={2149--2161},
+  poster={yin2024optimal_poster.pdf},
+  preview={seq-dsfd.svg},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{Kuang_2024, title={When Transformer Meets Large Graphs: An Expressive and Efficient Two-View Architecture}, ISSN={2326-3865}, url={http://dx.doi.org/10.1109/tkde.2024.3381125}, DOI={10.1109/tkde.2024.3381125}, journal={IEEE Transactions on Knowledge and Data Engineering}, publisher={Institute of Electrical and Electronics Engineers (IEEE)}, author={Kuang, Weirui and Wang, Zhen and Wei, Zhewei and Li, Yaliang and Ding, Bolin}, year={2024}, pages={1–13},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10479175},
+  abstract={The successes of applying Transformer to graphs have been witnessed on small graphs (e.g., molecular graphs), yet two barriers prevent its adoption on large graphs (e.g., citation networks). First, despite the benefit of the global receptive field, enormous distant nodes might distract the necessary attention of each target node from its neighborhood. Second, training a Transformer model on large graphs is costly due to the node-to-node attention mechanism's quadratic computational complexity. To break down these barriers, we propose a two-view architecture Coarformer , wherein a GNN-based module captures fine-grained local information from the original graph, and a Transformer-based module captures coarse yet long-range information on the coarse graph. We further design a cross-view propagation scheme so that these two views can enhance each other. Our graph isomorphism analysis shows the complementary natures of GNN and Transformer, justifying the motivation and design of Coarformer . We conduct extensive experiments on real-world datasets, where Coarformer surpasses any single-view method that solely applies a GNN or Transformer. As an ablation, Coarformer outperforms straightforward combinations of a GNN model and a Transformer-based model, verifying the effectiveness of our coarse global view and the cross-view propagation scheme. Meanwhile, Coarformer consumes the least runtime and GPU memory than those combinations.},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
+  abbr={TKDE},
+  selected={true},
+  }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+@article{Wang_2024, title={A survey on large language model based autonomous agents}, volume={18}, ISSN={2095-2236}, url={http://dx.doi.org/10.1007/s11704-024-40231-1}, DOI={10.1007/s11704-024-40231-1}, number={6}, journal={Frontiers of Computer Science}, publisher={Springer Science and Business Media LLC}, author={Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and Zhao, Wayne Xin and Wei, Zhewei and Wen, Jirong}, year={2024}, month=mar,
+  abbr={FCS}}
+
+@article{Yang_2024, title={Efficient Algorithms for Personalized PageRank Computation: A Survey}, volume={36}, ISSN={2326-3865}, url={http://dx.doi.org/10.1109/tkde.2024.3376000}, DOI={10.1109/tkde.2024.3376000}, number={9}, journal={IEEE Transactions on Knowledge and Data Engineering}, publisher={Institute of Electrical and Electronics Engineers (IEEE)}, author={Yang, Mingji and Wang, Hanzhi and Wei*, Zhewei and Wang, Sibo and Wen, Ji-Rong}, year={2024}, month=sep, pages={4582–4602},
+  abbr={TKDE}}
+
+@article{Hu_2023, title={Enabling Efficient Random Access to Hierarchically Compressed Text Data on Diverse GPU Platforms}, volume={34}, ISSN={2161-9883}, url={http://dx.doi.org/10.1109/tpds.2023.3294341}, DOI={10.1109/tpds.2023.3294341}, number={10}, journal={IEEE Transactions on Parallel and Distributed Systems}, publisher={Institute of Electrical and Electronics Engineers (IEEE)}, author={Hu, Yihua and Zhang, Feng and Xia, Yifei and Yao, Zhiming and Zeng, Letian and Ding, Haipeng and Wei, Zhewei and Zhang, Xiao and Zhai, Jidong and Du, Xiaoyong and Ma, Siqi}, year={2023}, month=oct, pages={2699–2717} }
+
+@article{Guo_2022, title={Influence Maximization Revisited: Efficient Sampling with Bound Tightened}, volume={47}, ISSN={1557-4644}, url={http://dx.doi.org/10.1145/3533817}, DOI={10.1145/3533817}, number={3}, journal={ACM Transactions on Database Systems}, publisher={Association for Computing Machinery (ACM)}, author={Guo, Qintian and Wang, Sibo and Wei, Zhewei and Lin, Wenqing and Tang, Jing}, year={2022}, month=aug, pages={1–45},
+  abbr={TODS} }
