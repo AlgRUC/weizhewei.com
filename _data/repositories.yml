@@ -5,10 +5,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ivam-he/BernNet
+  - chennnM/GBP
+  - chennnM/GCNII
+  - yinhanyan/DS-FD
+  - GuanyuCui/MGNN
+  - llijiajun/NDV_Estimation_in_distributed_environment
+  - yuziGuo/FarOptBasis
+  - yuziGuo/ClenshawGNN
+  - yuziGuo/PolyFilterPlayground

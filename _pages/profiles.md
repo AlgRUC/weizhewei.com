@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: 
 nav: true
-nav_order: 7
+nav_order: 9
 display_categories: ["Current PhD Students", "Current master students", "Graduated PhD students", "Graduated master students"]
 students:
   # if you want to include more than one profile, just replicate the following block
