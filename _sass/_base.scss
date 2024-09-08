@@ -2,6 +2,9 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.font.im/css?family=Noto+Sans');
+
 // Typography
 
 p,
@@ -17,6 +20,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: "Noto Sans", sans-serif;
 }
 
 hr {
