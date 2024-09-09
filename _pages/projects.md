@@ -66,6 +66,8 @@ horizontal: false
 
 <br>
 
+<small>Some cover picture(s) are created by Dunk from [flickr](https://www.flickr.com/photos/dullhunk/4520018121).  </small>
+
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}

@@ -12,7 +12,7 @@ students:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - name: Hanzhi Wang
-    image: hanzhi.jpeg
+    image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
       <ul class="fa-ul mb-0">
@@ -26,9 +26,12 @@ students:
     more_info: >
     category: Current PhD Students
   - name: Yanping Zheng
-    image: default.svg
+    image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Graph Neural Networks<br>Dynamic Graph Representation Learning</li>
+      </ul>
     category: Postdoctoral Researcher
   - name: Jiajun Li
     image: jiajun.jpg
@@ -41,7 +44,7 @@ students:
     more_info: >
     category: Current PhD Students
   - name: Yuhe Guo
-    image: yuhe.webp
+    image: yuhe.jpg
     link: https://yuziguo.github.io/
     more_info: >
     category: Current PhD Students
@@ -56,18 +59,25 @@ students:
     more_info: >
       <ul class="fa-ul mb-0">
         <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Theoretical Computer Science<br>Graph Algorithms<br>Sublinear Algorithms </li>
-        <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>Outstanding Graduate Student of Beijing<br>CCF Elite Collegiate Award<br>National Scholarship</li>
+        <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>CCF Elite Collegiate Award<br>National Scholarship</li>
       </ul>
     category: Current PhD Students
   - name: Haipeng Ding
-    image: default.svg
+    image: haipeng.jpg
     link: 
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Large-scale Graph Learning<br>LLM4Graph</li>
+        <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>Gold Medal in ICPC Asia Regional Contest</li>
+      </ul>
     category: Current PhD Students
   - name: Lu Yi
-    image: default.svg
-    link: https://kyleyoung-ymj.github.io/
+    image: lu_yi.jpg
+    link: https://luyi256.github.io/
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Dynamic graph learning<br>Graph unlearning<br>Scalable algorithms</li>
+      </ul>
     category: Current PhD Students
   - name: Dongxie Wen
     image: default.svg
@@ -75,9 +85,12 @@ students:
     more_info: >
     category: Current PhD Students
   - name: Jie Peng
-    image: default.svg
+    image: jie_peng.jpg
     link: https://lucas-pj.github.io/
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Graph Machine Learning<br>Dynamic Graph Learning</li>
+      </ul>
     category: Current PhD Students
   - name: Runlin Lei
     image: runlin.jpg
@@ -88,7 +101,7 @@ students:
       </ul>
     category: Current PhD Students
   - name: Gengmo Zhou
-    image: gengmo.jpeg
+    image: gengmo.jpg
     link: https://zhougengmo.github.io/
     more_info: >
       <ul class="fa-ul mb-0">
@@ -97,12 +110,15 @@ students:
       </ul>
     category: Current PhD Students
   - name: Yuwei Hu
-    image: default.svg
+    image: yuwei.jpg
     link: 
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>LLM&Graph</li>
+      </ul>
     category: Current PhD Students
   - name: Yuzhang Fei
-    image: default.svg
+    image: yuzhang.jpg
     link: 
     more_info: >
     category: Current PhD Students
@@ -126,9 +142,13 @@ students:
     more_info: >
     category: Current master students
   - name: Guanyu Cui
-    image: default.svg
+    image: guanyu.jpg
     link: https://guanyucui.github.io/
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Graph neural networks<br>Graph algorithms<br>Graph algorithm alignment</li>
+        <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>National Undergraduate Scholarship</li>
+      </ul>
     category: Current master students
   - name: Jingyu Chen
     image: default.svg
@@ -149,7 +169,7 @@ students:
     more_info: >
     category: Current master students
   - name: Hanyan Yin
-    image: hanyan.webp
+    image: hanyan.jpg
     link: https://yinhanyan.github.io/
     more_info: >
       <ul class="fa-ul mb-0">
@@ -158,7 +178,7 @@ students:
     category: Current master students
 
   - name: Yu Liu
-    image: default.svg
+    image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
       <ul class="fa-ul mb-0">
@@ -261,6 +281,7 @@ students:
                   <img
                     src="{{ profile_image_path | prepend: site.baseurl }}"
                     class="img-fluid rounded-start"
+                    loading="lazy"
                   />
                 </a>
               </div>

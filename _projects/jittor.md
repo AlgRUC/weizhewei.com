@@ -11,4 +11,4 @@ toc:
   beginning: true
 ---
 
-TBD
+This is a work-in-progress project to create a graph geometric library based on Jittor.

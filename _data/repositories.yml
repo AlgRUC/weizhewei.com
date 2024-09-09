@@ -5,12 +5,15 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - ivam-he/BernNet
-  - chennnM/GBP
   - chennnM/GCNII
-  - yinhanyan/DS-FD
-  - GuanyuCui/MGNN
-  - llijiajun/NDV_Estimation_in_distributed_environment
+  - ivam-he/BernNet
+  - ivam-he/ChebNetII
+  - chennnM/GBP
+  - Leirunlin/EvenNet
+  - yuziGuo/PolyFilterPlayground
+  - ivam-he/PSHGCN
   - yuziGuo/FarOptBasis
   - yuziGuo/ClenshawGNN
-  - yuziGuo/PolyFilterPlayground
+  - GuanyuCui/MGNN
+  - yinhanyan/DS-FD
+  - llijiajun/NDV_Estimation_in_distributed_environment
