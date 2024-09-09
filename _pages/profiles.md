@@ -5,7 +5,7 @@ title: people
 description: 
 nav: true
 nav_order: 9
-display_categories: ["Current PhD Students", "Current master students", "Graduated PhD students", "Graduated master students"]
+display_categories: ["Current PhD Students", "Postdoctoral Researcher", "Current master students", "Graduated PhD students", "Graduated master students"]
 images:
   slider: true
 students:
@@ -19,7 +19,7 @@ students:
         <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span> Graph Analysis<br>Sublinear-Time Algorithms</li>
         <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>Baidu Scholarship<br>MSRA Fellowship<br>National Scholarship</li>
       </ul>
-    category: Current PhD Students
+    category: Graduated PhD students
   - name: Mingguo He
     image: default.svg
     link: https://ivam-he.github.io/
@@ -29,7 +29,7 @@ students:
     image: default.svg
     link: https://zheng-yp.github.io/
     more_info: >
-    category: Current PhD Students
+    category: Postdoctoral Researcher
   - name: Jiajun Li
     image: jiajun.jpg
     link: https://llijiajun.github.io/github-io/
@@ -37,7 +37,7 @@ students:
     category: Current PhD Students
   - name: Yang Zhang
     image: default.svg
-    link: 
+    link: https://fengyuewuya.github.io/
     more_info: >
     category: Current PhD Students
   - name: Yuhe Guo
@@ -47,13 +47,17 @@ students:
     category: Current PhD Students
   - name: Jinjia Feng
     image: default.svg
-    link: 
+    link: https://xkxxfyf.github.io/
     more_info: >
     category: Current PhD Students
   - name: Mingji Yang
-    image: default.svg
+    image: mingji.jpg
     link: https://kyleyoung-ymj.github.io/
     more_info: >
+      <ul class="fa-ul mb-0">
+        <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Theoretical Computer Science<br>Graph Algorithms<br>Sublinear Algorithms </li>
+        <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>Outstanding Graduate Student of Beijing<br>CCF Elite Collegiate Award<br>National Scholarship</li>
+      </ul>
     category: Current PhD Students
   - name: Haipeng Ding
     image: default.svg
@@ -91,6 +95,16 @@ students:
         <li><span class="fa-li"><i class="fa-solid fa-user-tie"></i></span>Intern at DP Technology</li>
         <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>AI in pharmaceuticals<br>3D molecule modeling</li>
       </ul>
+    category: Current PhD Students
+  - name: Yuwei Hu
+    image: default.svg
+    link: 
+    more_info: >
+    category: Current PhD Students
+  - name: Yuzhang Fei
+    image: default.svg
+    link: 
+    more_info: >
     category: Current PhD Students
   - name: Wenda Wang
     image: wenda.jpg
