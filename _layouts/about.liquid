@@ -50,6 +50,9 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <h2>Bios</h2>
+    <p>{{ page.profile.bios }}</p>
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -79,15 +82,19 @@ layout: default
     {% endif %}
 
     <!-- Awards -->
-    {% if page.awards %}
-      <h2>Awards</h2>
-      {% include awards.liquid %}
-    {% endif %}
+    <h2>Awards</h2>
+    {% include awards.liquid %}
 
-    <!-- Awards -->
-    {% if page.awards %}
-      <h2>Acedemic Services</h2>
-      {% include services.liquid %}
-    {% endif %}
+    <!-- Services -->
+    <h2>Acedemic Services</h2>
+    {% include services.liquid %}
+
+    <!-- Talks -->
+    <h2>Talks</h2>
+    {% include talks.liquid %}
+
+    <!-- Teaching -->
+    <h2>Teaching</h2>
+    {% include teaching.liquid %}
   </article>
 </div>

@@ -68,19 +68,6 @@ horizontal: false
 
 <small>Some cover picture(s) are created by Dunk from [flickr](https://www.flickr.com/photos/dullhunk/4520018121).  </small>
 
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
-
-<br>
-
 ## Projects and Grants
 
 *   2022.12 - 2025.11, "Rapid Streaming Computation under Restricted Resources", National Science and Technology Major Project (2022ZD0114802, 1,700,000 RMB), PI.

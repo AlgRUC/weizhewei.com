@@ -17,12 +17,14 @@
 	pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10479175},
 	abstract = {The successes of applying Transformer to graphs have been witnessed on small graphs (e.g., molecular graphs), yet two barriers prevent its adoption on large graphs (e.g., citation networks). First, despite the benefit of the global receptive field, enormous distant nodes might distract the necessary attention of each target node from its neighborhood. Second, training a Transformer model on large graphs is costly due to the node-to-node attention mechanism's quadratic computational complexity. To break down these barriers, we propose a two-view architecture Coarformer , wherein a GNN-based module captures fine-grained local information from the original graph, and a Transformer-based module captures coarse yet long-range information on the coarse graph. We further design a cross-view propagation scheme so that these two views can enhance each other. Our graph isomorphism analysis shows the complementary natures of GNN and Transformer, justifying the motivation and design of Coarformer . We conduct extensive experiments on real-world datasets, where Coarformer surpasses any single-view method that solely applies a GNN or Transformer. As an ablation, Coarformer outperforms straightforward combinations of a GNN model and a Transformer-based model, verifying the effectiveness of our coarse global view and the cross-view propagation scheme. Meanwhile, Coarformer consumes the least runtime and GPU memory than those combinations.},
 	bibtex_show = {true},
-		html = {https://ieeexplore.ieee.org/document/10479175}
+	abbr = {TKDE},
+	html = {https://ieeexplore.ieee.org/document/10479175}
 }
 
 
 @article{Yanping ZHENG:0,
-		author = {Zheng, Yanping and Yi, Lu and Wei*, Zhewei},
+	abbr = {FCS},
+	author = {Zheng, Yanping and Yi, Lu and Wei*, Zhewei},
 	title = {A survey of dynamic graph neural networks},
 	publisher = {Front. Comput. Sci.},
 	year = {2024},
@@ -52,7 +54,8 @@
 	author = {Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and Zhao, Wayne Xin and Wei, Zhewei and Wen, Jirong},
 	year = {2024},
 	month = {mar},
-		html = {https://link.springer.com/article/10.1007/s11704-024-40231-1},
+	abbr = {FCS},
+	html = {https://link.springer.com/article/10.1007/s11704-024-40231-1},
 	arxiv = {https://arxiv.org/abs/2308.11432}
 }
 
@@ -70,7 +73,8 @@
 	year = {2024},
 	month = {sep},
 	pages = {4582–4602},
-		html = {https://doi.org/10.1109/TKDE.2024.3376000},
+	abbr = {TKDE},
+	html = {https://doi.org/10.1109/TKDE.2024.3376000},
 	arxiv = {https://arxiv.org/abs/2403.05198},
 	annotation = {* corresponding author}
 }
@@ -90,7 +94,8 @@
 	month = {oct},
 	pages = {2699–2717},
 	html = {https://ieeexplore.ieee.org/document/10178044},
-	}
+	abbr = {TPDS}
+}
 
 
 @article{Guo_2022,
@@ -107,7 +112,8 @@
 	month = {aug},
 	pages = {1–45},
 	pdf = {https://dl.acm.org/doi/pdf/10.1145/3533817},
-	}
+	abbr = {TODS}
+}
 
 
 @article{Zeng_2022,
@@ -124,6 +130,7 @@
 	month = {aug},
 	pages = {1–42},
 	html = {https://dl.acm.org/doi/10.1145/3531053},
+	abbr = {TODS},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Streaming Algorithms},
@@ -144,7 +151,8 @@
 	month = {dec},
 	pages = {5649–5663},
 	html = {https://ieeexplore.ieee.org/document/9435056/},
-	}
+	abbr = {TKDE 2021}
+}
 
 
 @article{Wang_2021,
@@ -161,7 +169,8 @@
 	month = {jun},
 	pages = {989–1015},
 	html = {https://link.springer.com/article/10.1007/s00778-021-00672-7},
-		annotation = {* corresponding author}
+	abbr = {VLDB Journal},
+	annotation = {* corresponding author}
 }
 
 
@@ -179,7 +188,8 @@
 	month = {may},
 	pages = {1311–1336},
 	html = {https://link.springer.com/article/10.1007/s00778-020-00613-w},
-	}
+	abbr = {VLDB Journal}
+}
 
 
 @article{Wang_2019,
@@ -196,7 +206,8 @@
 	month = {oct},
 	pages = {1–37},
 	pdf = {https://arxiv.org/pdf/1908.10583.pdf},
-		annotation = {* corresponding author}
+	abbr = {TODS},
+	annotation = {* corresponding author}
 }
 
 
@@ -214,7 +225,8 @@
 	month = {jun},
 	pages = {1194–1207},
 	html = {https://link.springer.com/article/10.1007/s00778-017-0485-2},
-	}
+	abbr = {TKDE}
+}
 
 
 @article{Fan_2019,
@@ -231,7 +243,8 @@
 	month = {jul},
 	pages = {1312–1326},
 	pdf = {http://www.weizhewei.com/papers/tkde17.pdf},
-	}
+	abbr = {TKDE}
+}
 
 
 @article{Wei_2018,
@@ -248,6 +261,7 @@
 	month = {apr},
 	pages = {1–17},
 	html = {https://doi.org/10.1145/3205454},
+	abbr = {TALG},
 	selected = {true},
 	field = {Data Structures},
 }
@@ -267,7 +281,8 @@
 	month = {oct},
 	pages = {27–52},
 	html = {https://link.springer.com/article/10.1007/s00778-017-0485-2},
-	}
+	abbr = {VLDB Journal}
+}
 
 
 @article{Shang_2018,
@@ -302,7 +317,8 @@
 	month = {jul},
 	pages = {637–648},
 	pdf = {http://www.weizhewei.com/papers/tkde16.pdf},
-		annotation = {* corresponding author}
+	abbr = {JCST},
+	annotation = {* corresponding author}
 }
 
 
@@ -316,7 +332,8 @@
 	year = {2015},
 	publisher = {IEEE},
 	pdf = {http://www.weizhewei.com/papers/tkde16.pdf},
-	}
+	abbr = {TKDE}
+}
 
 
 @article{Pagh_2013,
@@ -333,6 +350,7 @@
 	month = {mar},
 	pages = {864–883},
 	pdf = {http://www.weizhewei.com/papers/cohash.pdf},
+	abbr = {Algorithmica},
 	selected = {true},
 	field = {Data Structures},
 }
@@ -352,6 +370,7 @@
 	month = {jan},
 	pages = {1–39},
 	pdf = {http://www.weizhewei.com/papers/tods14.pdf},
+	abbr = {TODS},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Data Structures},
@@ -368,7 +387,8 @@
 	year = {2013},
 	publisher = {ACM New York, NY, USA},
 	pdf = {http://www.weizhewei.com/papers/tods13.pdf},
-	}
+	abbr = {TODS}
+}
 
 
 # Conference Articles
@@ -387,7 +407,8 @@
 	month = {aug},
 	pages = {2118–2129},
 	collection = {KDD ’24},
-		annotation = {* corresponding author}
+	abbr = {KDD 2024},
+	annotation = {* corresponding author}
 }
 
 
@@ -397,6 +418,7 @@
 	booktitle = {To appear in ICML 2024 (oral)},
 	year = {2024},
 	arxiv = {https://arxiv.org/abs/2302.12177},
+	abbr = {ICML 2024},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {AI4Science},
@@ -404,9 +426,10 @@
 
 
 @inproceedings{yin2024optimal,
-	booktitle = {VLDB 2024<br>Best Paper<br>Nomination},
+	abbr = {VLDB 2024<br>Best Paper<br>Nomination},
 	title = {Optimal Matrix Sketching over Sliding Windows},
 	author = {Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei*, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
+	booktitle = {VLDB 2024},
 	arxiv = {2405.07792},
 	bibtex_show = {true},
 	code = {https://github.com/yinhanyan/DS-FD},
@@ -416,11 +439,13 @@
 	month = {August},
 	abstract = {Matrix sketching, aimed at approximating a matrix \(\boldsymbol\{A\} \in \mathbb\{R\}^\{N \times d\}\) consisting of vector streams of length \(N\) with a smaller sketching matrix \(\boldsymbol\{B\}\in\mathbb\{R\}^\{\ell\times d\}\), \(\ell \ll N\), has garnered increasing attention in fields such as large-scale data analytics and machine learning. A well-known deterministic matrix sketching method is the Frequent Directions algorithm, which achieves the optimal \(O\left(\{d\over \varepsilon\}\right)\) space bound and provides a covariance error guarantee of \(\varepsilon=\lVert \boldsymbol\{A\}^\top\boldsymbol\{A\}-\boldsymbol\{B\}^\top\boldsymbol\{B\}\rVert_2/\lVert \boldsymbol\{A\}\rVert_F^2\). The matrix sketching problem becomes particularly interesting in the context of sliding windows, where the goal is to approximate the matrix \(\boldsymbol\{A\}_W\), formed by input vectors over the most recent \(N\) time units. However, despite recent efforts, whether achieving the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound on sliding windows is possible has remained an open question.
     In this paper, we introduce the DS-FD algorithm, which achieves the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound for matrix sketching over row-normalized, sequence-based sliding windows. We also present matching upper and lower space bounds for time-based and unnormalized sliding windows, demonstrating the generality and optimality of DS-FD across various sliding window models. This conclusively answers the open question regarding the optimal space bound for matrix sketching over sliding windows. Furthermore, we conduct extensive experiments with both synthetic and real-world datasets, validating our theoretical claims and thus confirming the correctness and effectiveness of our algorithm, both theoretically and empirically. },
+	selected = {true},
 	field = {Streaming Algorithms},
 	volume = {17},
 	issue = {9},
 	pages = {2149--2161},
 	poster = {yin2024optimal_poster.pdf},
+	preview = {seq-dsfd.svg},
 	annotation = {* corresponding author}
 }
 
@@ -434,7 +459,8 @@
 	author = {Zhang, Yang and Wei*, Zhewei and Huang*, Wenbing and Li, Chongxuan},
 	year = {2024},
 	month = {},
-		annotation = {* corresponding author}
+	abbr = {DASFAA 2024},
+	annotation = {* corresponding author}
 }
 
 
@@ -452,7 +478,8 @@
 	month = {may},
 	pages = {1–27},
 	html = {https://dl.acm.org/doi/abs/10.1145/3654994},
-		annotation = {* corresponding author}
+	abbr = {SIGMOD 2024},
+	annotation = {* corresponding author}
 }
 
 
@@ -469,6 +496,7 @@
 	collection = {STOC ’24},
 	html = {https://dl.acm.org/doi/10.1145/3618260.3649661},
 	arxiv = {https://arxiv.org/abs/2403.12648},
+	abbr = {STOC 2024},
 	annotation = {* corresponding author},
 	selected={true},
 	field = {Graph Algorithms},
@@ -489,7 +517,8 @@
 	pages = {780–791},
 	collection = {WWW ’24},
 	html = {https://dl.acm.org/doi/10.1145/3589334.3645571},
-	}
+	abbr = {TheWebConf 2024}
+}
 
 
 @inproceedings{He_2024,
@@ -507,17 +536,19 @@
 	collection = {WWW ’24},
 	html = {https://dl.acm.org/doi/10.1145/3589334.3645515},
 	arxiv = {https://arxiv.org/abs/2305.19872},
-		annotation = {* corresponding author}
+	abbr = {TheWebConf 2024},
+	annotation = {* corresponding author}
 }
 
 
 @inproceedings{chen2024polygcl,
 	title = {PolyGCL: GRAPH CONTRASTIVE LEARNING via Learnable Spectral Polynomial Filters},
 	author = {Chen, Jingyu and Lei, Runlin and Wei*, Zhewei},
-	booktitle = {The Twelfth International Conference on Learning Representations (Spotlight)},
+	booktitle = {The Twelfth International Conference on Learning Representations},
 	year = {2024},
 	html = {https://openreview.net/forum?id=y21ZO6M86t},
 	pdf = {https://openreview.net/pdf?id=y21ZO6M86t},
+	abbr = {ICLR 2024<br>Spotlight},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Graph Learning},
@@ -531,7 +562,8 @@
 	year = {2024},
 	html = {https://doi.org/10.4230/LIPIcs.ICDT.2024.9},
 	arxiv = {https://arxiv.org/abs/2401.01019},
-	}
+	abbr = {ICDT 2024}
+}
 
 
 @inproceedings{zhou2023deep,
@@ -542,7 +574,8 @@
 	html = {https://openreview.net/forum?id=W-Ikct539G},
 	pdf = {https://openreview.net/pdf?id=W-Ikct539G},
 	arxiv = {https://arxiv.org/abs/2302.07061},
-	}
+	abbr = {ICLR 2023}
+}
 
 
 @inproceedings{Wang_2023,
@@ -561,7 +594,8 @@
 	html = {https://dl.acm.org/doi/10.14778/3611479.3611500},
 	pdf = {https://www.vldb.org/pvldb/vol16/p2949-wang.pdf},
 	arxiv = {https://arxiv.org/abs/2307.13162},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -577,7 +611,8 @@
 	month = {aug},
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599431},
-		annotation = {* corresponding author}
+	abbr = {KDD 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -594,7 +629,8 @@
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599458},
 	arxiv = {https://arxiv.org/abs/2305.18785},
-		annotation = {* corresponding author}
+	abbr = {KDD 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -611,7 +647,8 @@
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599275},
 	arxiv = {https://arxiv.org/abs/2210.16508},
-		annotation = {* corresponding author}
+	abbr = {KDD 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -624,7 +661,8 @@
 	organization = {PMLR},
 	html = {https://proceedings.mlr.press/v202/guo23i.html},
 	arxiv = {https://arxiv.org/abs/2302.12432},
-		annotation = {* corresponding author}
+	abbr = {ICML 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -635,7 +673,8 @@
 	year = {2023},
 	html = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2023.7},
 	arxiv = {https://arxiv.org/abs/2305.03180},
-	}
+	abbr = {ICALP 2023}
+}
 
 
 @inproceedings{Zheng_2023,
@@ -654,7 +693,8 @@
 	html = {https://dl.acm.org/doi/10.14778/3598581.3598595},
 	pdf = {https://www.vldb.org/pvldb/vol16/p2239-zheng.pdf},
 	arxiv = {https://arxiv.org/abs/2305.08273},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2023},
+	annotation = {* corresponding author}
 }
 
 
@@ -664,6 +704,7 @@
 	booktitle = {ICLR 2023},
 	year = {2023},
 	html = {https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72},
+	abbr = {ICLR 2023},
 	selected = {true},
 	field = {AI4Science},
 }
@@ -684,7 +725,8 @@
 	pages = {1–26},
 	html = {https://dl.acm.org/doi/10.1145/3588705},
 	arxiv = {https://arxiv.org/abs/2212.10288},
-	}
+	abbr = {SIGMOD 2023}
+}
 
 
 @inproceedings{lei2022evennet,
@@ -696,7 +738,8 @@
 	year = {2022},
 	pdf = {https://arxiv.org/pdf/2205.13892.pdf},
 	code = {https://github.com/Leirunlin/EvenNet},
-		annotation = {* corresponding author}
+	abbr = {NeurIPS 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -709,6 +752,7 @@
 	year = {2022},
 	pdf = {https://arxiv.org/pdf/2202.03580.pdf},
 	code = {https://github.com/ivam-he/ChebNetII},
+	abbr = {NeurIPS 2022<br>Oral},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Graph Learning},
@@ -729,7 +773,8 @@
 	month = {oct},
 	pages = {343–355},
 	pdf = {https://www.researchgate.net/profile/Yahui-Sun-5/publication/365706898_Approximating_probabilistic_group_steiner_trees_in_graphs/links/63802b8948124c2bc6694069/Approximating-probabilistic-group-steiner-trees-in-graphs.pdf},
-	}
+	abbr = {VLDB 2022}
+}
 
 
 @inproceedings{Zhang_2022,
@@ -742,7 +787,8 @@
 	year = {2022},
 	month = {nov},
 	pdf = {https://arxiv.org/pdf/2209.13014.pdf},
-		annotation = {* corresponding author}
+	abbr = {ICDM 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -753,7 +799,8 @@
 	pages = {509--519},
 	year = {2022},
 	html = {https://dl.acm.org/doi/abs/10.1145/3511808.3557395},
-		annotation = {* corresponding author}
+	abbr = {CIKM 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -767,7 +814,8 @@
 	year = {2022},
 	month = {nov},
 	html = {https://www.computer.org/csdl/proceedings-article/sc/2022/544400a233/1I0bSQibWEw},
-	}
+	abbr = {SC 2022}
+}
 
 
 @inproceedings{Li_2022,
@@ -784,7 +832,8 @@
 	pages = {893–903},
 	collection = {KDD ’22},
 	html = {http://arxiv.org/abs/2206.05476},
-		annotation = {* corresponding author}
+	abbr = {SIGKDD 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -801,7 +850,8 @@
 	pages = {1949–1958},
 	collection = {KDD ’22},
 	html = {https://dl.acm.org/doi/10.1145/3534678.3539387},
-	}
+	abbr = {SIGKDD 2022}
+}
 
 
 @inproceedings{Zheng_2022,
@@ -818,7 +868,8 @@
 	pages = {2605–2615},
 	collection = {KDD ’22},
 	html = {https://arxiv.org/abs/2206.01379},
-		annotation = {* corresponding author}
+	abbr = {SIGKDD 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -836,7 +887,8 @@
 	month = {mar},
 	pages = {1376–1389},
 	pdf = {https://arxiv.org/pdf/2203.07937.pdf},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2022},
+	annotation = {* corresponding author}
 }
 
 
@@ -854,7 +906,8 @@
 	month = {oct},
 	pages = {272–284},
 	pdf = {https://arxiv.org/pdf/2202.02800.pdf},
-	}
+	abbr = {VLDB 2021}
+}
 
 
 @inproceedings{he2021bernnet,
@@ -866,6 +919,7 @@
 	year = {2021},
 	pdf = {https://arxiv.org/pdf/2106.10994.pdf},
 	code = {https://github.com/ivam-he/BernNet},
+	abbr = {NeurIPS 2021},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Graph Learning},
@@ -881,7 +935,8 @@
 	pdf = {https://wanghzccls.github.io/poster/KDD21_AGP.pdf},
 	slides = {https://wanghzccls.github.io/slides/AGP_KDD'21_pre_final.pptx},
 	code = {https://github.com/wanghzccls/AGP-Approximate_Graph_Propagation},
-		annotation = {* corresponding author}
+	abbr = {SIGKDD 2021},
+	annotation = {* corresponding author}
 }
 
 
@@ -893,7 +948,8 @@
 	year = {2021},
 	organization = {PMLR},
 	pdf = {https://arxiv.org/pdf/2103.06064.pdf},
-	}
+	abbr = {ICML 2021}
+}
 
 
 @inproceedings{Hou_2021,
@@ -911,7 +967,8 @@
 	pages = {1668–1680},
 	html = {https://dl.acm.org/doi/10.14778/3461535.3461554},
 	pdf = {https://www.vldb.org/pvldb/vol14/p1668-wang.pdf},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2021},
+	annotation = {* corresponding author}
 }
 
 
@@ -927,7 +984,8 @@
 	month = {jun},
 	collection = {SIGMOD/PODS ’21},
 	pdf = {https://arxiv.org/pdf/2101.03652.pdf},
-		annotation = {* corresponding author}
+	abbr = {SIGMOD 2021},
+	annotation = {* corresponding author}
 }
 
 
@@ -937,7 +995,8 @@
 	booktitle = {Proc. VLDB Endow. 14(5): 721-729},
 	year = {2021},
 	pdf = {https://arxiv.org/pdf/2101.03298.pdf},
-	}
+	abbr = {VLDB 2021}
+}
 
 
 @inproceedings{chen2020scalable,
@@ -951,7 +1010,8 @@
 	slides = {http://www.weizhewei.com/slides/gbp_slides.pptx},
 	code = {https://github.com/chennnM/GBP},
 	poster = {http://www.weizhewei.com/slides/gbp_poster.pptx},
-		annotation = {* corresponding author}
+	abbr = {NeurIPS 2020},
+	annotation = {* corresponding author}
 }
 
 
@@ -965,19 +1025,21 @@
 	year = {2020},
 	publisher = {VLDB Endowment},
 	pdf = {http://www.weizhewei.com/papers/VLDB20SimTab.pdf},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2018},
+	annotation = {* corresponding author}
 }
 
 
 @inproceedings{chen2020simple,
 	title = {Simple and deep graph convolutional networks},
 	author = {Chen, Ming and Wei*, Zhewei and Huang, Zengfeng and Ding, Bolin and Li, Yaliang},
-	booktitle = {International conference on machine learning (IWAC Award)},
+	booktitle = {International conference on machine learning},
 	pages = {1725--1735},
 	year = {2020},
 	organization = {PMLR},
 	pdf = {https://arxiv.org/pdf/2007.02133.pdf},
 	code = {https://github.com/chennnM/GCNII},
+	abbr = {ICML 2020<br>IWAC Award},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Graph Learning},
@@ -997,6 +1059,7 @@
 	collection = {KDD ’20},
 	pdf = {https://arxiv.org/pdf/2006.11876.pdf},
 	slides = {http://www.weizhewei.com/slides/RBS_KDD'20_pre_final.pptx},
+	abbr = {SIGKDD 2020},
 	annotation = {* corresponding author},
 	selected={true},
 	field={Graph Algorithms},
@@ -1015,7 +1078,8 @@
 	month = {may},
 	collection = {SIGMOD/PODS ’20},
 	pdf = {http://www.weizhewei.com/papers/sigmod2020-subsim.pdf},
-		annotation = {* corresponding author}
+	abbr = {SIGMOD 2020},
+	annotation = {* corresponding author}
 }
 
 
@@ -1033,6 +1097,7 @@
 	pdf = {https://arxiv.org/pdf/2004.03493.pdf},
 	slides = {http://www.weizhewei.com/slides/ExactSim_SIGMOD20.pptx},
 	code = {https://github.com/wanghzccls/ExactSim},
+	abbr = {SIGMOD 2020},
 	annotation = {* corresponding author},
 	selected = {true},
 	field = {Graph Algorithms},
@@ -1046,7 +1111,8 @@
 	pages = {1957--1960},
 	year = {2019},
 	html = {https://dl.acm.org/doi/10.1145/3299869.3320221},
-	}
+	abbr = {SIGMOD 2019}
+}
 
 
 @inproceedings{Yin_2019,
@@ -1064,7 +1130,8 @@
 	slides = {http://www.weizhewei.com/slides/STRAP_KDD19.pptx},
 	poster = {http://www.weizhewei.com/slides/STRAP_KDD19_poster.pptx},
 	code = {https://github.com/yinyuan1227/STRAP-git},
-	}
+	abbr = {SIGKDD 2019}
+}
 
 
 @inproceedings{Yang_2019,
@@ -1079,7 +1146,8 @@
 	month = {jun},
 	collection = {SIGMOD/PODS ’19},
 	pdf = {https://arxiv.org/pdf/1904.02707.pdf},
-	}
+	abbr = {SIGMOD 2019}
+}
 
 
 @inproceedings{wei2019prsim,
@@ -1092,7 +1160,8 @@
 	slides = {http://www.weizhewei.com/slides/SIGMOD19_Slides_new.pptx},
 	poster = {http://www.weizhewei.com/slides/poster_sigmod19.pptx},
 	code = {https://github.com/wzskytop/PRSim-Code},
-	}
+	abbr = {SIGMOD 2019}
+}
 
 
 @inproceedings{yang2018cost,
@@ -1119,7 +1188,8 @@
 	slides = {http://www.weizhewei.com/slides/slides_sigmod18.pptx},
 	poster = {http://www.weizhewei.com/slides/poster_sigmod18.pptx},
 	code = {https://github.com/wzskytop/TopPPR},
-	}
+	abbr = {SIGMOD 2018}
+}
 
 
 @inproceedings{afshani2017independent,
@@ -1130,7 +1200,8 @@
 	year = {2017},
 	organization = {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik GmbH},
 	pdf = {http://www.weizhewei.com/papers/esa17-full.pdf},
-		annotation = {* corresponding author}
+	abbr = {ESA 2017},
+	annotation = {* corresponding author}
 }
 
 
@@ -1148,7 +1219,8 @@
 	month = {aug},
 	pages = {1178–1189},
 	pdf = {http://www.weizhewei.com/slides/vldb17_poster.pdf},
-	}
+	abbr = {VLDB 2017}
+}
 
 
 @inproceedings{liu2017probesim,
@@ -1160,7 +1232,8 @@
 	slides = {http://www.weizhewei.com/slides/slides_vldb18.pptx},
 	poster = {http://www.weizhewei.com/slides/poster_vldb18.pptx},
 	code = {https://github.com/dokirabbithole/ProbeSim_vldb_pub},
-		annotation = {* corresponding author}
+	abbr = {VLDB 2018},
+	annotation = {* corresponding author}
 }
 
 
@@ -1174,7 +1247,8 @@
 	year = {2017},
 	month = {apr},
 	html = {https://ieeexplore.ieee.org/document/7929932},
-	}
+	abbr = {ICDE 2017}
+}
 
 
 @inproceedings{Zhang_2017,
@@ -1187,7 +1261,8 @@
 	year = {2017},
 	month = {apr},
 	pdf = {http://www.weizhewei.com/papers/ICDE17.pdf},
-	}
+	abbr = {ICDE 2017}
+}
 
 
 @inproceedings{wang2017fora,
@@ -1200,7 +1275,8 @@
 	slides = {http://www.weizhewei.com/slides/kdd17.pptx},
 	poster = {http://www.weizhewei.com/slides/kdd17_poster.pptx},
 	code = {https://github.com/wangsibovictor/fora},
-		annotation = {* corresponding author}
+	abbr = {SIGKDD 2017},
+	annotation = {* corresponding author}
 }
 
 
@@ -1212,7 +1288,8 @@
 	year = {2016},
 	organization = {Springer},
 	pdf = {http://www.weizhewei.com/papers/kdd17.pdf},
-	}
+	abbr = {APWeb 2016}
+}
 
 
 @inproceedings{Wei_2016,
@@ -1227,7 +1304,8 @@
 	month = {jun},
 	collection = {SIGMOD/PODS’16},
 	pdf = {http://www.weizhewei.com/slides/poster_sigmod16.pdf},
-	}
+	abbr = {SIGMOD 2016}
+}
 
 
 @inproceedings{Liu_2015,
@@ -1246,7 +1324,8 @@
 	pdf = {http://www.weizhewei.com/slides/poster_vldb16.pdf},
 	slides = {http://www.weizhewei.com/slides/VLDB16.ppt},
 	code = {https://github.com/dokirabbithole/mis_code_vldb15},
-	}
+	abbr = {VLDB 2015}
+}
 
 
 @inproceedings{Wei_2015,
@@ -1261,7 +1340,8 @@
 	month = {may},
 	collection = {SIGMOD/PODS’15},
 	pdf = {http://www.weizhewei.com/slides/poster_sigmod15.pdf},
-	}
+	abbr = {SIGMOD 2015}
+}
 
 
 @inproceedings{wei2014equivalence,
@@ -1273,7 +1353,8 @@
 	organization = {Springer},
 	pdf = {http://www.weizhewei.com/papers/esa14-full.pdf},
 	slides = {http://www.weizhewei.com/slides/PQSorting.pptx},
-	}
+	abbr = {ESA 2014}
+}
 
 
 @inproceedings{Wei_2013,
@@ -1286,7 +1367,8 @@
 	year = {2013},
 	month = {jan},
 	pdf = {http://www.weizhewei.com/slides/2d-counting.pdf},
-	}
+	abbr = {SODA 2013}
+}
 
 
 @inproceedings{Agarwal_2012,
@@ -1301,6 +1383,7 @@
 	month = {may},
 	collection = {SIGMOD/PODS ’12},
 	pdf = {http://www.weizhewei.com/slides/pods12_poster.pdf},
+	abbr = {PODS 2012},
 	selected = {true},
 	field = {Streaming Algorithms},
 }
@@ -1313,7 +1396,8 @@
 	pages = {117--128},
 	year = {2011},
 	pdf = {http://www.weizhewei.com/slides/pods11.pdf},
-	}
+	abbr = {PODS 2011}
+}
 
 
 @inproceedings{pagh2010cache,
@@ -1323,7 +1407,8 @@
 	pages = {297--304},
 	year = {2010},
 	pdf = {http://www.weizhewei.com/slides/pods10.pdf},
-	}
+	abbr = {PODS 2010}
+}
 
 
 @inproceedings{Wei_2009,
@@ -1338,7 +1423,8 @@
 	month = {aug},
 	collection = {SPAA 09},
 	pdf = {http://www.weizhewei.com/papers/spaa09_hashinglb.pdf},
-	}
+	abbr = {SPAA 2009}
+}
 
 
 # Theses

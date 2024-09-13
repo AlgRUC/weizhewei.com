@@ -8,7 +8,7 @@ nav_order: 5
 published: false
 ---
 
-* Best Research Paper Candidates, VLDB 2024 
+* Best Research Paper Nomination, VLDB 2024 
 * Young Outstanding Paper Nomination Award, World Conference on Artificial Intelligence 2023
 * Test of Time Award, PODS 2022 
 * Young Scientist, Pazhou Laboratory (Huangpu)
