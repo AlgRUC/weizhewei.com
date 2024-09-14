@@ -13,6 +13,9 @@ layout: default
       {% endif %}
     {% endif %}
 
+    <div class="social-header float-right">
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar" style="font-size: 2.5rem;"></i></a>
+    </div>
     <h1 class="post-title">
       {{ site.first_name }} {{ site.last_name }} ({{ site.zh_name }})
     </h1>
@@ -51,7 +54,7 @@ layout: default
 
     <h2>Research Interests</h2>
     <hr>
-    <p>Algorithms for massive data; streaming algorithms; graph algorithms.</p>
+    <p>Algorithms for massive data; Streaming algorithms; Graph algorithms.</p>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
