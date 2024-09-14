@@ -15,9 +15,7 @@
 	year = {2024},
 	pages = {1–13},
 	pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10479175},
-	abstract = {The successes of applying Transformer to graphs have been witnessed on small graphs (e.g., molecular graphs), yet two barriers prevent its adoption on large graphs (e.g., citation networks). First, despite the benefit of the global receptive field, enormous distant nodes might distract the necessary attention of each target node from its neighborhood. Second, training a Transformer model on large graphs is costly due to the node-to-node attention mechanism's quadratic computational complexity. To break down these barriers, we propose a two-view architecture Coarformer , wherein a GNN-based module captures fine-grained local information from the original graph, and a Transformer-based module captures coarse yet long-range information on the coarse graph. We further design a cross-view propagation scheme so that these two views can enhance each other. Our graph isomorphism analysis shows the complementary natures of GNN and Transformer, justifying the motivation and design of Coarformer . We conduct extensive experiments on real-world datasets, where Coarformer surpasses any single-view method that solely applies a GNN or Transformer. As an ablation, Coarformer outperforms straightforward combinations of a GNN model and a Transformer-based model, verifying the effectiveness of our coarse global view and the cross-view propagation scheme. Meanwhile, Coarformer consumes the least runtime and GPU memory than those combinations.},
-	bibtex_show = {true},
-		html = {https://ieeexplore.ieee.org/document/10479175}
+	html = {https://ieeexplore.ieee.org/document/10479175}
 }
 
 
@@ -36,8 +34,7 @@
 	url = {https://journal.hep.com.cn/fcs/EN/abstract/article_37965.shtml},
 	doi = {10.1007/s11704-024-3853-2},
 	html = {https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-3853-2},
-	annotation = {* corresponding author}
-}
+	}
 
 
 @article{Wang_2024,
@@ -72,8 +69,7 @@
 	pages = {4582–4602},
 		html = {https://doi.org/10.1109/TKDE.2024.3376000},
 	arxiv = {https://arxiv.org/abs/2403.05198},
-	annotation = {* corresponding author}
-}
+	}
 
 
 @article{Hu_2023,
@@ -124,8 +120,7 @@
 	month = {aug},
 	pages = {1–42},
 	html = {https://dl.acm.org/doi/10.1145/3531053},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Streaming Algorithms},
 }
 
@@ -161,8 +156,7 @@
 	month = {jun},
 	pages = {989–1015},
 	html = {https://link.springer.com/article/10.1007/s00778-021-00672-7},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @article{Yang_2020,
@@ -196,8 +190,7 @@
 	month = {oct},
 	pages = {1–37},
 	pdf = {https://arxiv.org/pdf/1908.10583.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @article{Shang_2019,
@@ -302,8 +295,7 @@
 	month = {jul},
 	pages = {637–648},
 	pdf = {http://www.weizhewei.com/papers/tkde16.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @article{shang2015collective,
@@ -352,8 +344,7 @@
 	month = {jan},
 	pages = {1–39},
 	pdf = {http://www.weizhewei.com/papers/tods14.pdf},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Data Structures},
 }
 
@@ -387,55 +378,49 @@
 	month = {aug},
 	pages = {2118–2129},
 	collection = {KDD ’24},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Zhang_2024,
 	title = {EquiPocket: an E(3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction},
 	author = {Zhang, Yang and Huang*, Wenbing and Wei*, Zhewei and Yuan, Ye and Li, Chongxuan },
-	booktitle = {To appear in ICML 2024 (oral)},
+	booktitle = {ICML 2024 (oral)},
 	year = {2024},
 	arxiv = {https://arxiv.org/abs/2302.12177},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {AI4Science},
 }
 
 
 @inproceedings{yin2024optimal,
-	booktitle = {VLDB 2024<br>Best Paper<br>Nomination},
+	booktitle = {VLDB 2024, Best Paper Nomination},
 	title = {Optimal Matrix Sketching over Sliding Windows},
 	author = {Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei*, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
 	arxiv = {2405.07792},
-	bibtex_show = {true},
 	code = {https://github.com/yinhanyan/DS-FD},
 	doi = {10.14778/3665844.3665847},
 	pdf = {https://www.vldb.org/pvldb/vol17/p2149-yin.pdf},
 	year = {2024},
 	month = {August},
-	abstract = {Matrix sketching, aimed at approximating a matrix \(\boldsymbol\{A\} \in \mathbb\{R\}^\{N \times d\}\) consisting of vector streams of length \(N\) with a smaller sketching matrix \(\boldsymbol\{B\}\in\mathbb\{R\}^\{\ell\times d\}\), \(\ell \ll N\), has garnered increasing attention in fields such as large-scale data analytics and machine learning. A well-known deterministic matrix sketching method is the Frequent Directions algorithm, which achieves the optimal \(O\left(\{d\over \varepsilon\}\right)\) space bound and provides a covariance error guarantee of \(\varepsilon=\lVert \boldsymbol\{A\}^\top\boldsymbol\{A\}-\boldsymbol\{B\}^\top\boldsymbol\{B\}\rVert_2/\lVert \boldsymbol\{A\}\rVert_F^2\). The matrix sketching problem becomes particularly interesting in the context of sliding windows, where the goal is to approximate the matrix \(\boldsymbol\{A\}_W\), formed by input vectors over the most recent \(N\) time units. However, despite recent efforts, whether achieving the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound on sliding windows is possible has remained an open question.
-    In this paper, we introduce the DS-FD algorithm, which achieves the optimal \(O\left(\{d\over\varepsilon\}\right)\) space bound for matrix sketching over row-normalized, sequence-based sliding windows. We also present matching upper and lower space bounds for time-based and unnormalized sliding windows, demonstrating the generality and optimality of DS-FD across various sliding window models. This conclusively answers the open question regarding the optimal space bound for matrix sketching over sliding windows. Furthermore, we conduct extensive experiments with both synthetic and real-world datasets, validating our theoretical claims and thus confirming the correctness and effectiveness of our algorithm, both theoretically and empirically. },
 	field = {Streaming Algorithms},
 	volume = {17},
 	issue = {9},
 	pages = {2149--2161},
 	poster = {yin2024optimal_poster.pdf},
-	annotation = {* corresponding author}
-}
+	selected = {true},
+	}
 
 
 @inproceedings{Zhang2022predicting,
 	title = {HierAffinity: Predicting Protein-Ligand Binding Affinity With Hierarchical Modeling},
 	url = {},
 	DOI = {},
-	booktitle = {To appear in DASFAA 2024.},
+	booktitle = {DASFAA 2024},
 	publisher = {},
 	author = {Zhang, Yang and Wei*, Zhewei and Huang*, Wenbing and Li, Chongxuan},
 	year = {2024},
 	month = {},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Li_2024,
@@ -452,8 +437,7 @@
 	month = {may},
 	pages = {1–27},
 	html = {https://dl.acm.org/doi/abs/10.1145/3654994},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{wang2024revisiting,
@@ -469,8 +453,7 @@
 	collection = {STOC ’24},
 	html = {https://dl.acm.org/doi/10.1145/3618260.3649661},
 	arxiv = {https://arxiv.org/abs/2403.12648},
-	annotation = {* corresponding author},
-	selected={true},
+		selected={true},
 	field = {Graph Algorithms},
 }
 
@@ -507,8 +490,7 @@
 	collection = {WWW ’24},
 	html = {https://dl.acm.org/doi/10.1145/3589334.3645515},
 	arxiv = {https://arxiv.org/abs/2305.19872},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{chen2024polygcl,
@@ -518,8 +500,7 @@
 	year = {2024},
 	html = {https://openreview.net/forum?id=y21ZO6M86t},
 	pdf = {https://openreview.net/pdf?id=y21ZO6M86t},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Graph Learning},
 }
 
@@ -537,7 +518,7 @@
 @inproceedings{zhou2023deep,
 	title = {Do Deep Learning Methods Really Perform Better in Molecular Conformation Generation?},
 	author = {Zhou, Gengmo and Gao, Zhifeng and Wei, Zhewei and Zheng, Hang and Ke, Guolin},
-	journal = {ICLR 2023 (MLDD Oral)},
+	booktitle = {ICLR 2023 (MLDD Oral)},
 	year = {2023},
 	html = {https://openreview.net/forum?id=W-Ikct539G},
 	pdf = {https://openreview.net/pdf?id=W-Ikct539G},
@@ -561,8 +542,7 @@
 	html = {https://dl.acm.org/doi/10.14778/3611479.3611500},
 	pdf = {https://www.vldb.org/pvldb/vol16/p2949-wang.pdf},
 	arxiv = {https://arxiv.org/abs/2307.13162},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Cui_2023,
@@ -577,8 +557,7 @@
 	month = {aug},
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599431},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Yi_2023,
@@ -594,8 +573,7 @@
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599458},
 	arxiv = {https://arxiv.org/abs/2305.18785},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Guo_2023,
@@ -611,8 +589,7 @@
 	collection = {KDD ’23},
 	html = {https://dl.acm.org/doi/10.1145/3580305.3599275},
 	arxiv = {https://arxiv.org/abs/2210.16508},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{guo2023graph,
@@ -624,8 +601,7 @@
 	organization = {PMLR},
 	html = {https://proceedings.mlr.press/v202/guo23i.html},
 	arxiv = {https://arxiv.org/abs/2302.12432},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{afshani2023range,
@@ -654,8 +630,7 @@
 	html = {https://dl.acm.org/doi/10.14778/3598581.3598595},
 	pdf = {https://www.vldb.org/pvldb/vol16/p2239-zheng.pdf},
 	arxiv = {https://arxiv.org/abs/2305.08273},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{zhou2023uni,
@@ -696,8 +671,7 @@
 	year = {2022},
 	pdf = {https://arxiv.org/pdf/2205.13892.pdf},
 	code = {https://github.com/Leirunlin/EvenNet},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{he2022convolutional,
@@ -709,8 +683,7 @@
 	year = {2022},
 	pdf = {https://arxiv.org/pdf/2202.03580.pdf},
 	code = {https://github.com/ivam-he/ChebNetII},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Graph Learning},
 }
 
@@ -742,8 +715,7 @@
 	year = {2022},
 	month = {nov},
 	pdf = {https://arxiv.org/pdf/2209.13014.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{feng2022mgmae,
@@ -753,8 +725,7 @@
 	pages = {509--519},
 	year = {2022},
 	html = {https://dl.acm.org/doi/abs/10.1145/3511808.3557395},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Zhang2022optimizing,
@@ -784,8 +755,7 @@
 	pages = {893–903},
 	collection = {KDD ’22},
 	html = {http://arxiv.org/abs/2206.05476},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Wang_2022,
@@ -818,8 +788,7 @@
 	pages = {2605–2615},
 	collection = {KDD ’22},
 	html = {https://arxiv.org/abs/2206.01379},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Wang2022edge,
@@ -836,8 +805,7 @@
 	month = {mar},
 	pages = {1376–1389},
 	pdf = {https://arxiv.org/pdf/2203.07937.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Wu_2021,
@@ -866,8 +834,7 @@
 	year = {2021},
 	pdf = {https://arxiv.org/pdf/2106.10994.pdf},
 	code = {https://github.com/ivam-he/BernNet},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Graph Learning},
 }
 
@@ -881,8 +848,7 @@
 	pdf = {https://wanghzccls.github.io/poster/KDD21_AGP.pdf},
 	slides = {https://wanghzccls.github.io/slides/AGP_KDD'21_pre_final.pptx},
 	code = {https://github.com/wanghzccls/AGP-Approximate_Graph_Propagation},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{yang2021graph,
@@ -911,8 +877,7 @@
 	pages = {1668–1680},
 	html = {https://dl.acm.org/doi/10.14778/3461535.3461554},
 	pdf = {https://www.vldb.org/pvldb/vol14/p1668-wang.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Wu2021unifying,
@@ -927,8 +892,7 @@
 	month = {jun},
 	collection = {SIGMOD/PODS ’21},
 	pdf = {https://arxiv.org/pdf/2101.03652.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{yan2021flashp,
@@ -951,8 +915,7 @@
 	slides = {http://www.weizhewei.com/slides/gbp_slides.pptx},
 	code = {https://github.com/chennnM/GBP},
 	poster = {http://www.weizhewei.com/slides/gbp_poster.pptx},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{liu2020simtab,
@@ -965,8 +928,7 @@
 	year = {2020},
 	publisher = {VLDB Endowment},
 	pdf = {http://www.weizhewei.com/papers/VLDB20SimTab.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{chen2020simple,
@@ -978,8 +940,7 @@
 	organization = {PMLR},
 	pdf = {https://arxiv.org/pdf/2007.02133.pdf},
 	code = {https://github.com/chennnM/GCNII},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Graph Learning},
 }
 
@@ -997,8 +958,7 @@
 	collection = {KDD ’20},
 	pdf = {https://arxiv.org/pdf/2006.11876.pdf},
 	slides = {http://www.weizhewei.com/slides/RBS_KDD'20_pre_final.pptx},
-	annotation = {* corresponding author},
-	selected={true},
+		selected={true},
 	field={Graph Algorithms},
 }
 
@@ -1015,8 +975,7 @@
 	month = {may},
 	collection = {SIGMOD/PODS ’20},
 	pdf = {http://www.weizhewei.com/papers/sigmod2020-subsim.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Wang2020Exact,
@@ -1033,8 +992,7 @@
 	pdf = {https://arxiv.org/pdf/2004.03493.pdf},
 	slides = {http://www.weizhewei.com/slides/ExactSim_SIGMOD20.pptx},
 	code = {https://github.com/wanghzccls/ExactSim},
-	annotation = {* corresponding author},
-	selected = {true},
+		selected = {true},
 	field = {Graph Algorithms},
 }
 
@@ -1130,8 +1088,7 @@
 	year = {2017},
 	organization = {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik GmbH},
 	pdf = {http://www.weizhewei.com/papers/esa17-full.pdf},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Shang_2017,
@@ -1160,8 +1117,7 @@
 	slides = {http://www.weizhewei.com/slides/slides_vldb18.pptx},
 	poster = {http://www.weizhewei.com/slides/poster_vldb18.pptx},
 	code = {https://github.com/dokirabbithole/ProbeSim_vldb_pub},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{Shang2017Collective,
@@ -1200,8 +1156,7 @@
 	slides = {http://www.weizhewei.com/slides/kdd17.pptx},
 	poster = {http://www.weizhewei.com/slides/kdd17_poster.pptx},
 	code = {https://github.com/wangsibovictor/fora},
-		annotation = {* corresponding author}
-}
+		}
 
 
 @inproceedings{shang2016probabilistic,

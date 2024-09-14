@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: false
+title: Our group
+nav: true
 nav_order: 8
-dropdown: false
+dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
+  - title: Projects
     permalink: /projects/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: People
+    permalink: /people/
 ---

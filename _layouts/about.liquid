@@ -14,12 +14,7 @@ layout: default
     {% endif %}
 
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+      {{ site.first_name }} {{ site.last_name }} ({{ site.zh_name }})
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -51,13 +46,19 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <h2>Bios</h2>
+    <hr>
     <p>{{ page.profile.bios }}</p>
+
+    <h2>Research Interests</h2>
+    <hr>
+    <p>Algorithms for massive data; streaming algorithms; graph algorithms.</p>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
+      <hr>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -66,6 +67,7 @@ layout: default
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
+      <hr>
       {% include latest_posts.liquid %}
     {% endif %}
 
@@ -83,18 +85,22 @@ layout: default
 
     <!-- Awards -->
     <h2>Awards</h2>
+    <hr>
     {% include awards.liquid %}
 
     <!-- Services -->
     <h2>Acedemic Services</h2>
+    <hr>
     {% include services.liquid %}
 
     <!-- Talks -->
     <h2>Talks</h2>
+    <hr>
     {% include talks.liquid %}
 
     <!-- Teaching -->
     <h2>Teaching</h2>
+    <hr>
     {% include teaching.liquid %}
   </article>
 </div>
