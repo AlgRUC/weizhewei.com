@@ -6,17 +6,12 @@ description:
 nav: false
 nav_order: 9
 logo: true
-display_categories: ["Current PhD Students", "Postdoctoral Researcher", "Current master students", "Graduated PhD students", "Graduated master students"]
+display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Postdoctoral Researcher", "Current master students", "Graduated PhD students", "Graduated master students"]
 images:
   slider: true
 students:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - name: Hanzhi Wang
-    image: hanzhi.jpg
-    link: https://wanghzccls.github.io/
-    more_info: 2024
-    category: Graduated PhD students
   - name: Mingguo He
     image: mingguo.jpg
     link: https://ivam-he.github.io/
@@ -98,16 +93,6 @@ students:
     more_info: Deep learning for bioinformatics
     category: Current PhD Students
 
-  - name: Ruoqi Zhang
-    image: default.svg
-    link: 
-    more_info: 
-    category: Current master students
-  - name: Xu Liu
-    image: default.svg
-    link: 
-    more_info: 
-    category: Current master students
   - name: Guanyu Cui
     image: guanyu.jpg
     link: https://guanyucui.github.io/
@@ -137,48 +122,87 @@ students:
   - name: Yu Liu
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
-    more_info: 2018, Lecturer of Beijing Jiaotong University (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>)
+    more_info: >
+      2014-2018, Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite>, Lecturer of Beijing Jiaotong University (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoctoral Fellowship (Outstanding Postdoctoral)
+    category: Graduated PhD students
+  - name: Yanping Zheng
+    image: yanping.jpg
+    link: https://zheng-yp.github.io/
+    more_info: >
+      2020-2024, Dissertation: <cite>动态图神经网络关键技术研究</cite>, Postdoctoral Researcher of Gaoling School of Artificial Intelligence, Renmin University of China
+    category: Graduated PhD students
+  - name: Hanzhi Wang
+    image: hanzhi.jpg
+    link: https://wanghzccls.github.io/
+    more_info: >
+      2019-2024, Dissertation: <cite>大图上随机游走概率的高效计算</cite>, Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
     category: Graduated PhD students
 
   - name: Suijun Tong
     image: default.svg
     link: 
-    more_info: 2017, IBM
+    more_info: >
+      2014-2017, Thesis: <cite>Single Source SimRank Query in Distributed System</cite>, IBM
     category: Graduated master students
   - name: Xiaodong He
     image: default.svg
     link: 
-    more_info: 2018, 4paradigm
+    more_info: >
+      2015-2018, Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite>, 4paradigm
     category: Graduated master students
   - name: Yuan Yin
     image: default.svg
     link: 
-    more_info: 2020, ByteDance
+    more_info: >
+      2016-2019, Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite>, ByteDance
     category: Graduated master students
   - name: Chenmiao Yu
     image: default.svg
     link: 
-    more_info: 2020, Civil Servant
+    more_info: >
+      2016-2019, Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite>, Civil Servant
     category: Graduated master students
   - name: Ming Chen
     image: default.svg
     link: 
-    more_info: 2021, Central Enterprise
+    more_info: >
+      2018-2021, Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (Outstanding master degree thesis of Renmin University of China), Central Enterprise
     category: Graduated master students
   - name: Weirui Kuang
     image: default.svg
     link: https://www.weiruikuang.com/
-    more_info: 2021, Alibaba DAMO Academy
+    more_info: >
+      2018-2021, Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite>, Alibaba DAMO Academy
     category: Graduated master students
   - name: Tianjing Zeng
     image: default.svg
     link: 
-    more_info: 2023, Alibaba DAMO Academy
+    more_info: >
+      2020-2023, Thesis: <cite>Persistent Summaries</cite>, Alibaba DAMO Academy
+    category: Graduated master students
+  - name: Gengmo Zhou
+    image: gengmo.jpg
+    link: https://zhougengmo.github.io/
+    more_info: >
+      2020-2023, Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite>
     category: Graduated master students
   - name: Fangrui Lyu
     image: default.svg
     link: 
-    more_info: 2023, China Development Bank
+    more_info: >
+      2020-2023, Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite>, China Development Bank
+    category: Graduated master students
+  - name: Ruoqi Zhang
+    image: default.svg
+    link: 
+    more_info: >
+      2021-2024, Thesis: <cite>基于深度强化学习的细粒度交易执行算法</cite>, Metabit Trading
+    category: Graduated master students
+  - name: Xu Liu
+    image: default.svg
+    link: 
+    more_info: >
+      2021-2024, Thesis: <cite>股票价格预测的归纳偏置研究</cite>, Postal Savings Bank of China
     category: Graduated master students
 ---
 
@@ -188,9 +212,9 @@ students:
 </swiper-container>
 
 {% for category in page.display_categories %}
-  {% if category == "Current PhD Students" or category == "Current master students" or catogory == "Postdoctoral Researcher" %}
-  <h2 class="category mt-3">{{ category }}</h2>
-  {% assign categorized_projects = page.students | where: "category", category %}
+  {% if category == "Current PhD Students" or category == "Current master students" or category == "Postdoctoral Researcher" %}
+  <h2 class="category">{{ category }}</h2>
+  {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <div class="row row-cols-2 row-cols-md-4">
   {% for project in categorized_projects %}
     {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
@@ -222,7 +246,7 @@ students:
 {% for category in page.display_categories %}
   {% if category ==  "Graduated PhD students" or category == "Graduated master students"%}
   <h2 class="category mt-3">{{ category }}</h2>
-  {% assign categorized_projects = page.students | where: "category", category %}
+  {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <ul>
   {% for project in categorized_projects %}
       <li><a href="{{ project.link }}">{{ project.name }}</a>, {{ project.more_info }}. </li>

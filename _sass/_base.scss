@@ -2,9 +2,6 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.font.im/css?family=Noto+Sans');
-
 // Typography
 
 p,
@@ -20,11 +17,12 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Noto Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
   font-weight: bold ;
+  margin-top: 2rem;
 }
 
 hr {
@@ -215,7 +213,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 32%;
 
     .address {
       p {

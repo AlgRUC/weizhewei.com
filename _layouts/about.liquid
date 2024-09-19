@@ -49,11 +49,9 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <h2>Bios</h2>
-    <hr>
     <p>{{ page.profile.bios }}</p>
 
     <h2>Research Interests</h2>
-    <hr>
     <p>Algorithms for massive data; Streaming algorithms; Graph algorithms.</p>
 
     <!-- News -->
@@ -61,7 +59,6 @@ layout: default
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
-      <hr>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -70,7 +67,6 @@ layout: default
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
-      <hr>
       {% include latest_posts.liquid %}
     {% endif %}
 
@@ -88,22 +84,22 @@ layout: default
 
     <!-- Awards -->
     <h2>Awards</h2>
-    <hr>
     {% include awards.liquid %}
 
     <!-- Services -->
     <h2>Acedemic Services</h2>
-    <hr>
     {% include services.liquid %}
 
     <!-- Talks -->
     <h2>Talks</h2>
-    <hr>
     {% include talks.liquid %}
 
     <!-- Teaching -->
     <h2>Teaching</h2>
-    <hr>
     {% include teaching.liquid %}
+
+    <!-- Grants -->
+    <h2>Grants</h2>
+    {% include grants.liquid %}
   </article>
 </div>
