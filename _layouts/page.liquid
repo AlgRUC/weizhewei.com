@@ -3,6 +3,12 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
+    {% if page.nologo != true %}
+      <div class="social-header float-right">
+        <div style="font-size: 0.8rem" align="center">Follow our works via:</div>
+        <div class="contact-icons">{% include social.liquid %}</div>
+      </div>
+    {% endif %}
     {% if page.hide_title != true %}
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-description">{{ page.description }}</p>

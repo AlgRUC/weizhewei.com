@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
 
@@ -16,6 +16,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 awards: true
+nologo: true
 ---
 
 <p>Professor (教授，博导)</p>
@@ -27,7 +28,9 @@ awards: true
 No. 59 Zhongguancun Street, Haidian District, Beijing, 100872, P.R. China 
 </p>
 
+<address>
 Office: Room 1715, Lide Building <br>
 Email: zhewei@ruc.edu.cn<br>
 Phone: (86) 010-62513716<br>
 Chinese Homepage （中文主页）: <a href="https://gsai.ruc.edu.cn/zhewei">gsai.ruc.edu.cn/zhewei</a><br>
+</address>
