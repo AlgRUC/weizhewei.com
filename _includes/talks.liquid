@@ -1,6 +1,10 @@
 {% assign talks = site.data.talks %}
 <ul>
     {% for item in talks %}
-        <li>{{ item }}</li>
+        <li>{{ item.title }} 
+        {% for link in item.links %}
+            [<a href="{{ link.href }}">{{ link.text }}</a>]
+        {% endfor %}
+        </li>
     {% endfor %}
 </ul>

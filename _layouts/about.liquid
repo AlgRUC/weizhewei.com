@@ -13,9 +13,6 @@ layout: default
       {% endif %}
     {% endif %}
 
-    <div class="social-header float-right">
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar" style="font-size: 2.5rem;"></i></a>
-    </div>
     <h1 class="post-title">
       {{ site.first_name }} {{ site.last_name }} ({{ site.zh_name }})
     </h1>
@@ -52,7 +49,13 @@ layout: default
     <p>{{ page.profile.bios }}</p>
 
     <h2>Research Interests</h2>
-    <p>Algorithms for massive data; Streaming algorithms; Graph algorithms.</p>
+    <ul>
+      <li>Large-scale graph computing and graph learning</li>
+      <li>Stream data computing and learning</li>
+      <li>AI4DB: Database optimization algorithms empowered by artificial intelligence</li>
+      <li>AI4Science: Application of graph learning in physics, pharmaceuticals and other scientific fields & physics-driven graph machine learning algorithms</li>
+      <li>Multi-agent and AI4Social Science: Generative multi-agents and modeling of complex human social networks empowered by large language model (LLM)</li>
+    </ul>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -87,7 +90,7 @@ layout: default
     {% include awards.liquid %}
 
     <!-- Services -->
-    <h2>Acedemic Services</h2>
+    <h2>Services</h2>
     {% include services.liquid %}
 
     <!-- Talks -->

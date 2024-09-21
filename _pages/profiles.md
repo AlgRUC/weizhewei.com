@@ -3,10 +3,10 @@ layout: page
 permalink: /people/
 title: People
 description: 
-nav: false
+nav: true
 nav_order: 9
 logo: true
-display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Postdoctoral Researcher", "Current master students", "Graduated PhD students", "Graduated master students"]
+display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Current master students", "Graduated PhD students", "Graduated master students"]
 images:
   slider: true
 students:
@@ -15,12 +15,12 @@ students:
   - name: Mingguo He
     image: mingguo.jpg
     link: https://ivam-he.github.io/
-    more_info: Graph Learning<br>Graph Neural Networks
+    more_info: <li>Graph Learning</li><li>Graph Neural Networks</li>
     category: Current PhD Students
   - name: Yanping Zheng
     image: yanping.jpg
     link: https://zheng-yp.github.io/
-    more_info: Graph Neural Networks<br>Dynamic Graph Representation Learning
+    more_info: <li>Graph Neural Networks</li><li>Dynamic Graph Representation Learning</li>
     category: Postdoctoral Researcher
   - name: Jiajun Li
     image: jiajun.jpg
@@ -45,42 +45,42 @@ students:
   - name: Mingji Yang
     image: mingji.jpg
     link: https://kyleyoung-ymj.github.io/
-    more_info: Theoretical Computer Science<br>Graph Algorithms<br>Sublinear Algorithms 
+    more_info: <li>Theoretical Computer Science</li><li>Graph Algorithms</li><li>Sublinear Algorithms</li>
     category: Current PhD Students
   - name: Haipeng Ding
     image: haipeng.jpg
     link: 
-    more_info: Large-scale Graph Learning<br>LLM4Graph
+    more_info: <li>Large-scale Graph Learning</li><li>LLM4Graph</li>
     category: Current PhD Students
   - name: Lu Yi
     image: lu_yi.jpg
     link: https://luyi256.github.io/
-    more_info: Dynamic graph learning<br>Graph unlearning<br>Scalable algorithms
+    more_info: <li>Dynamic Graph Learning</li><li>Graph Unlearning</li><li>Scalable Algorithms</li>
     category: Current PhD Students
   - name: Dongxie Wen
     image: dongxie.jpg
     link: 
-    more_info: Sketch4ML<br>Steaming Algorithms<br>Online Learning
+    more_info: <li>Sketch4ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
     category: Current PhD Students
   - name: Jie Peng
     image: jie_peng.jpg
     link: https://lucas-pj.github.io/
-    more_info: Graph Machine Learning<br>Dynamic Graph Learning
+    more_info: <li>Graph Machine Learning</li><li>Dynamic Graph Learning</li>
     category: Current PhD Students
   - name: Runlin Lei
     image: runlin.jpg
     link: https://leirunlin.github.io/
-    more_info: Machine learning on graphs<br>Graph adversarial attack & defense<br>LLM4Graph
+    more_info: <li>Machine Learning on Graphs</li><li>Graph Adversarial Attack & Defense</li><li>LLM4Graph</li>
     category: Current PhD Students
   - name: Gengmo Zhou
     image: gengmo.jpg
     link: https://zhougengmo.github.io/
-    more_info: AI in pharmaceuticals<br>3D molecule modeling
+    more_info: <li>AI in Pharmaceuticals</li><li>3D Molecule Modeling</li>
     category: Current PhD Students
   - name: Yuwei Hu
     image: yuwei.jpg
     link: 
-    more_info: LLM&Graph
+    more_info: <li>LLM&Graph</li>
     category: Current PhD Students
   - name:   Yuzhang Fei
     image: yuzhang.jpg
@@ -90,13 +90,13 @@ students:
   - name: Wenda Wang
     image: wenda.jpg
     link: 
-    more_info: Deep learning for bioinformatics
+    more_info: <li>Deep Learning for Bioinformatics</li>
     category: Current PhD Students
 
   - name: Guanyu Cui
     image: guanyu.jpg
     link: https://guanyucui.github.io/
-    more_info: Graph neural networks<br>Graph algorithms<br>Graph algorithm alignment
+    more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph algorithm alignment</li>
     category: Current master students
   - name: Jingyu Chen
     image: default.svg
@@ -106,7 +106,7 @@ students:
   - name: Jiahong Ma
     image: jiahong.jpg
     link: 
-    more_info: Spectral GNN<br>Graph Transformer
+    more_info: <li>Spectral GNN</li><li>Graph Transformer</li>
     category: Current master students
   - name: Jiarui Ji
     image: jiarui.jpg
@@ -116,7 +116,7 @@ students:
   - name: Hanyan Yin
     image: hanyan.jpg
     link: https://yinhanyan.github.io/
-    more_info: Streaming Algorithms
+    more_info: <li>Streaming Algorithms</li>
     category: Current master students
 
   - name: Yu Liu
@@ -207,8 +207,9 @@ students:
 ---
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="2024.07.01 get together" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="2023.09.21 get together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/3.jpg" class="img-fluid rounded z-depth-1" caption="2024.09.10 Celebrating Teachers' Day." %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="2024.07.01 Get together." %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="2023.09.21 Get together." %}</swiper-slide>
 </swiper-container>
 
 {% for category in page.display_categories %}
