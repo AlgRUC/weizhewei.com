@@ -656,19 +656,14 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
 
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
   }
 
   h2 {
-    margin-bottom: 1rem;
-
     span {
       font-size: 1.5rem;
     }
@@ -676,19 +671,19 @@ footer.sticky-bottom {
 
   h2.bibliography {
     font-size: large;
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    
+    ul {
+      list-style: initial;
+    }
 
     li {
-      margin-bottom: 1rem;
-
       .preview {
       }
 
@@ -1310,4 +1305,8 @@ ninja-keys::part(ninja-input-wrapper) {
     height: 1.75rem;
     filter: brightness(0) saturate(100%) invert(46%) sepia(31%) saturate(931%) hue-rotate(147deg) brightness(103%) contrast(98%);
   }
+}
+
+b {
+  font-weight: bold;
 }
