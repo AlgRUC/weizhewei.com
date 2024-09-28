@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 9
 logo: true
-display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Current master students", "Graduated PhD students", "Graduated master students"]
+display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Current Master Students", "Graduated PhD Students", "Graduated Master Students"]
 images:
   slider: true
 students:
@@ -45,7 +45,7 @@ students:
   - name: Mingji Yang
     image: mingji.jpg
     link: https://kyleyoung-ymj.github.io/
-    more_info: <li>Theoretical Computer Science</li><li>Graph Algorithms</li><li>Sublinear Algorithms</li>
+    more_info: <li>CS Theory</li><li>Graph Algorithms</li><li>Sublinear Algorithms</li>
     category: Current PhD Students
   - name: Haipeng Ding
     image: haipeng.jpg
@@ -96,124 +96,124 @@ students:
   - name: Guanyu Cui
     image: guanyu.jpg
     link: https://guanyucui.github.io/
-    more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph algorithm alignment</li>
-    category: Current master students
+    more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph Algorithm Alignment</li>
+    category: Current Master Students
   - name: Jingyu Chen
     image: default.svg
     link: 
     more_info: 
-    category: Current master students
+    category: Current Master Students
   - name: Jiahong Ma
     image: jiahong.jpg
     link: 
     more_info: <li>Spectral GNN</li><li>Graph Transformer</li>
-    category: Current master students
+    category: Current Master Students
   - name: Jiarui Ji
     image: jiarui.jpg
     link: 
     more_info: 
-    category: Current master students
+    category: Current Master Students
   - name: Hanyan Yin
     image: hanyan.jpg
     link: https://yinhanyan.github.io/
     more_info: <li>Streaming Algorithms</li>
-    category: Current master students
+    category: Current Master Students
 
   - name: Yu Liu
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
       2014-2018, Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite>, Lecturer of Beijing Jiaotong University (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoctoral Fellowship (Outstanding Postdoctoral)
-    category: Graduated PhD students
+    category: Graduated PhD Students
   - name: Yanping Zheng
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
       2020-2024, Dissertation: <cite>动态图神经网络关键技术研究</cite>, Postdoctoral Researcher of Gaoling School of Artificial Intelligence, Renmin University of China
-    category: Graduated PhD students
+    category: Graduated PhD Students
   - name: Hanzhi Wang
     image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
       2019-2024, Dissertation: <cite>大图上随机游走概率的高效计算</cite>, Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
-    category: Graduated PhD students
+    category: Graduated PhD Students
 
   - name: Suijun Tong
     image: default.svg
     link: 
     more_info: >
       2014-2017, Thesis: <cite>Single Source SimRank Query in Distributed System</cite>, IBM
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Xiaodong He
     image: default.svg
     link: 
     more_info: >
       2015-2018, Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite>, 4paradigm
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Yuan Yin
     image: default.svg
     link: 
     more_info: >
       2016-2019, Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite>, ByteDance
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Chenmiao Yu
     image: default.svg
     link: 
     more_info: >
       2016-2019, Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite>, Civil Servant
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Ming Chen
     image: default.svg
     link: 
     more_info: >
       2018-2021, Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (Outstanding master degree thesis of Renmin University of China), Central Enterprise
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Weirui Kuang
     image: default.svg
     link: https://www.weiruikuang.com/
     more_info: >
       2018-2021, Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite>, Alibaba DAMO Academy
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Tianjing Zeng
     image: default.svg
     link: 
     more_info: >
       2020-2023, Thesis: <cite>Persistent Summaries</cite>, Alibaba DAMO Academy
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Gengmo Zhou
     image: gengmo.jpg
     link: https://zhougengmo.github.io/
     more_info: >
       2020-2023, Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite>
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Fangrui Lyu
     image: default.svg
     link: 
     more_info: >
       2020-2023, Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite>, China Development Bank
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Ruoqi Zhang
     image: default.svg
     link: 
     more_info: >
       2021-2024, Thesis: <cite>基于深度强化学习的细粒度交易执行算法</cite>, Metabit Trading
-    category: Graduated master students
+    category: Graduated Master Students
   - name: Xu Liu
     image: default.svg
     link: 
     more_info: >
       2021-2024, Thesis: <cite>股票价格预测的归纳偏置研究</cite>, Postal Savings Bank of China
-    category: Graduated master students
+    category: Graduated Master Students
 ---
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="8000" autoplay-disable-on-interaction="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/3.jpg" class="img-fluid rounded z-depth-1" caption="2024.09.10 Celebrating Teachers' Day." %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="2024.07.01 Get together." %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="2023.09.21 Get together." %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="2024.07.01 Getting Together." %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="2023.09.21 Getting Together." %}</swiper-slide>
 </swiper-container>
 
 {% for category in page.display_categories %}
-  {% if category == "Current PhD Students" or category == "Current master students" or category == "Postdoctoral Researcher" %}
+  {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoctoral Researcher" %}
   <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <div class="row row-cols-2 row-cols-md-4">
@@ -245,7 +245,7 @@ students:
 {% endfor %}
 
 {% for category in page.display_categories %}
-  {% if category ==  "Graduated PhD students" or category == "Graduated master students"%}
+  {% if category ==  "Graduated PhD Students" or category == "Graduated Master Students"%}
   <h2 class="category mt-3">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <ul>
