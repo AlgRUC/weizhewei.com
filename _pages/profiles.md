@@ -206,10 +206,10 @@ students:
     category: Graduated Master Students
 ---
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="8000" autoplay-disable-on-interaction="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/3.jpg" class="img-fluid rounded z-depth-1" caption="2024.09.10 Celebrating Teachers' Day." %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="2024.07.01 Getting Together." %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="2023.09.21 Getting Together." %}</swiper-slide>
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="5000" autoplay-disable-on-interaction="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/3.jpg" class="img-fluid rounded z-depth-1" caption="Sep 10, 2024: Celebrating Teachers' Day" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="Jul 01, 2024: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="Sep 21, 2023: Getting Together" %}</swiper-slide>
 </swiper-container>
 
 {% for category in page.display_categories %}
