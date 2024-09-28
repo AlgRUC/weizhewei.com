@@ -5,7 +5,7 @@ title: Grants
 description: 
 nav: true
 nav_order: 3
-logo: true
+nologo: true
 ---
 
 <ul>

@@ -5,7 +5,7 @@ title: People
 description: 
 nav: true
 nav_order: 9
-logo: true
+nologo: true
 display_categories: ["Postdoctoral Researcher", "Current PhD Students", "Current Master Students", "Graduated PhD Students", "Graduated Master Students"]
 images:
   slider: true
@@ -129,13 +129,13 @@ students:
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
-      2020-2024, Dissertation: <cite>动态图神经网络关键技术研究</cite>, Postdoctoral Researcher of Gaoling School of Artificial Intelligence, Renmin University of China
+      2020-2024, Dissertation: 《动态图神经网络关键技术研究》, Postdoctoral Researcher of Gaoling School of Artificial Intelligence, Renmin University of China
     category: Graduated PhD Students
   - name: Hanzhi Wang
     image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      2019-2024, Dissertation: <cite>大图上随机游走概率的高效计算</cite>, Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
+      2019-2024, Dissertation: 《大图上随机游走概率的高效计算》, Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
     category: Graduated PhD Students
 
   - name: Suijun Tong
@@ -196,13 +196,13 @@ students:
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Thesis: <cite>基于深度强化学习的细粒度交易执行算法</cite>, Metabit Trading
+      2021-2024, Thesis: 《基于深度强化学习的细粒度交易执行算法》, Metabit Trading
     category: Graduated Master Students
   - name: Xu Liu
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Thesis: <cite>股票价格预测的归纳偏置研究</cite>, Postal Savings Bank of China
+      2021-2024, Thesis: 《股票价格预测的归纳偏置研究》, Postal Savings Bank of China
     category: Graduated Master Students
 ---
 

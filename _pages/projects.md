@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [works]
 horizontal: false
+nologo: true
 ---
 
 <!-- pages/projects.md -->
