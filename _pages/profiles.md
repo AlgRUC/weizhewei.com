@@ -250,7 +250,7 @@ students:
   {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <ul>
   {% for project in categorized_projects %}
-      <li><a href="{{ project.link }}">{{ project.name }}</a>, {{ project.more_info }}. </li>
+      <li><a href="{{ project.link }}">{{ project.name }}</a>, {{ project.more_info }}</li>
   {% endfor %}
   </ul>
   {% endif %}
