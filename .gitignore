@@ -11,3 +11,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+.venv
+assets/img/students.bak/*
+!assets/img/students.bak/*.py

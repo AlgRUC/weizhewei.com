@@ -25,22 +25,22 @@ students:
   - name: Jiajun Li
     image: jiajun.jpg
     link: https://llijiajun.github.io/github-io/
-    more_info: 
+    more_info: <li>Streaming Algorithms</li><li>AI4DB</li>
     category: Current PhD Students
   - name: Yang Zhang
-    image: default.svg
+    image: yang_zhang.jpg
     link: https://fengyuewuya.github.io/
-    more_info: 
+    more_info: <li>AI for drug</li>
     category: Current PhD Students
   - name: Yuhe Guo
     image: yuhe.jpg
     link: https://yuziguo.github.io/
-    more_info: 
+    more_info: <li>Spectral Graph Machine Learning</li><li>Graph Signal Processing</li>
     category: Current PhD Students
   - name: Jinjia Feng
-    image: default.svg
+    image: jinjia.jpg
     link: https://xkxxfyf.github.io/
-    more_info: 
+    more_info: <li>Large-scale molecular and protein pre-training</li>
     category: Current PhD Students
   - name: Mingji Yang
     image: mingji.jpg
@@ -85,7 +85,7 @@ students:
   - name:   Yuzhang Fei
     image: yuzhang.jpg
     link: 
-    more_info: 
+    more_info: <li>GNN-based Algorithmic Reasoning</li>
     category: Current PhD Students
   - name: Wenda Wang
     image: wenda.jpg
@@ -101,7 +101,7 @@ students:
   - name: Jingyu Chen
     image: default.svg
     link: 
-    more_info: 
+    more_info: <li>Graph Self-supervised Learning</li>
     category: Current Master Students
   - name: Jiahong Ma
     image: jiahong.jpg
@@ -111,7 +111,7 @@ students:
   - name: Jiarui Ji
     image: jiarui.jpg
     link: 
-    more_info: 
+    more_info: <li>LLM Multi-Agent</li><li>AI4Social Science</li>
     category: Current Master Students
   - name: Hanyan Yin
     image: hanyan.jpg
@@ -123,86 +123,86 @@ students:
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
-      2014-2018, Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite>, Lecturer of Beijing Jiaotong University (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoctoral Fellowship (Outstanding Postdoctoral)
+      2014-2018, Lecturer of Beijing Jiaotong University<br>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)<br>(co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoctoral Fellowship (Outstanding Postdoctoral)
     category: Graduated PhD Students
   - name: Yanping Zheng
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
-      2020-2024, Dissertation: 《动态图神经网络关键技术研究》, Postdoctoral Researcher of Gaoling School of Artificial Intelligence, Renmin University of China
+      2020-2024, Postdoctoral Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a><br>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) 
     category: Graduated PhD Students
   - name: Hanzhi Wang
     image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      2019-2024, Dissertation: 《大图上随机游走概率的高效计算》, Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
+      2019-2024, Postdoctoral Researcher of Department of Computer Science (DIKU), <a href="https://www.ku.dk/english/">University of Copenhagen (UCPH)</a><br>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)<br>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
     category: Graduated PhD Students
 
   - name: Suijun Tong
     image: default.svg
     link: 
     more_info: >
-      2014-2017, Thesis: <cite>Single Source SimRank Query in Distributed System</cite>, IBM
+      2014-2017, IBM<br>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (大图邻近度计算关键技术研究)
     category: Graduated Master Students
   - name: Xiaodong He
     image: default.svg
     link: 
     more_info: >
-      2015-2018, Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite>, 4paradigm
+      2015-2018, 4paradigm<br>Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite> (大图邻近度计算关键技术研究)
     category: Graduated Master Students
   - name: Yuan Yin
     image: default.svg
     link: 
     more_info: >
-      2016-2019, Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite>, ByteDance
+      2016-2019, ByteDance<br>Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite> (支持有向图的高效图表示学习算法STRAP)
     category: Graduated Master Students
   - name: Chenmiao Yu
     image: default.svg
     link: 
     more_info: >
-      2016-2019, Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite>, Civil Servant
+      2016-2019, Civil Servant<br>Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite> (传统图嵌入方法与图卷积神经网络关系探究)
     category: Graduated Master Students
   - name: Ming Chen
     image: default.svg
     link: 
     more_info: >
-      2018-2021, Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (Outstanding master degree thesis of Renmin University of China), Central Enterprise
+      2018-2021, Central Enterprise<br>Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (可扩展的双向传播图神经网络, Outstanding master degree thesis of Renmin University of China)
     category: Graduated Master Students
   - name: Weirui Kuang
     image: default.svg
     link: https://www.weiruikuang.com/
     more_info: >
-      2018-2021, Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite>, Alibaba DAMO Academy
+      2018-2021, Alibaba DAMO Academy<br>Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite> (基于元路径的异构网络多视角对比学习)
     category: Graduated Master Students
   - name: Tianjing Zeng
     image: default.svg
     link: 
     more_info: >
-      2020-2023, Thesis: <cite>Persistent Summaries</cite>, Alibaba DAMO Academy
+      2020-2023, Alibaba DAMO Academy<br>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)
     category: Graduated Master Students
   - name: Gengmo Zhou
     image: gengmo.jpg
     link: https://zhougengmo.github.io/
     more_info: >
-      2020-2023, Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite>
+      2020-2023, PhD Student of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a><br>Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite> (Uni-Mol：通用3D分子表示学习框架)
     category: Graduated Master Students
   - name: Fangrui Lyu
     image: default.svg
     link: 
     more_info: >
-      2020-2023, Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite>, China Development Bank
+      2020-2023, China Development Bank<br>Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite> (基于日志数据的智能压缩算法研究) 
     category: Graduated Master Students
   - name: Ruoqi Zhang
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Thesis: 《基于深度强化学习的细粒度交易执行算法》, Metabit Trading
+      2021-2024, Metabit Trading<br>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)
     category: Graduated Master Students
   - name: Xu Liu
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Thesis: 《股票价格预测的归纳偏置研究》, Postal Savings Bank of China
+      2021-2024, Postal Savings Bank of China<br>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)
     category: Graduated Master Students
 ---
 
@@ -233,7 +233,7 @@ students:
         </div>
         <div class="col">
           <div class="card-body p-3">
-              <h4 class="card-title text-center"><a href="{{ project.link }}">{{ project.name }}</a></h4>
+              <h4 class="card-title text-center"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
               <div class="card-text text-center">{{ project.more_info }}</div>
           </div>
         </div>
@@ -250,7 +250,7 @@ students:
   {% assign categorized_projects = page.students | where: "category", category | reverse %}
   <ul>
   {% for project in categorized_projects %}
-      <li><a href="{{ project.link }}">{{ project.name }}</a>, {{ project.more_info }}</li>
+      <li class="mb-1"><a href="{{ project.link }}"><b>{{ project.name }}</b></a>, {{ project.more_info }}</li>
   {% endfor %}
   </ul>
   {% endif %}

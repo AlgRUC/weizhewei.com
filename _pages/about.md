@@ -30,7 +30,7 @@ No. 59 Zhongguancun Street, Haidian District, Beijing, 100872, P.R. China
 
 <address>
 Office: Room 1715, Lide Building <br>
-Email: zhewei@ruc.edu.cn<br>
+Email: <span class="e-mail" data-user="iewehz" data-website="nc.ude.cur"></span><br>
 Phone: (86) 010-62513716<br>
 Chinese Homepage (中文主页): <a href="https://gsai.ruc.edu.cn/zhewei">gsai.ruc.edu.cn/zhewei</a><br>
 </address>
