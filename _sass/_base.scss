@@ -1318,3 +1318,12 @@ b {
     unicode-bidi: bidi-override;
     direction: rtl;
 }
+
+swiper-container.album {
+  swiper-slide {
+    background-position: center;
+    background-size: cover; 
+    width: 60%; 
+    height: auto;
+  }
+}

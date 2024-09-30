@@ -1,16 +1,20 @@
+- title: "Graph Convolutional Networks: Theory and Fundamentals, Aug 2024"
+  links:
+    - text: slides
+      href: ./assets/pdf/GCN_theory_short v6.pdf
 - title: "Classical Talk@QuACT, Sublinear-Time Algorithms for Random-Walk Probability Estimation, May 2024"
   links:
     - text: slides
-      href: http://www.weizhewei.com/assets/pdf/ClassicalTalk@QuACT_random_walk.pptx
+      href: ./assets/pdf/ClassicalTalk@QuACT_random_walk.pptx
 - title: "VALSE 2023, 图表示学习, June 2023"
   links:
     - text: slides
-      href: http://www.weizhewei.com/assets/pdf/Valse2023.pdf
-- title: "HKUST(Guangzhou), Graph Convolutional Networks: Theory and Fundamentals, Mar 2023"
-  links:
-    - text: slides
-      href: http://www.weizhewei.com/assets/pdf/GCN_theory_short.pptx
+      href: ./assets/pdf/Valse2023.pdf
 - title: "VALSE 2021, 图神经网络理论基础, Oct 2021"
   links:
     - text: slides
-      href: http://www.weizhewei.com/assets/pdf/valse.pdf
+      href: ./assets/pdf/valse.pdf
+- title: "AI4DB Algorithm with Theoretical Guarantee (有理论保证的AI4DB算法)"
+  links:
+    - text: slides
+      href: ./assets/pdf/哈尔滨-魏哲巍 final.pdf

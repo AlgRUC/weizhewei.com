@@ -19,6 +19,13 @@
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
+    <img src="{{ site.baseurl }}/assets/img/algruc.png" alt="Alg@RUC" class="mx-auto d-block" style="width: 100px; height: auto; margin-bottom: 1rem"/>
+    <!-- Social -->
+    <div class="social-header mb-4">
+      <div style="font-size: 0.8rem" align="center">Follow our works via:</div>
+      <div class="contact-icons">{% include social.liquid %}</div>
+    </div>
+
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}

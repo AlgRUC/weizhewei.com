@@ -99,9 +99,9 @@ students:
     more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph Algorithm Alignment</li>
     category: Current Master Students
   - name: Jingyu Chen
-    image: default.svg
+    image: jingyu.jpg
     link: 
-    more_info: <li>Graph Self-supervised Learning</li>
+    more_info: <li>Graph Self-supervised Learning</li><li>Spectral GNN</li>
     category: Current Master Students
   - name: Jiahong Ma
     image: jiahong.jpg
@@ -206,10 +206,14 @@ students:
     category: Graduated Master Students
 ---
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" autoplay-delay="5000" autoplay-disable-on-interaction="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/3.jpg" class="img-fluid rounded z-depth-1" caption="Sep 10, 2024: Celebrating Teachers' Day" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/1.jpg" class="img-fluid rounded z-depth-1" caption="Jul 01, 2024: Getting Together" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2.jpg" class="img-fluid rounded z-depth-1" caption="Sep 21, 2023: Getting Together" %}</swiper-slide>
+<swiper-container class="album" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" autoplay-delay="5000" rewind="true" autoplay-disable-on-interaction="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="0" coverflow-effect-stretch="-75" coverflow-effect-depth="150" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.9.10.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 10, 2024: Celebrating Teachers' Day" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.7.1.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jul 01, 2024: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.9.21.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 21, 2023: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.7.3.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jul 03, 2023: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.6.27.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jun 27, 2023: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.3.26.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Mar 26, 2023: IACC 2023" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2022.10.29.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Oct 29, 2022: Getting Together" %}</swiper-slide>
 </swiper-container>
 
 {% for category in page.display_categories %}
@@ -226,13 +230,13 @@ students:
           <a href="{{ project.link }}" class="no-decoration">
             <img
               src="{{ profile_image_path | prepend: site.baseurl }}"
-              class="img-fluid rounded-start"
+              class="img-fluid rounded-start mx-auto d-block mt-2"
               loading="lazy"
             />
           </a>
         </div>
         <div class="col">
-          <div class="card-body p-3">
+          <div class="card-body p-2">
               <h4 class="card-title text-center"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
               <div class="card-text text-center">{{ project.more_info }}</div>
           </div>
