@@ -4,8 +4,10 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {{ site.first_name }} {{ site.last_name }} ({{ site.zh_name }})
+      {{ site.first_name }} {{ site.last_name }} 
+      <span class="d-none d-md-inline">({{ site.zh_name }})</span> <!-- Only show on wide screens -->
     </h1>
+    <p class="d-inline d-md-none" style="font-size: 1.5rem;">{{ site.zh_name }}</p> <!-- Only show on narrow screens -->
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 

@@ -6,11 +6,11 @@
   links:
     - text: slides
       href: ./assets/pdf/ClassicalTalk@QuACT_random_walk.pptx
-- title: "VALSE 2023, 图表示学习, June 2023"
+- title: "VALSE 2023, Graph Representation Learning (图表示学习), June 2023"
   links:
     - text: slides
       href: ./assets/pdf/Valse2023.pdf
-- title: "VALSE 2021, 图神经网络理论基础, Oct 2021"
+- title: "VALSE 2021, Theoretical Basis of Graph Neural Networks (图神经网络理论基础), Oct 2021"
   links:
     - text: slides
       href: ./assets/pdf/valse.pdf

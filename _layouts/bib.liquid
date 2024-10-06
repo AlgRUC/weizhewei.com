@@ -7,7 +7,7 @@
   <li>
   <div id="{{ entry.key }}" class="col">
     <!-- Title -->
-    <a href="{{ entry.html }}"><b>{{ entry.title }}</b></a>{% if entry.award %}, <b>{{ entry.award }}</b>{% endif %}
+    <a href="{{ entry.html }}"><b>{{ entry.title }}</b></a>{% if entry.award %}, <b style="color: red;">{{ entry.award }}</b>{% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
