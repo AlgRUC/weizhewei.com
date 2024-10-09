@@ -220,32 +220,26 @@ students:
   {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoctoral Researcher" %}
   <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category | reverse %}
-  <div class="row row-cols-2 row-cols-md-2">
+  <div class="row row-cols-1 row-cols-sm-2">
   {% for project in categorized_projects %}
     {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
     {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
     <div class="col my-1 px-1">
       <div class="card hoverable h-100">
-        <div class="row row-cols-1 row-cols-md-2 g-0">
-          <div class="col-md-5 col-12">
+        <div class="d-flex">
+          <div class="col-md-5">
             <a href="{{ project.link }}" class="no-decoration">
               <img
                 src="{{ profile_image_path | prepend: site.baseurl }}"
-                class="img-fluid rounded-start d-block p-2"
+                class="img-fluid rounded-start d-block m-2"
                 loading="lazy"
               />
             </a>
           </div>
-          <div class="col-md-7 d-none d-md-block"> <!-- Hide on narrow screens -->
+          <div class="col-md-7 d-flex align-items-center">
             <div class="card-body">
               <h4 class="card-title"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
               <div class="card-text"><ul class="pl-3">{{ project.more_info }}</ul></div>
-            </div>
-          </div>
-          <!-- Content for narrow screens -->
-          <div class="col-12 d-block d-md-none text-center"> <!-- Show only on narrow screens -->
-            <div class="card-body">
-              <h4 class="card-title"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
             </div>
           </div>
         </div>

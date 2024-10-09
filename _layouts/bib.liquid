@@ -7,7 +7,7 @@
   <li>
   <div id="{{ entry.key }}" class="col">
     <!-- Title -->
-    <a href="{{ entry.html }}"><b>{{ entry.title }}</b></a>{% if entry.award %}, <b style="color: red;">{{ entry.award }}</b>{% endif %}
+    {% if entry.html %}<a href="{{ entry.html }}">{% endif %}<b style="color: var(--global-theme-color);">{{ entry.title }}</b>{% if entry.html %}</a>{% endif %}{% if entry.award %}, <b style="color: red;">{{ entry.award }}</b>{% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -109,17 +109,17 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% capture entrytype %}{% if entry.toappear %}To appear in {% endif %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}{% if entry.toappear %}To appear in {% endif %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% if entry.month %}
+    {% comment %} {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
+    {% endif %} {% endcomment %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
