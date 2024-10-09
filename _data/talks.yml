@@ -1,20 +1,20 @@
-- title: "Graph Convolutional Networks: Theory and Fundamentals, Aug 2024"
-  links:
-    - text: slides
-      href: ./assets/pdf/GCN_theory_short v6.pdf
-- title: "Classical Talk@QuACT, Sublinear-Time Algorithms for Random-Walk Probability Estimation, May 2024"
+- title: "Classical Talk@QuACT, <cite>Sublinear-Time Algorithms for Random-Walk Probability Estimation</cite>, May 2024"
   links:
     - text: slides
       href: ./assets/pdf/ClassicalTalk@QuACT_random_walk.pptx
-- title: "VALSE 2023, Graph Representation Learning (图表示学习), June 2023"
+- title: "VALSE 2023, <cite>Graph Representation Learning</cite> (图表示学习), June 2023"
   links:
     - text: slides
       href: ./assets/pdf/Valse2023.pdf
-- title: "VALSE 2021, Theoretical Basis of Graph Neural Networks (图神经网络理论基础), Oct 2021"
+- title: "VALSE 2021, <cite>Theoretical Basis of Graph Neural Networks</cite> (图神经网络理论基础), Oct 2021"
   links:
     - text: slides
       href: ./assets/pdf/valse.pdf
-- title: "AI4DB Algorithm with Theoretical Guarantee (有理论保证的AI4DB算法)"
+- title: "CCF Young Computer Scientists & Engineers Forum (YOCSEF), <cite>AI4DB Algorithm with Theoretical Guarantee</cite> (有理论保证的AI4DB算法), Aug 2024"
   links:
     - text: slides
       href: ./assets/pdf/哈尔滨-魏哲巍 final.pdf
+- title: "Academy of Mathematics and System Science, CAS, <cite>Graph Convolutional Networks: Theory and Fundamentals</cite>, Aug 2024"
+  links:
+    - text: slides
+      href: ./assets/pdf/GCN_theory_short v6.pdf

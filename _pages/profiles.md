@@ -17,107 +17,128 @@ students:
     link: https://ivam-he.github.io/
     more_info: <li>Graph Learning</li><li>Graph Neural Networks</li>
     category: Current PhD Students
+    text_muted: 2020 - Present
   - name: Yanping Zheng
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: <li>Graph Neural Networks</li><li>Dynamic Graph Representation Learning</li>
     category: Postdoctoral Researcher
+    text_muted: 2024 - Present
   - name: Jiajun Li
     image: jiajun.jpg
     link: https://llijiajun.github.io/github-io/
     more_info: <li>Streaming Algorithms</li><li>AI4DB</li>
     category: Current PhD Students
+    text_muted: 2021 - Present
   - name: Yang Zhang
     image: yang_zhang.jpg
     link: https://fengyuewuya.github.io/
     more_info: <li>AI for drug</li>
     category: Current PhD Students
+    text_muted: 2021 - Present
   - name: Yuhe Guo
     image: yuhe.jpg
     link: https://yuziguo.github.io/
     more_info: <li>Spectral Graph Machine Learning</li><li>Graph Signal Processing</li>
     category: Current PhD Students
+    text_muted: 2021 - Present
   - name: Jinjia Feng
     image: jinjia.jpg
     link: https://xkxxfyf.github.io/
     more_info: <li>Large-scale molecular and protein pre-training</li>
     category: Current PhD Students
+    text_muted: 2021 - Present
   - name: Mingji Yang
     image: mingji.jpg
     link: https://kyleyoung-ymj.github.io/
     more_info: <li>CS Theory</li><li>Graph Algorithms</li><li>Sublinear Algorithms</li>
     category: Current PhD Students
+    text_muted: 2022 - Present
   - name: Haipeng Ding
     image: haipeng.jpg
     link: 
     more_info: <li>Large-scale Graph Learning</li><li>LLM4Graph</li>
     category: Current PhD Students
+    text_muted: 2022 - Present
   - name: Lu Yi
     image: lu_yi.jpg
     link: https://luyi256.github.io/
     more_info: <li>Dynamic Graph Learning</li><li>Graph Unlearning</li><li>Scalable Algorithms</li>
     category: Current PhD Students
-  - name: Dongxie Wen
-    image: dongxie.jpg
-    link: 
-    more_info: <li>Sketch4ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
-    category: Current PhD Students
-  - name: Jie Peng
-    image: jie_peng.jpg
-    link: https://lucas-pj.github.io/
-    more_info: <li>Graph Machine Learning</li><li>Dynamic Graph Learning</li>
-    category: Current PhD Students
+    text_muted: 2022 - Present
   - name: Runlin Lei
     image: runlin.jpg
     link: https://leirunlin.github.io/
     more_info: <li>Machine Learning on Graphs</li><li>Graph Adversarial Attack & Defense</li><li>LLM4Graph</li>
     category: Current PhD Students
+    text_muted: 2022 - Present
+  - name: Dongxie Wen
+    image: dongxie.jpg
+    link: 
+    more_info: <li>Sketch4ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
+    category: Current PhD Students
+    text_muted: 2023 - Present
+  - name: Jie Peng
+    image: jie_peng.jpg
+    link: https://lucas-pj.github.io/
+    more_info: <li>Graph Machine Learning</li><li>Dynamic Graph Learning</li>
+    category: Current PhD Students
+    text_muted: 2023 - Present
   - name: Gengmo Zhou
     image: gengmo.jpg
     link: https://zhougengmo.github.io/
     more_info: <li>AI in Pharmaceuticals</li><li>3D Molecule Modeling</li>
     category: Current PhD Students
+    text_muted: 2023 - Present
   - name: Yuwei Hu
     image: yuwei.jpg
     link: 
     more_info: <li>LLM&Graph</li>
     category: Current PhD Students
+    text_muted: 2024 - Present
   - name:   Yuzhang Fei
     image: yuzhang.jpg
     link: 
     more_info: <li>GNN-based Algorithmic Reasoning</li>
     category: Current PhD Students
+    text_muted: 2024 - Present
   - name: Wenda Wang
     image: wenda.jpg
     link: 
     more_info: <li>Deep Learning for Bioinformatics</li>
     category: Current PhD Students
+    text_muted: 2024 - Present
 
   - name: Guanyu Cui
     image: guanyu.jpg
     link: https://guanyucui.github.io/
     more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph Algorithm Alignment</li>
     category: Current Master Students
+    text_muted: 2022 - Present
   - name: Jingyu Chen
     image: jingyu.jpg
     link: 
     more_info: <li>Graph Self-supervised Learning</li><li>Spectral GNN</li>
     category: Current Master Students
+    text_muted: 2022 - Present
   - name: Jiahong Ma
     image: jiahong.jpg
     link: 
     more_info: <li>Spectral GNN</li><li>Graph Transformer</li>
     category: Current Master Students
+    text_muted: 2022 - Present
   - name: Jiarui Ji
     image: jiarui.jpg
     link: 
     more_info: <li>LLM Multi-Agent</li><li>AI4Social Science</li>
     category: Current Master Students
+    text_muted: 2023 - Present
   - name: Hanyan Yin
     image: hanyan.jpg
     link: https://yinhanyan.github.io/
     more_info: <li>Streaming Algorithms</li>
     category: Current Master Students
+    text_muted: 2023 - Present
 
   - name: Yu Liu
     image: yu_liu.jpg
@@ -135,14 +156,14 @@ students:
     image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      2019-2024, Postdoctoral Researcher of Department of Computer Science (DIKU), <a href="https://www.ku.dk/english/">University of Copenhagen (UCPH)</a><br>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)<br>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
+      2019-2024, Postdoctoral Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a><br>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)<br>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
     category: Graduated PhD Students
 
   - name: Suijun Tong
     image: default.svg
     link: 
     more_info: >
-      2014-2017, IBM<br>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (大图邻近度计算关键技术研究)
+      2014-2017, IBM<br>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (分布式系统中单源 SimRank 算法的研究)
     category: Graduated Master Students
   - name: Xiaodong He
     image: default.svg
@@ -219,19 +240,19 @@ students:
 {% for category in page.display_categories %}
   {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoctoral Researcher" %}
   <h2 class="category">{{ category }}</h2>
-  {% assign categorized_projects = page.students | where: "category", category | reverse %}
+  {% assign categorized_projects = page.students | where: "category", category %}
   <div class="row row-cols-1 row-cols-sm-2">
   {% for project in categorized_projects %}
     {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
     {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
     <div class="col my-1 px-1">
       <div class="card hoverable h-100">
-        <div class="d-flex">
+        <div class="d-flex align-items-center">
           <div class="col-md-5">
             <a href="{{ project.link }}" class="no-decoration">
               <img
                 src="{{ profile_image_path | prepend: site.baseurl }}"
-                class="img-fluid rounded-start d-block m-2"
+                class="img-fluid rounded-circle d-block m-2"
                 loading="lazy"
               />
             </a>
@@ -239,6 +260,7 @@ students:
           <div class="col-md-7 d-flex align-items-center">
             <div class="card-body">
               <h4 class="card-title"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
+              <p class="text-muted">{{ project.text_muted}}</p>
               <div class="card-text"><ul class="pl-3">{{ project.more_info }}</ul></div>
             </div>
           </div>
@@ -253,7 +275,7 @@ students:
 {% for category in page.display_categories %}
   {% if category ==  "Graduated PhD Students" or category == "Graduated Master Students"%}
   <h2 class="category mt-3">{{ category }}</h2>
-  {% assign categorized_projects = page.students | where: "category", category | reverse %}
+  {% assign categorized_projects = page.students | where: "category", category %}
   <ul>
   {% for project in categorized_projects %}
       <li class="mb-1"><a href="{{ project.link }}"><b>{{ project.name }}</b></a>, {{ project.more_info }}</li>

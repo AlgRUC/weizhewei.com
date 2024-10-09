@@ -149,9 +149,9 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %} {% endcomment %}
-      {% if entry.abstract %}
+      {% comment %} {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      {% endif %}
+      {% endif %} {% endcomment %}
       {% if entry.arxiv %}
         [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="" role="button">arXiv</a>]
       {% endif %}
@@ -276,9 +276,9 @@
       </div>
     {% endif %}
 
-    {% if entry.abstract %}
+    {% if page.title == "About" and entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
+      <div class="hidden open">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
