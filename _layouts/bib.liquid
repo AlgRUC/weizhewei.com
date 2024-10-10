@@ -7,7 +7,7 @@
   <li>
   <div id="{{ entry.key }}" class="col">
     <!-- Title -->
-    {% if entry.html %}<a href="{{ entry.html }}">{% endif %}<b style="color: var(--global-theme-color);">{{ entry.title }}</b>{% if entry.html %}</a>{% endif %}{% if entry.award %}, <b style="color: red;">{{ entry.award }}</b>{% endif %}
+    {% if entry.html %}<a href="{{ entry.html }}">{% endif %}<b style="color: var(--global-theme-color);">{{ entry.title }}</b>{% if entry.html %}</a>{% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -136,11 +136,12 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}{% if entry.abbr %} ({{entry.abbr}}){% endif %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      {{ periodical | strip }}
+      {{ periodical | strip }}{% if entry.award %}. (<b style="color: red;">{{ entry.award }}</b>){% endif %}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -149,9 +150,9 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %} {% endcomment %}
-      {% comment %} {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      {% endif %} {% endcomment %}
+       {% if page.title == "About" and entry.abstract %}
+        [<a class="abstract" role="button" style="color: var(--global-theme-color);">TL;DR</a>]
+      {% endif %} 
       {% if entry.arxiv %}
         [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="" role="button">arXiv</a>]
       {% endif %}
@@ -278,7 +279,7 @@
 
     {% if page.title == "About" and entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="hidden open">
+      <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
