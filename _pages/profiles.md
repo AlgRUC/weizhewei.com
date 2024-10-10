@@ -69,7 +69,7 @@ students:
   - name: Runlin Lei
     image: runlin.jpg
     link: https://leirunlin.github.io/
-    more_info: <li>Machine Learning on Graphs</li><li>Graph Adversarial Attack & Defense</li><li>LLM4Graph</li>
+    more_info: <li>Graph Machine Learning</li><li>Graph Adversarial Attack & Defense</li><li>LLM4Graph</li>
     category: Current PhD Students
     text_muted: 2022 - Present
   - name: Dongxie Wen
@@ -246,22 +246,24 @@ students:
     {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
     {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
     <div class="col my-1 px-1">
-      <div class="card hoverable h-100">
-        <div class="d-flex align-items-center">
-          <div class="col-md-5">
+      <div class="card hoverable h-100 d-flex flex-column justify-content-center">
+        <div class="d-flex justify-content-center align-items-center w-100">
+          <div class="col-md-5 d-flex justify-content-center">
             <a href="{{ project.link }}" class="no-decoration">
               <img
                 src="{{ profile_image_path | prepend: site.baseurl }}"
                 class="img-fluid rounded-circle d-block m-2"
+                style="max-width: 150px; max-height: 150px; width: 100%; height: auto;"  
                 loading="lazy"
               />
             </a>
           </div>
-          <div class="col-md-7 d-flex align-items-center">
-            <div class="card-body">
+          <div class="col-md-7">
+            <div class="card-body d-flex flex-column justify-content-center">
               <h4 class="card-title"><a href="{{ project.link }}"><b>{{ project.name }}</b></a></h4>
-              <p class="text-muted">{{ project.text_muted}}</p>
-              <div class="card-text"><ul class="pl-3">{{ project.more_info }}</ul></div>
+              <div class="card-text">
+                <ul class="pl-3">{{ project.more_info }}</ul>
+              </div>
             </div>
           </div>
         </div>
