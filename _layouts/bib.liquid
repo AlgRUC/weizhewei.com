@@ -151,7 +151,7 @@
         </a>
       {% endif %} {% endcomment %}
        {% if page.title == "About" and entry.abstract %}
-        [<a class="abstract" role="button" style="color: var(--global-theme-color);">TL;DR</a>]
+        [<a class="abstract" role="button" style="color: var(--global-theme-color);">TLDR</a>]
       {% endif %} 
       {% if entry.arxiv %}
         [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="" role="button">arXiv</a>]
@@ -279,7 +279,7 @@
 
     {% if page.title == "About" and entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
+      <div class="abstract hidden" style="font-size: 1rem;">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
