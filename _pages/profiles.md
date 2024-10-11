@@ -165,7 +165,7 @@ students:
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
-      2014-2018, Lecturer of Beijing Jiaotong University<br>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)<br>(co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc)
+      2014-2018, Lecturer of Beijing Jiaotong University<br>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)<br>(co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc Researcher)
     category: Graduated PhD Students
   - name: Hanzhi Wang
     image: hanzhi.jpg
