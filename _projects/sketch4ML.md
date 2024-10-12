@@ -1,58 +1,46 @@
 ---
-layout: post
+layout: page
 title: Streaming & Sketch4ML
 description: Streaming Data Algorithms - Summary, Sketch, Synopsis - and applications in Machine Learning
-img: assets/img/optimal2024yin.png
 importance: 3
-category: works
+category: Projects
 related_publications: true
 related_posts: false
-toc:
-  beginning: true
+mermaid:
+  enabled: true
+  zoomable: false
 ---
 
-<!-- <style>
-img.badge {
-    width: auto;
-    height: 20px; /* 设置图片的高度 */
-}
-</style> -->
+> This project focuses on the <b style="color: blue">streaming data algorithms</b>, which maintain a small data structure in memory, and the applications of these algorithms in machine learning, which are called <b style="color: blue;">Sketch4ML</b>. The streaming algorithms can be used to optimize the machine learning algorithms, which are usually memory-intensive and time-consuming. 
+{: .block-tip }
 
-<!-- PROJECT LOGO -->
-<div align="center">
-  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+## Streaming algorithm
 
-  <h1 align="center">Streaming & Sketch4ML</h1>
+In computer science, **streaming algorithms** are algorithms for processing data streams in which the input is presented as a sequence of items and can be examined in only a few passes, typically just one. These algorithms are characterized by the following properties:
 
-  <p align="center">
-    Streaming Data Algorithms - Summary, Sketch, Synopsis - and applications in Machine Learning
-    <br />
-    <!-- <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br /> -->
-    <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a> -->
-  </p>
-</div>
+* Operate with limited computational/storage resources, generally logarithmic in the size of the stream and/or in the maximum value in the stream.
+* Have limited processing time per item.
+* To reduce computational/storage overhead, a certain error or/and fault probability can be tolerated.
 
+As a result of these constraints, streaming algorithms often produce approximate answers based on a **sketch** of the data stream. 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Sketch for Machine Learning (Sketch4ML)
 
-In many of today’s big data applications, in particular, for highspeed streaming data, the volume and velocity of the data are so high that we cannot afford to store everything. Therefore, streaming algorithms have received a lot of attention in the research community, which uses only sublinear space by sacrificing slightly on accuracy. 
+**Sketch for Machine Learning (Sketch4ML)** is a technique that uses streaming algorithms to optimize machine learning algorithms. For example, matrix sketching has been employed to accelerate **second-order online gradient descent** (SON, [Luo et al., 2016](https://papers.nips.cc/paper_files/paper/2016/hash/15de21c670ae7c3f6f3f1f37029303c9-Abstract.html); RFD-ONS, [Luo et al., 2019](https://www.jmlr.org/papers/v20/17-773.html)), **online kernel learning** ([Calandriello et al., 2017](https://proceedings.neurips.cc/paper/2017/hash/366f0bc7bd1d4bf414073cabbadfdfcd-Abstract.html)), and **linear contextual bandits** (SOFUL, [Kuzborskij et al., 2019](https://proceedings.mlr.press/v89/kuzborskij19a.html); CBSCFD [Chen et al., 2020](https://www.ijcai.org/Proceedings/2020/0588.pdf); DBSLinUCB), as shown in the following figure.
 
-**Streaming algorithms** work by maintaining a small data structure in memory, which is usually called a *sketch, summary, or synopsis*. The streaming algorithms can also be used to optimize the machine learning algorithms, which are called **Sketch4ML**.
-
-This page is a collection of our work on streaming algorithms and Sketch4ML.
-
-
-
-## Streaming
+```mermaid
+graph LR
+    A[Sketch4ML] --> B[Sketched Second-order online gradient descent]
+    A --> C[Sketched online kernel learning]
+    A --> D[Sketched linear contextual bandits]
+    
+    B --> B1["Sketched Online Newton (SON)"]
+    B --> B2["RFD-ONS"]
+    C --> C1["PROS-N-KONS"]
+    D --> D1["SOFUL"]
+    D --> D2["CBSCFD"]
+    D --> D3["DBSLinUCB"]
+```
 
 ### Optimal Matrix Sketching over Sliding Windows [[VLDB 2024](https://vldb.org/2024/)]
 
@@ -87,28 +75,6 @@ In this work, we proposes the optimal matrix sketch algorithm DS-FD on sliding w
 </div>
 
 The paper {% cite yin2024optimal %} is accepted by VLDB 2024 and nominated for the Best Research Paper. If you are interested in the details, please refer to the [paper](https://doi.org/10.14778/3665844.3665847), [arxiv](https://arxiv.org/abs/2405.07792) or the [code](https://github.com/yinhanyan/DS-FD).
-
-#### Citation
-
-```bibtex
-@article{10.14778/3665844.3665847,
-    author = {Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
-    title = {Optimal Matrix Sketching over Sliding Windows},
-    year = {2024},
-    issue_date = {May 2024},
-    publisher = {VLDB Endowment},
-    volume = {17},
-    number = {9},
-    issn = {2150-8097},
-    url = {https://doi.org/10.14778/3665844.3665847},
-    doi = {10.14778/3665844.3665847},
-    journal = {Proc. VLDB Endow.},
-    month = {aug},
-    pages = {2149–2161},
-    numpages = {13}
-}
-```
-
 
 
 ## Sketch4ML
