@@ -30,14 +30,14 @@ students:
     native_written_name: 李家郡
     image: jiajun.jpg
     link: https://llijiajun.github.io/github-io/
-    more_info: <li>Streaming Algorithms</li><li>AI4DB</li>
+    more_info: <li>Streaming Algorithms</li><li>AI for DB</li>
     category: Current PhD Students
     text_muted: 2021 - Present
   - name: Yang Zhang
     native_written_name: 张阳
     image: yang_zhang.jpg
     link: https://fengyuewuya.github.io/
-    more_info: <li>AI for drug</li>
+    more_info: <li>AI for Drug</li>
     category: Current PhD Students
     text_muted: 2021 - Present
   - name: Yuhe Guo
@@ -51,7 +51,7 @@ students:
     native_written_name: 冯晋嘉
     image: jinjia.jpg
     link: https://xkxxfyf.github.io/
-    more_info: <li>Large-scale molecular and protein pre-training</li>
+    more_info: <li>Large-Scale Molecular and Protein Pre-Training</li>
     category: Current PhD Students
     text_muted: 2021 - Present
   - name: Mingji Yang
@@ -65,7 +65,7 @@ students:
     native_written_name: 丁海鹏
     image: haipeng.jpg
     link: 
-    more_info: <li>Large-scale Graph Learning</li><li>LLM4Graph</li>
+    more_info: <li>Large-Scale Graph Learning</li><li>LLM for Graph</li>
     category: Current PhD Students
     text_muted: 2022 - Present
   - name: Lu Yi
@@ -79,14 +79,14 @@ students:
     native_written_name: 雷润林
     image: runlin.jpg
     link: https://leirunlin.github.io/
-    more_info: <li>Graph Machine Learning</li><li>Graph Adversarial Attack & Defense</li><li>LLM4Graph</li>
+    more_info: <li>Graph Machine Learning</li><li>Graph Attack & Defense</li><li>LLM for Graph</li>
     category: Current PhD Students
     text_muted: 2022 - Present
   - name: Dongxie Wen
     native_written_name: 文东勰
     image: dongxie.jpg
     link: 
-    more_info: <li>Sketch4ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
+    more_info: <li>Sketch for ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
     category: Current PhD Students
     text_muted: 2023 - Present
   - name: Jie Peng
@@ -107,14 +107,14 @@ students:
     native_written_name: 胡雨韦
     image: yuwei.jpg
     link: 
-    more_info: <li>LLM&Graph</li>
+    more_info: <li>LLM for Graph</li>
     category: Current PhD Students
     text_muted: 2024 - Present
   - name:   Yuzhang Fei
     native_written_name: 费煜章
     image: yuzhang.jpg
     link: 
-    more_info: <li>GNN-based Algorithmic Reasoning</li>
+    more_info: <li>GNN-Based Algorithmic Reasoning</li>
     category: Current PhD Students
     text_muted: 2024 - Present
   - name: Wenda Wang
@@ -136,7 +136,7 @@ students:
     native_written_name: 陈靖宇
     image: jingyu.jpg
     link: 
-    more_info: <li>Graph Self-supervised Learning</li><li>Spectral GNN</li>
+    more_info: <li>Graph Self-Supervised Learning</li><li>Spectral GNN</li>
     category: Current Master Students
     text_muted: 2022 - Present
   - name: Jiahong Ma
@@ -150,7 +150,7 @@ students:
     native_written_name: 季嘉蕊
     image: jiarui.jpg
     link: 
-    more_info: <li>LLM Multi-Agent</li><li>AI4Social Science</li>
+    more_info: <li>LLM Multi-Agent</li><li>AI for Social Science</li>
     category: Current Master Students
     text_muted: 2023 - Present
   - name: Hanyan Yin
