@@ -6,10 +6,15 @@ importance: 3
 category: Projects
 related_publications: true
 related_posts: false
+tabs: true
 mermaid:
   enabled: true
   zoomable: false
 ---
+
+{% tabs group-name %}
+
+{% tab group-name Background %}
 
 > This project focuses on the <b style="color: blue">streaming data algorithms</b>, which maintain a small data structure in memory, and the applications of these algorithms in machine learning, which are called <b style="color: blue;">Sketch4ML</b>. The streaming algorithms can be used to optimize the machine learning algorithms, which are usually memory-intensive and time-consuming. 
 {: .block-tip }
@@ -23,6 +28,23 @@ In computer science, **streaming algorithms** are algorithms for processing data
 * To reduce computational/storage overhead, a certain error or/and fault probability can be tolerated.
 
 As a result of these constraints, streaming algorithms often produce approximate answers based on a **sketch** of the data stream. 
+
+### Books and Papers
+
+<ul>
+  <li>
+    <dt><a href="https://www.dimacs.rutgers.edu/~graham/ssbd.html"><i>Small Summaries for Big Data</i></a>, Graham Cormode and Ke Yi, Cambridge University Press, 2020 </dt>
+    <dd>This book provides a comprehensive introduction to many classic summary and sketch algorithms for a range of streaming data structures - sets, multisets, ordered data, vector, matrix, graph, and more. This book also offers detailed mathematical analysis of algorithm complexity, approximation error, and statistical properties.</dd>
+  </li>
+  <li>
+    <dt><a href="https://dl.acm.org/doi/10.1561/0400000060"><i>Sketching as a Tool for Numerical Linear Algebra</i></a>, David P. Woodruff, 2014</dt>
+    <dd>This survey highlights matrix sketching algorithm for a lot of problems of numerical linear algebra - least squares as well as robust regression problems, low rank approximation, and graph sparsification. </dd>
+  </li>
+  <li>
+    <dt><a href="https://dl.acm.org/doi/10.1145/2487575.2487623"><i>Frequent Directions : Simple and Deterministic Matrix Sketching</i></a>, Edo Liberty, 2013</dt>
+    <dd>This paper introduces the Frequent Directions algorithm, which is a simple and deterministic matrix sketching algorithm that can be used to approximate the covariance matrix of a data stream. </dd>
+  </li>
+</ul>
 
 ## Sketch for Machine Learning (Sketch4ML)
 
@@ -42,7 +64,9 @@ graph LR
     D --> D3["DBSLinUCB"]
 ```
 
-### Optimal Matrix Sketching over Sliding Windows [[VLDB 2024](https://vldb.org/2024/)]
+{% endtab %}
+
+{% tab group-name our work:<br>optimal matrix sketch<br>over sliding windows %}
 
 <!-- Badges -->
 <p>
@@ -54,9 +78,6 @@ graph LR
     <img src="https://img.shields.io/badge/arxiv-2405.07792-b31b1b?style=flat&logo=arxiv
 " alt="arxiv" />
   </a>
-  <a href="https://badge.dimensions.ai/details/id/pub.1174559675">
-    <img src="https://badge.dimensions.ai/badge?style=rectangle&count=0" alt="dimensions" />
-  </a>
   <a href="https://github.com/yinhanyan/DS-FD">
     <img src="https://img.shields.io/badge/yinhanyan%2FDS--FD-white?logo=github&labelColor=black" alt="stars" />
   </a>
@@ -67,6 +88,17 @@ graph LR
 
 In this work, we proposes the optimal matrix sketch algorithm DS-FD on sliding windows, which achives the lower bound of space complexity for solving the matrix sketching problem over sliding windows. The paper addressed the open question of the lower bounds of space complexity for any deterministic algorithms solving the matrix sketching problem over sliding windows. The answer to this open problem confirms that our DS-FD algorithm is optimal in terms of space complexity.
 
+The paper {% cite yin2024optimal %} is accepted by VLDB 2024 and nominated for the Best Research Paper. If you are interested in the details, please refer to the [paper](https://doi.org/10.14778/3665844.3665847), [arxiv](https://arxiv.org/abs/2405.07792) or the [code](https://github.com/yinhanyan/DS-FD).
+
+### Problem Definition
+
+
+### Method
+
+
+### Results
+
+
 <div class="w-75 mx-auto">
   {% include figure.liquid loading="eager" path="assets/img/optimal2024yin.png" title="example image" class="img-fluid rounded z-depth-1" %}
 </div>
@@ -74,20 +106,12 @@ In this work, we proposes the optimal matrix sketch algorithm DS-FD on sliding w
   The space upper bound of DS-FD and lower bound in various senarios.
 </div>
 
-The paper {% cite yin2024optimal %} is accepted by VLDB 2024 and nominated for the Best Research Paper. If you are interested in the details, please refer to the [paper](https://doi.org/10.14778/3665844.3665847), [arxiv](https://arxiv.org/abs/2405.07792) or the [code](https://github.com/yinhanyan/DS-FD).
+{% endtab %}
 
-
-## Sketch4ML
-
-### Dyadic Block Sketching
+{% tab group-name our work:<br>Dyadic Sketched Bandit %}
 
 TBD
 
+{% endtab %}
 
-
-## Roadmap
-
-- [x] Streaming Algorithms
-    - [x] Frequent Directions over Sliding Windows
-- [ ] Sketch4ML
-    - [ ] Dyadic Block Sketching 
+{% endtabs %}
