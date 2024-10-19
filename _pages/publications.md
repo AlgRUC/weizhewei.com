@@ -16,6 +16,6 @@ nologo: true
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --group_by type %}
 
 </div>
