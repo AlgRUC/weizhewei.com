@@ -115,13 +115,25 @@ We propose the DS-FD algorithm, which is optimal in terms of space complexity fo
 
 First, we take a step back and consider a simplified scenario where the norm of each row is constantly 1, and each update occupies one timestamp. The window length is set to $$N$$. We refer to this as the *sequence-based* and *normalized* sliding window model. To handle this model, we maintain a sketch matrix $$\boldsymbol{C}$$ and a queue $$\mathcal{S}$$. When a row vector $$\boldsymbol{a}$$ arrives, we 
 
-1. first remove any outdated elements from the queue $$\mathcal{S}$$. Next, we concatenate the matrix $$\boldsymbol{C}$$ with the new vector $$\boldsymbol{a}$$.
+Step 1: First remove any outdated elements from the queue $$\mathcal{S}$$. Next, we concatenate the matrix $$\boldsymbol{C}$$ with the new vector $$\boldsymbol{a}$$.
 
-2. If the rank of $$\boldsymbol{C}$$ is more than $$\ell$$, we perform Singular Value Decomposition (SVD) on the concatenated matrix $$\boldsymbol{C}$$ and get $$\mathtt{svd}(\boldsymbol{C})=(\boldsymbol{U},\boldsymbol{\Sigma},\boldsymbol{V}^\top)$$.
+<div class="w-75 mx-auto">
+  {% include video.liquid path="assets/video/swfd-1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
 
-   1. If the top singular value $$\sigma_1^2>\varepsilon N$$, we drop the top singular value $$\sigma_1$$ from $$\boldsymbol{\Sigma}$$ and the corresponding right singular vector $$\boldsymbol{v}_1$$ ffrom $$\boldsymbol{V}$$, and save the $$\sigma_1 \cdot \boldsymbol{v}_1^\top$$ with the current timestamp $$t$$ to the queue $$\mathcal{S}$$. (The saved timestamp is used to delete outdated elements in step 1 later.) We refer to this as **dump operation**. The new sketch matrix $$\boldsymbol{C}=\boldsymbol{\Sigma}[2:,\:]\boldsymbol{V}[2:,\:]^\top$$. 
+Step 2: If the rank of $$\boldsymbol{C}$$ is more than $$\ell$$, we perform Singular Value Decomposition (SVD) on the concatenated matrix $$\boldsymbol{C}$$ and get $$\mathtt{svd}(\boldsymbol{C})=(\boldsymbol{U},\boldsymbol{\Sigma},\boldsymbol{V}^\top)$$.
 
-   2. Otherwise ($$\sigma_1^2\le\varepsilon N$$), we update the sketch matrix $$\boldsymbol{C}$$ using the **FD reduce operation** as in [[1]](#ref1). That is, $$\boldsymbol{C}=\sqrt{\boldsymbol{\Sigma}^2-\sigma^2_{\ell+1}\boldsymbol{I}_{\ell+1}}\boldsymbol{V}^\top$$.
+If the top singular value $$\sigma_1^2>\varepsilon N$$, we drop the top singular value $$\sigma_1$$ from $$\boldsymbol{\Sigma}$$ and the corresponding right singular vector $$\boldsymbol{v}_1$$ ffrom $$\boldsymbol{V}$$, and save the $$\sigma_1 \cdot \boldsymbol{v}_1^\top$$ with the current timestamp $$t$$ to the queue $$\mathcal{S}$$. (The saved timestamp is used to delete outdated elements in step 1 later.) We refer to this as **dump operation**. The new sketch matrix $$\boldsymbol{C}=\boldsymbol{\Sigma}[2:,\:]\boldsymbol{V}[2:,\:]^\top$$. 
+
+<div class="w-75 mx-auto">
+  {% include video.liquid path="assets/video/swfd-2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
+
+Otherwise ($$\sigma_1^2\le\varepsilon N$$), we update the sketch matrix $$\boldsymbol{C}$$ using the **FD reduce operation** as in [[1]](#ref1). That is, $$\boldsymbol{C}=\sqrt{\boldsymbol{\Sigma}^2-\sigma^2_{\ell+1}\boldsymbol{I}_{\ell+1}}\boldsymbol{V}^\top$$.
+
+<div class="w-75 mx-auto">
+  {% include video.liquid path="assets/video/swfd-3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+</div>
 
 #### Generalization to *Unnormalized* and *Time-based* Sliding Windows
 
@@ -159,6 +171,13 @@ In our proof of the lower bound, we carefully constructed challenging adversaria
 #### Experiments
 
 We implemented all the algorithms across various data streams, both synthetic and real-world. We recorded the maximum error, average error, and the corresponding maximum space cost under different parameter settings. Our observations show that DS-FD achieves the best trade-off between error and space cost, as well as between update time and query time. These results confirm the theoretical analysis and the efficiency of our algorithm.
+
+<div class="w-75 mx-auto">
+  {% include figure.liquid loading="eager" path="assets/img/publication_preview/swfd-experiments.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+  Maximum error and maximum space cost of different algorithms under different data streams.
+</div>
 
 #### References
 

@@ -1,3 +1,17 @@
+- title: "AI TIME, <cite>Matrix Sketching and Streaming Machine Learning</cite> (矩阵略图与流数据机器学习), Oct 2024"
+  links:
+    - text: video
+      href: https://www.bilibili.com/video/BV1N12RY9EVj
+    - text: slides
+      href: ./assets/pdf/矩阵略图与流数据机器学习v6.pdf
+- title: "Academy of Mathematics and System Science, CAS, <cite>Graph Convolutional Networks: Theory and Fundamentals</cite>, Aug 2024"
+  links:
+    - text: slides
+      href: ./assets/pdf/GCN_theory_short v6.pdf
+- title: "CCF Young Computer Scientists & Engineers Forum (YOCSEF), <cite>AI4DB Algorithm with Theoretical Guarantee</cite> (有理论保证的 AI4DB 算法), Aug 2024"
+  links:
+    - text: slides
+      href: ./assets/pdf/哈尔滨-魏哲巍 final.pdf
 - title: "Classical Talk@QuACT, <cite>Sublinear-Time Algorithms for Random-Walk Probability Estimation</cite>, May 2024"
   links:
     - text: slides
@@ -10,11 +24,3 @@
   links:
     - text: slides
       href: ./assets/pdf/valse.pdf
-- title: "CCF Young Computer Scientists & Engineers Forum (YOCSEF), <cite>AI4DB Algorithm with Theoretical Guarantee</cite> (有理论保证的 AI4DB 算法), Aug 2024"
-  links:
-    - text: slides
-      href: ./assets/pdf/哈尔滨-魏哲巍 final.pdf
-- title: "Academy of Mathematics and System Science, CAS, <cite>Graph Convolutional Networks: Theory and Fundamentals</cite>, Aug 2024"
-  links:
-    - text: slides
-      href: ./assets/pdf/GCN_theory_short v6.pdf

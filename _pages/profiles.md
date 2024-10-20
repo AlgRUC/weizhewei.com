@@ -162,90 +162,118 @@ students:
     text_muted: 2023 - Present
 
   - name: Yu Liu
+    native_written_name: 刘钰
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
-      2014-2018, Lecturer of Beijing Jiaotong University<br>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)<br>(co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>), Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc Researcher)
+      <li>Lecturer of Beijing Jiaotong University</li><li>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)</li><li>Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc Researcher)</li>
     category: Graduated PhD Students
+    text_muted: 2014 - 2018 (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>)
   - name: Hanzhi Wang
+    native_written_name: 王涵之
     image: hanzhi.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      2019-2024, Postdoc Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a><br>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)<br>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship
+      <li>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)</li><li>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship</li>
     category: Graduated PhD Students
+    text_muted: 2019 - 2024
   - name: Yanping Zheng
+    native_written_name: 郑艳萍
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
-      2020-2024, Postdoc Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a><br>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) 
+      <li>Postdoc Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) </li>
     category: Graduated PhD Students
+    text_muted: 2020 - 2024
 
   - name: Suijun Tong
+    native_written_name: 童绥俊
     image: default.svg
     link: 
     more_info: >
-      2014-2017, IBM<br>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (分布式系统中单源 SimRank 算法的研究)
+      <li>IBM</li><li>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (分布式系统中单源 SimRank 算法的研究)</li>
     category: Graduated Master Students
+    text_muted: 2014 - 2017
   - name: Xiaodong He
-    image: default.svg
+    native_written_name: 何晓东
+    image: xiaodong.jpg
     link: 
     more_info: >
-      2015-2018, 4paradigm<br>Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite> (大图邻近度计算关键技术研究)
+      <li>China Securities Depository and Clearing Corporation Limited</li><li>Thesis: <cite>Scalable Computation of Node Proximity on Large Graphs</cite> (大图邻近度计算关键技术研究)</li>
     category: Graduated Master Students
+    text_muted: 2015 - 2018
   - name: Yuan Yin
-    image: default.svg
+    native_written_name: 殷源
+    image: yuan_yin.jpg
     link: 
     more_info: >
-      2016-2019, ByteDance<br>Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite> (支持有向图的高效图表示学习算法STRAP)
+      <li>ByteDance</li><li>Thesis: <cite>Scalable Graph Embeddings via Sparse Transpose Proximities</cite> (支持有向图的高效图表示学习算法STRAP)</li>
     category: Graduated Master Students
+    text_muted: 2016 - 2019
   - name: Chenmiao Yu
-    image: default.svg
+    native_written_name: 于辰淼
+    image: chenmiao.jpg
     link: 
     more_info: >
-      2016-2019, Civil Servant<br>Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite> (传统图嵌入方法与图卷积神经网络关系探究)
+      <li>Civil Servant</li><li>Thesis: <cite>A Research On The Relationship Between Traditional Graph Embedding Methods And Graph Convolutional Neural Networks</cite> (传统图嵌入方法与图卷积神经网络关系探究)</li>
     category: Graduated Master Students
+    text_muted: 2016 - 2019
   - name: Ming Chen
-    image: default.svg
+    native_written_name: 陈明
+    image: ming_chen.jpg
     link: 
     more_info: >
-      2018-2021, Central Enterprise<br>Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (可扩展的双向传播图神经网络, Outstanding master degree thesis of Renmin University of China)
+      <li>Central Enterprise</li><li>Thesis: <cite>Scalable Graph Neural Networks via Bidirectional Propagation</cite> (可扩展的双向传播图神经网络, Outstanding master degree thesis of Renmin University of China)</li>
     category: Graduated Master Students
+    text_muted: 2018 - 2021
   - name: Weirui Kuang
-    image: default.svg
+    native_written_name: 邝炜瑞
+    image: weirui.jpg
     link: https://www.weiruikuang.com/
     more_info: >
-      2018-2021, Alibaba DAMO Academy<br>Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite> (基于元路径的异构网络多视角对比学习)
+      <li>Alibaba DAMO Academy</li><li>Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite> (基于元路径的异构网络多视角对比学习)</li>
     category: Graduated Master Students
+    text_muted: 2018 - 2021
   - name: Tianjing Zeng
-    image: default.svg
+    native_written_name: 曾恬静
+    image: tianjing.jpg
     link: 
     more_info: >
-      2020-2023, Alibaba DAMO Academy<br>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)
+      <li>Alibaba DAMO Academy</li><li>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)</li>
     category: Graduated Master Students
+    text_muted: 2020 - 2023
   - name: Gengmo Zhou
+    native_written_name: 周耕墨
     image: gengmo.jpg
     link: https://zhougengmo.github.io/
     more_info: >
-      2020-2023, PhD Student of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a><br>Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite> (Uni-Mol：通用3D分子表示学习框架)
+      <li>PhD Student of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Thesis: <cite>Uni-Mol: A Universal 3D Molecular Representation Learning Framework</cite> (Uni-Mol：通用3D分子表示学习框架)</li>
     category: Graduated Master Students
+    text_muted: 2020 - 2023
   - name: Fangrui Lyu
-    image: default.svg
+    native_written_name: 吕芳锐
+    image: fangrui.jpg
     link: 
     more_info: >
-      2020-2023, China Development Bank<br>Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite> (基于日志数据的智能压缩算法研究) 
+      <li>China Development Bank</li><li>Thesis: <cite>Research on Intelligent Compression Algorithm Based on Log Data</cite> (基于日志数据的智能压缩算法研究)</li>
     category: Graduated Master Students
+    text_muted: 2020 - 2023
   - name: Ruoqi Zhang
+    native_written_name: 张若琦
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Metabit Trading<br>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)
+      <li>Metabit Trading</li><li>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)</li>
     category: Graduated Master Students
+    text_muted: 2021 - 2024
   - name: Xu Liu
+    native_written_name: 刘旭
     image: default.svg
     link: 
     more_info: >
-      2021-2024, Postal Savings Bank of China<br>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)
+      <li>Postal Savings Bank of China</li><li>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)</li>
     category: Graduated Master Students
+    text_muted: 2021 - 2024
 ---
 
 <swiper-container class="album" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" autoplay-delay="5000" rewind="true" autoplay-disable-on-interaction="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="0" coverflow-effect-stretch="-75" coverflow-effect-depth="150" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
@@ -259,7 +287,6 @@ students:
 </swiper-container>
 
 {% for category in page.display_categories %}
-  {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoc Researcher" %}
   <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category %}
   <div class="row row-cols-1 row-cols-sm-2">
@@ -296,17 +323,4 @@ students:
     </div>
   {% endfor %}
   </div>
-  {% endif %}
-{% endfor %}
-
-{% for category in page.display_categories %}
-  {% if category ==  "Graduated PhD Students" or category == "Graduated Master Students"%}
-  <h2 class="category mt-3">{{ category }}</h2>
-  {% assign categorized_projects = page.students | where: "category", category %}
-  <ul>
-  {% for project in categorized_projects %}
-      <li class="mb-1"><a href="{{ project.link }}"><b>{{ project.name }}</b></a>, {{ project.more_info }}</li>
-  {% endfor %}
-  </ul>
-  {% endif %}
 {% endfor %}
