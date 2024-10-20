@@ -4,9 +4,10 @@ title: Streaming & Sketch4ML
 description: Streaming Data Algorithms - Summary, Sketch, Synopsis - and applications in Machine Learning
 importance: 3
 category: Projects
-related_publications: true
+related_publications: false
 related_posts: false
 tabs: true
+pretty_table: true
 mermaid:
   enabled: true
   zoomable: false
@@ -98,19 +99,73 @@ The paper is accepted by VLDB 2024 and nominated for the Best Research Paper. If
 
 ### Problem Definition
 
+(**Optimal Matrix Sketching over Sliding Windows**) Suppose we have a data stream where each item is in the set $$\mathbb{R}^{d}$$. Given the error parameter $$\varepsilon$$ and window size $$N$$, the goal is to maintain a matrix sketch $$\kappa$$ such that, at the current time $$T$$, $$\kappa$$ can return an approximation $$\boldsymbol{B}_W$$ for the matrix $$\boldsymbol{A}_W=\boldsymbol{A}_{T-N,T} \in \mathbb{R}^{N\times d}$$, stacked by the recent $$N$$ items. The approximation quality is measured by the *covariance error*, such that:
+
+ $$ 
+    \mathbf{cova-error}(\boldsymbol{A}_W, \boldsymbol{B}_W) = \lVert \boldsymbol{A}^\top_W\boldsymbol{A}_W - \boldsymbol{B}^\top_W\boldsymbol{B}_W\rVert_2 \le \varepsilon \lVert\boldsymbol{A}_W\rVert_F^2,
+  $$
+
+where $$N$$ bounds the maximum size of window $$W$$.
 
 ### Method
 
+We propose the DS-FD algorithm, which is optimal in terms of space complexity for solving the matrix sketching problem over sliding windows. 
+
+#### DS-FD Algorithm for *Normalized Sequence-based* Sliding Windows
+
+First, we take a step back and consider a simplified scenario where the norm of each row is constantly 1, and each update occupies one timestamp. The window length is set to $$N$$. We refer to this as the *sequence-based* and *normalized* sliding window model. To handle this model, we maintain a sketch matrix $$\boldsymbol{C}$$ and a queue $$\mathcal{S}$$. When a row vector $$\boldsymbol{a}$$ arrives, we 
+
+1. first remove any outdated elements from the queue $$\mathcal{S}$$. Next, we concatenate the matrix $$\boldsymbol{C}$$ with the new vector $$\boldsymbol{a}$$.
+
+2. If the rank of $$\boldsymbol{C}$$ is more than $$\ell$$, we perform Singular Value Decomposition (SVD) on the concatenated matrix $$\boldsymbol{C}$$ and get $$\mathtt{svd}(\boldsymbol{C})=(\boldsymbol{U},\boldsymbol{\Sigma},\boldsymbol{V}^\top)$$.
+
+   1. If the top singular value $$\sigma_1^2>\varepsilon N$$, we drop the top singular value $$\sigma_1$$ from $$\boldsymbol{\Sigma}$$ and the corresponding right singular vector $$\boldsymbol{v}_1$$ ffrom $$\boldsymbol{V}$$, and save the $$\sigma_1 \cdot \boldsymbol{v}_1^\top$$ with the current timestamp $$t$$ to the queue $$\mathcal{S}$$. (The saved timestamp is used to delete outdated elements in step 1 later.) We refer to this as **dump operation**. The new sketch matrix $$\boldsymbol{C}=\boldsymbol{\Sigma}[2:,\:]\boldsymbol{V}[2:,\:]^\top$$. 
+
+   2. Otherwise ($$\sigma_1^2\le\varepsilon N$$), we update the sketch matrix $$\boldsymbol{C}$$ using the **FD reduce operation** as in [[1]](#ref1). That is, $$\boldsymbol{C}=\sqrt{\boldsymbol{\Sigma}^2-\sigma^2_{\ell+1}\boldsymbol{I}_{\ell+1}}\boldsymbol{V}^\top$$.
+
+#### Generalization to *Unnormalized* and *Time-based* Sliding Windows
+
+We then extend DS-FD to handle more general scenarios when the rows are *unnormalized*, where the norm of each row vector lies within the range of $$1$$ to $$R$$ ($$\lVert \boldsymbol{a}_i\rVert \in [1,R]$$), or in a *time-based* window model, where each timestamp may contain zero updates ($$\lVert \boldsymbol{a}_i\rVert \in {0} \cup [1,R]$$). In these scenarios, we can first normalize the vectors and treat the update as $$\lVert \boldsymbol{a}_i\rVert$$ time updates of the normalized vector $$\boldsymbol{a}_i$$ ($$\lVert \boldsymbol{a}_i\rVert \times \frac{\boldsymbol{a}_i}{\lVert \boldsymbol{a}_i\rVert}$$). This converts the problem into the *normalized sequence-based* model, but with a *variable window length*. The minimum window length is $$N$$, and the maximum is $$NR$$.
+
+To manage this, we initialize $$\log ⁡R$$ parallel DS-FD data structures, each with an exponentially increasing threshold to trigger the **dump operation**. The queue at each level stores no more than $${1\over\varepsilon}$$ snapshots. As a result, there will always be one DS-FD level that returns a qualified sketch at any time, and the space complexity naturally increases by a logarithm factor.
+
+<div class="w-75 mx-auto">
+  {% include figure.liquid loading="eager" path="assets/img/publication_preview/seq-dsfd.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+  DS-FD algorithm for *unnormalized* and *time-based* sliding windows model
+</div>
 
 ### Results
 
+#### Optimal Space Complexity
 
-<div class="w-75 mx-auto">
-  {% include figure.liquid loading="eager" path="assets/img/optimal2024yin.png" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
+Furthermore, we were surprised to discover that the space lower bound for the matrix sketching problem in the sliding window model is of the same order as the space complexity of DS-FD. This indicates that our DS-FD algorithm is optimal in terms of space overhead for solving the problem.
+
+| sketch $$\kappa$$ | Sequence-based<br>(normalized) | Sequence-based<br>(unnormalized) | Time-based<br>(normalized) | Time-based<br>(unnormalized) |
+|-----------------|----------------------------|-------------------------------|-------------------------|----------------------------|
+| Sampling | $$O\left(\frac{d}{\varepsilon^2} \log N\right)$$ * | $$O\left(\frac{d}{\varepsilon^2} \log NR\right)$$ * | $$O\left(\frac{d}{\varepsilon^2} \log N\right)$$ * | $$O\left(\frac{d}{\varepsilon^2} \log NR\right)$$ * |
+| LM-FD[[2]](#ref2) | $$O\left(\frac{d}{\varepsilon^2}\right)$$ | $$O\left(\frac{d}{\varepsilon^2} \log R\right)$$ | $$O\left(\frac{d}{\varepsilon^2} \log \varepsilon N\right)$$ | $$O\left(\frac{d}{\varepsilon^2} \log \varepsilon NR\right)$$ |
+| DI-FD[[2]](#ref2) | $$O\left(\frac{d}{\varepsilon} \log \frac{1}{\varepsilon}\right)$$ | $$O\left(\frac{Rd}{\varepsilon} \log \frac{R}{\varepsilon}\right)$$ | - | - |
+| **DS-FD<br>(This work)** | $$O\left(\frac{d}{\varepsilon}\right)$$ | $$O\left(\frac{d}{\varepsilon} \log R\right)$$ | $$O\left(\frac{d}{\varepsilon} \log \varepsilon N\right)$$ | $$O\left(\frac{d}{\varepsilon} \log \varepsilon NR\right)$$ |
+| **Lower bound<br>(This work)** | $$\Omega\left(\frac{d}{\varepsilon}\right)$$ | $$\Omega\left(\frac{d}{\varepsilon} \log R\right)$$ | $$\Omega\left(\frac{d}{\varepsilon} \log \varepsilon N\right)$$ | $$\Omega\left(\frac{d}{\varepsilon} \log \varepsilon NR\right)$$ |
+
 <div class="caption">
-  The space upper bound of DS-FD and lower bound in various senarios.
+  Given the dimension d of each row vector, the upper bound of relative covariance error 𝜀, and the size of the sliding window N, this table presents an overview of space complexities for algorithms addressing matrix sketching over sliding windows. An asterisk (*) indicates that the space complexity is the expected value when it is a random variable. 
 </div>
+
+In our proof of the lower bound, we carefully constructed challenging adversarial inputs against the algorithms. Our approach incorporates techniques used in the proof of the lower bound in the streaming model, as outlined in the paper on Frequent Directions[[1]](#ref1).
+
+#### Experiments
+
+We implemented all the algorithms across various data streams, both synthetic and real-world. We recorded the maximum error, average error, and the corresponding maximum space cost under different parameter settings. Our observations show that DS-FD achieves the best trade-off between error and space cost, as well as between update time and query time. These results confirm the theoretical analysis and the efficiency of our algorithm.
+
+#### References
+
+<ol>
+<li><a name="ref1"></a>Edo Liberty. 2013. <a href="https://dl.acm.org/doi/10.1145/2487575.2487623">Simple and deterministic matrix sketching</a>. In <cite>Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '13)</cite>. Association for Computing Machinery, New York, NY, USA, 581–588. https://doi.org/10.1145/2487575.2487623</li>
+<li><a name="ref2"></a>Zhewei Wei, Xuancheng Liu, Feifei Li, Shuo Shang, Xiaoyong Du, and Ji-Rong Wen. 2016. <a href="https://dl.acm.org/doi/10.1145/2882903.2915228">Matrix Sketching Over Sliding Windows</a>. In <cite>Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16)</cite>. Association for Computing Machinery, New York, NY, USA, 1465–1480. https://doi.org/10.1145/2882903.2915228</li>
+</ol>
 
 {% endtab %}
 
