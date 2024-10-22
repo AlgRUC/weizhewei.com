@@ -188,7 +188,7 @@ students:
 
   - name: Suijun Tong
     native_written_name: 童绥俊
-    image: default.svg
+    image: suijun.jpg
     link: 
     more_info: >
       <li>IBM</li><li>Thesis: <cite>Single Source SimRank Query in Distributed System</cite> (分布式系统中单源 SimRank 算法的研究)</li>
@@ -260,7 +260,7 @@ students:
     text_muted: 2020 - 2023
   - name: Ruoqi Zhang
     native_written_name: 张若琦
-    image: default.svg
+    image: ruoqi.jpg
     link: 
     more_info: >
       <li>Metabit Trading</li><li>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)</li>
@@ -268,7 +268,7 @@ students:
     text_muted: 2021 - 2024
   - name: Xu Liu
     native_written_name: 刘旭
-    image: default.svg
+    image: xu_liu.jpg
     link: 
     more_info: >
       <li>Postal Savings Bank of China</li><li>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)</li>
