@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Streaming & Sketch4ML
+nologo: true
 description: Streaming Data Algorithms - Summary, Sketch, Synopsis - and applications in Machine Learning
 importance: 3
 category: Projects

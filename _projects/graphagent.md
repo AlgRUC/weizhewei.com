@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GraphAgent
+nologo: true
 description: 
 img: 
 importance: 2

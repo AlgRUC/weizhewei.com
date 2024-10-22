@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spectral GNN
+nologo: true
 description: Spectral Graph Neural Networks
 img: assets/img/spectral_gnn.jpg
 importance: 1

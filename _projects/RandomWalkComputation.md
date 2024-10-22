@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Random Walk Computation
+nologo: true
 description: 
 img: 
 importance: 5

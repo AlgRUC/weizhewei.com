@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jittor-Geometric
+nologo: true
 description: 
 img: 
 importance: 1

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DynamicGNN
+nologo: true
 description: 
 img: 
 importance: 6

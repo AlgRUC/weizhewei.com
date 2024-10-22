@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI4DB
+nologo: true
 description: 
 img: 
 importance: 8

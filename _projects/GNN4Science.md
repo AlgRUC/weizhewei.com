@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GNN4Science
+nologo: true
 description: 
 img: 
 importance: 7
