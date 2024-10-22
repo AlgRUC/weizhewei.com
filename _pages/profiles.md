@@ -277,6 +277,7 @@ students:
 ---
 
 <swiper-container class="album" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" autoplay-delay="5000" rewind="true" autoplay-disable-on-interaction="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="0" coverflow-effect-stretch="-75" coverflow-effect-depth="150" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.10.17.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Oct 17, 2024: Getting Together" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.9.10.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 10, 2024: Celebrating Teachers' Day" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.7.1.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jul 01, 2024: Getting Together" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.9.21.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 21, 2023: Getting Together" %}</swiper-slide>
@@ -287,6 +288,7 @@ students:
 </swiper-container>
 
 {% for category in page.display_categories %}
+  {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoc Researcher" %}
   <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category %}
   <div class="row row-cols-1 row-cols-sm-2">
@@ -323,4 +325,54 @@ students:
     </div>
   {% endfor %}
   </div>
+  {% endif %}
+{% endfor %}
+
+{% for category in page.display_categories %}
+  {% if category == "Graduated PhD Students" or category == "Graduated Master Students" %}
+  <h2 class="category">{{ category }}</h2>
+  {% assign categorized_projects = page.students | where: "category", category %}
+  <div class="row row-cols-1">
+    {% for project in categorized_projects %}
+      {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
+      {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+      <div class="col my-1 px-1">
+        <div class="card hoverable h-100 d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-center align-items-center w-100">
+            <div class="col-3 d-flex justify-content-center">
+              {% if project.link | strip != "" %}
+                <a href="{{ project.link }}" class="no-decoration">
+              {% endif %}
+                <img
+                  src="{{ profile_image_path | prepend: site.baseurl }}"
+                  class="img-fluid rounded-circle d-block m-2"
+                  style="max-width: 150px; max-height: 150px; width: 100%; height: auto;"  
+                  loading="lazy"
+                />
+              {% if project.link | strip != "" %} </a> {% endif %}
+            </div>
+            <div class="col-9">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h4 class="card-title mb-1">
+                  {% if project.link | strip != "" %}
+                    <a href="{{ project.link }}">
+                  {% endif %}
+                    <b style="color: var(--global-theme-color);">{{ project.name }}</b>
+                  {% if project.link | strip != "" %}
+                    </a>
+                  {% endif %}
+                </h4>
+                <div class="mb-2"> {{ project.native_written_name }}</div>
+                <div class="text-muted">{{ project.text_muted }}</div>
+                <div class="card-text">
+                  <ul class="pl-3">{{ project.more_info }}</ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 {% endfor %}
