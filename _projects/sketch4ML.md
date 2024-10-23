@@ -14,9 +14,9 @@ mermaid:
   zoomable: false
 ---
 
-{% tabs group-name %}
+{% tabs sketch4ml %}
 
-{% tab group-name Background %}
+{% tab sketch4ml Background %}
 
 > This project focuses on the <b style="color: blue">streaming data algorithms</b>, which maintain a small data structure in memory, and the applications of these algorithms in machine learning, which are called <b style="color: blue;">Sketch4ML</b>. The streaming algorithms can be used to optimize the machine learning algorithms, which are usually memory-intensive and time-consuming. 
 {: .block-tip }
@@ -72,7 +72,7 @@ graph LR
 
 {% endtab %}
 
-{% tab group-name our work:<br>optimal matrix sketch<br>over sliding windows %}
+{% tab sketch4ml our work:<br>optimal matrix sketch<br>over sliding windows %}
 
 <!-- Badges -->
 <p>
@@ -143,7 +143,7 @@ We then extend DS-FD to handle more general scenarios when the rows are *unnorma
 To manage this, we initialize $$\log ⁡R$$ parallel DS-FD data structures, each with an exponentially increasing threshold to trigger the **dump operation**. The queue at each level stores no more than $${1\over\varepsilon}$$ snapshots. As a result, there will always be one DS-FD level that returns a qualified sketch at any time, and the space complexity naturally increases by a logarithm factor.
 
 <div class="w-75 mx-auto">
-  {% include figure.liquid loading="eager" path="assets/img/publication_preview/seq-dsfd.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid loading="eager" path="assets/img/publication_preview/seq-dsfd.svg" title="Sequence-based DS-FD" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
   DS-FD algorithm for *unnormalized* and *time-based* sliding windows model
@@ -174,13 +174,24 @@ In our proof of the lower bound, we carefully constructed challenging adversaria
 We implemented all the algorithms across various data streams, both synthetic and real-world. We recorded the maximum error, average error, and the corresponding maximum space cost under different parameter settings. Our observations show that DS-FD achieves the best trade-off between error and space cost, as well as between update time and query time. These results confirm the theoretical analysis and the efficiency of our algorithm.
 
 <div class="w-75 mx-auto">
-  {% include figure.liquid loading="eager" path="assets/img/publication_preview/swfd-experiments.png" title="example image" class="img-fluid rounded z-depth-1" %}
+  {% include figure.liquid loading="eager" path="assets/img/publication_preview/swfd-experiments.png" title="Experiment results of DS-FD" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
   Maximum error and maximum space cost of different algorithms under different data streams.
 </div>
 
-#### References
+### Citation
+
+```bibtex
+@article{yin2024optimal,
+  title={Optimal Matrix Sketching over Sliding Windows},
+  author={Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
+  journal={arXiv preprint arXiv:2405.07792},
+  year={2024}
+}
+```
+
+### References
 
 <ol>
 <li><a name="ref1"></a>Edo Liberty. 2013. <a href="https://dl.acm.org/doi/10.1145/2487575.2487623">Simple and deterministic matrix sketching</a>. In <cite>Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '13)</cite>. Association for Computing Machinery, New York, NY, USA, 581–588. https://doi.org/10.1145/2487575.2487623</li>
@@ -189,9 +200,76 @@ We implemented all the algorithms across various data streams, both synthetic an
 
 {% endtab %}
 
-{% tab group-name our work:<br>Dyadic Sketched Bandit %}
+{% tab sketch4ml our work:<br>Dyadic Sketched Bandit %}
 
-TBD
+<p>
+  <a href="https://arxiv.org/abs/2410.10258">
+    <img src="https://img.shields.io/badge/arxiv-2410.10258-b31b1b?style=flat&logo=arxiv
+" alt="arxiv" />
+  </a>
+</p>
+
+In this work, we investigates matrix sketching techniques in linear bandit settings. Current sketch-based methods can reduce time complexity but suffer from critical issues, such as linear regret when the covariance matrix’s spectral tail does not decrease fast enough. To address this, we propose Dyadic Block Sketching, an adaptive streaming matrix sketching approach that manages sketch size dynamically to avoid linear regret. This method allows sublinear regret without requiring prior knowledge of the covariance matrix. 
+
+### Problem Definition
+
+In the linear bandit setting, when a player selects an action $$\boldsymbol{x}_t$$, they receive a reward $$r_t = \boldsymbol{x}_t^{\top} \boldsymbol{\theta}_{\star} + z_t$$, where $$\boldsymbol{\theta}_{\star}$$ is an unknown vector, and $$z_t$$ is a random noise. Traditional algorithms use **regularized least squares (RLS)** to estimate $$\boldsymbol{\theta}_{\star}$$ through the matrix $$\boldsymbol{X}_{(t)}^\top\boldsymbol{X}_{(t)}$$ and the estimated $$\hat{\boldsymbol{\theta}}_t$$, which involves calculating $$(\boldsymbol{X}_{(t)}^\top\boldsymbol{X}_{(t)})^{-1}$$, the common form of the RLS estimator is defined as:
+
+$$
+  \boldsymbol{\theta}= {\color{red}(\boldsymbol{X}_{(t)}^\top\boldsymbol{X}_{(t)} + \lambda\boldsymbol{I})^{-1}}\boldsymbol{X}_{(t)}^\top\boldsymbol{r}
+$$
+
+Given $$(\boldsymbol{X}_{(t-1)}^\top\boldsymbol{X}_{(t-1)} + \lambda\boldsymbol{I})^{-1}$$ and $$\boldsymbol{x}_{(t)}$$. The update process to get the red part above
+
+$$
+  (\boldsymbol{X}_{(t)}^\top\boldsymbol{X}_{(t)} + \lambda\boldsymbol{I})^{-1}=(\boldsymbol{X}_{(t-1)}^\top\boldsymbol{X}_{(t-1)} + \boldsymbol{x}_{(t)}\boldsymbol{x}_{(t)}^{\top} + \lambda\boldsymbol{I})^{-1}
+$$
+
+takes a lot of time, about $$\Omega(d^2)$$, where $$d$$ is the dimension of the data.
+
+To speed this up, sketch-based methods approximate the matrix $$\boldsymbol{X}^{(t)}$$ (containing all actions up to round $$t$$) using a smaller sketch matrix $$\boldsymbol{S}^{(t)}$$, reducing the time complexity. For example, using Frequent Directions (FD), the sketch matrix $$\boldsymbol{S}^{(t)}$$ is updated, and the covariance matrix’s inverse is calculated more efficiently. This reduces the time complexity for matrix-vector operations to $$O(ld)$$ and for matrix-matrix operations to $$O(l^2)$$, where $$l$$ is the sketch size, significantly improving computation from $$\Omega(d^2)$$ to $$O(ld + l^2)$$.
+
+### Current Pitfalls
+
+Our analysis is based on the original Frequent Directions (FD) method. To explain our motivation, we first present the regret bound for the linear bandit using FD. The sum of the squared singular values reduced by FD up to round $$T$$ is denoted by $$ \overline{\sigma} = \sum_{t=1}^{T} \left(\sigma_{l}^{(t)}\right)^2 $$, where $$l$$ is the sketch size. This can be bounded by the *spectral error* $$ \Delta_T $$:
+
+$$
+\Delta_T := \min_{k<l}\frac{\left\Vert\boldsymbol{X}^{(T)}-\boldsymbol{X}^{(T)}_{[k]}\right\Vert_F^2}{l-k}.
+$$
+
+Consequently, the regret of the sketch-based linear bandit is:
+
+$$
+\text{Regret}_T =  \tilde{O}\left((1 + \Delta_T)^{\frac{3}{2}} (l+d\log(1+\Delta_T))\sqrt{T}\right).
+$$
+
+If $$\Delta_T = T^{\gamma}$$ and $$\gamma > \frac{1}{3}$$, the regret grows linearly with $$T$$, which is undesirable. This highlights a key issue: the sketch size is crucial. If it's too small to capture the spectral information, linear regret is inevitable.
+
+### Dyadic Block Sketching
+
+We propose Dyadic Block Sketching with a constrained global error bound and provide formal theoretical guarantees. By leveraging Dyadic Block Sketching, we present a framework for efficient sketch-based linear bandits. When the error exceeds a given threshold, a new sketch matrix is created, with its size doubled. The sketch size is adjusted adaptively based on the data, according to a pre-set maximum sketch approximation error. Even in the worst-case scenario, our method can achieve sublinear regret without prior knowledge of the covariance matrix. 
+
+<div class="w-75 mx-auto">
+  {% include figure.liquid loading="lazy" path="assets/img/publication_preview/dbsbandit.webp" title="Dydic Block Sketching" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+  An illustration for Dyadic Block Sketching
+</div>
+
+For detailed algorithm and analysis, please refer to the paper:
+
+{% bibliography --query @*[key=wen2024matrix]* %}
+
+### Citation
+
+```bibtex
+@article{wen2024matrix,
+  title={Matrix Sketching in Bandits: Current Pitfalls and New Framework},
+  author={Wen, Dongxie and Yin, Hanyan and Zhang, Xiao and Wei, Zhewei},
+  journal={arXiv preprint arXiv:2410.10258},
+  year={2024}
+}
+```
 
 {% endtab %}
 

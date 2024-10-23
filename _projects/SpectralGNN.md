@@ -1,34 +1,38 @@
 ---
-layout: post
+layout: page
 title: Spectral GNN
 nologo: true
 description: Spectral Graph Neural Networks
-img: assets/img/spectral_gnn.jpg
 importance: 1
 category: works
-related_publications: true
+related_publications: false
 related_posts: false
-toc:
-  beginning: true
+tabs: true
 ---
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+{% tabs spectralgnn %}
 
-Spectral Graph Neural Networks (**Spectral GNNs**) are a class of neural networks designed to operate on graph-structured data, leveraging spectral methods to analyze the properties of graphs. They employ the graph Laplacian matrix, which encapsulates the structure of the graph, and use its eigenvalues and eigenvectors to process signals on the graph's nodes and edges. By transforming graph data into the spectral domain, Spectral GNNs can efficiently capture global and local graph patterns.
+{% tab spectralgnn Background %}
+
+> Spectral Graph Neural Networks (**Spectral GNNs**) are a class of neural networks designed to operate on graph-structured data, leveraging spectral methods to analyze the properties of graphs. They employ the graph Laplacian matrix, which encapsulates the structure of the graph, and use its eigenvalues and eigenvectors to process signals on the graph's nodes and edges. By transforming graph data into the spectral domain, Spectral GNNs can efficiently capture global and local graph patterns. This page is a collection of our work on SpectralGNNs.
+{: .block-tip }
+
+<div class="mx-auto">
+  {% include figure.liquid loading="eager" path="assets/img/publication_preview/Spectral.svg" title="Spectral GNNs" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+  Evolution of Spectral Graph Neural Networks
+</div>
 
 Spectral GNNs often involve computationally expensive operations like eigen-decomposition, which limits scalability to large graphs. However, recent advancements have focused on improving efficiency by approximating these operations, making Spectral GNNs applicable to real-world tasks such as node classification, link prediction, and graph clustering. These models are particularly effective in applications where the structural information of the graph plays a critical role, including social networks, recommendation systems, and bioinformatics.
 
-This page is a collection of our work on SpectralGNNs.
+{% endtab %}
 
-
-## Spectral GNNs
-
+{% tab spectralgnn pshgcn %}
 
 ### Spectral Heterogeneous Graph Convolutions via Positive Noncommutative Polynomials {% cite He_2024 %} [[WWW 2024](https://www2024.thewebconf.org/)]
 
-<!-- Badges -->
 <p>
   <a href="https://arxiv.org/abs/2305.19872">
     <img src="https://img.shields.io/badge/arxiv-2305.19872-b31b1b?style=flat&logo=arxiv
@@ -41,6 +45,8 @@ This page is a collection of our work on SpectralGNNs.
     <img src="https://img.shields.io/github/stars/ivam-he/PSHGCN" alt="stars" />
   </a>
 </p>
+
+{% bibliography --query @*[key=He_2024]* %}
 
 #### Citation
 
@@ -70,6 +76,8 @@ This page is a collection of our work on SpectralGNNs.
 }
 ```
 
+{% endtab %}
+{% tab spectralgnn Far Opt Basis %}
 
 ### Graph Neural Networks with Learnable and Optimal Polynomial Bases {% cite guo2023graph %} [[ICML 2023](https://icml.cc/Conferences/2023)]
 
@@ -86,6 +94,8 @@ This page is a collection of our work on SpectralGNNs.
     <img src="https://img.shields.io/github/stars/yuziGuo/FarOptBasis" alt="stars" />
   </a>
 </p>
+
+{% bibliography --query @*[key=guo2023graph]* %}
 
 #### Citation
 
@@ -111,6 +121,8 @@ This page is a collection of our work on SpectralGNNs.
 }
 ```
 
+{% endtab %}
+{% tab spectralgnn clenshaw GNN %}
 
 ### Clenshaw Graph Neural Networks {% cite Guo_2023 %} [[KDD 2023](https://kdd.org/kdd2023/index.html#)]
 
@@ -127,6 +139,8 @@ This page is a collection of our work on SpectralGNNs.
     <img src="https://img.shields.io/github/stars/yuziGuo/ClenshawGNN" alt="stars" />
   </a>
 </p>
+
+{% bibliography --query @*[key=Guo_2023]* %}
 
 #### Citation
 
@@ -153,6 +167,8 @@ This page is a collection of our work on SpectralGNNs.
 }
 ```
 
+{% endtab %}
+{% tab spectralgnn EvenNet %}
 
 ### EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks {% cite lei2022evennet %} [[NeurIPS 2022](https://nips.cc/Conferences/2022)]
 
@@ -170,6 +186,8 @@ This page is a collection of our work on SpectralGNNs.
   </a>
 </p>
 
+{% bibliography --query @*[key=lei2022evennet]* %}
+
 #### Citation
 
 ```bibtex
@@ -180,6 +198,9 @@ This page is a collection of our work on SpectralGNNs.
   year={2022}
 }
 ```
+
+{% endtab %}
+{% tab spectralgnn ChebNetII %}
 
 ### ChebNetII: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation {% cite he2022convolutional %} [[NeurIPS 2022](https://nips.cc/Conferences/2022)]
 
@@ -197,6 +218,8 @@ This page is a collection of our work on SpectralGNNs.
   </a>
 </p>
 
+{% bibliography --query @*[key=he2022convolutional]* %}
+
 #### Citation
 
 ```bibtex
@@ -207,6 +230,9 @@ This page is a collection of our work on SpectralGNNs.
   year={2022}
 }
 ```
+
+{% endtab %}
+{% tab spectralgnn Bern net %}
 
 ### BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation {% cite he2021bernnet %} [[NeurIPS 2021](https://nips.cc/Conferences/2021)]
 
@@ -224,6 +250,8 @@ This page is a collection of our work on SpectralGNNs.
   </a>
 </p>
 
+{% bibliography --query @*[key=he2021bernnet]* %}
+
 #### Citation
 
 ```bibtex
@@ -234,3 +262,6 @@ This page is a collection of our work on SpectralGNNs.
   year={2021}
 }
 ```
+
+{% endtab %}
+{% endtabs %}

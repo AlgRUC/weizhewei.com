@@ -1,0 +1,1467 @@
+---
+---
+
+# preprints
+
+@preprint{wen2024matrix,
+  title={Matrix Sketching in Bandits: Current Pitfalls and New Framework},
+  author={Wen, Dongxie and Yin, Hanyan and Zhang, Xiao and Wei, Zhewei},
+  journal={arXiv preprint arXiv:2410.10258},
+  year={2024},
+  html={https://arxiv.org/abs/2410.10258}
+}
+
+@preprint{cui2024rethinking,
+  author       = {Guanyu Cui and
+                  Zhewei Wei and
+                  Hsin-Hao Su},
+  title        = {Rethinking the Expressiveness of GNNs: A Computational Model Perspective},
+  eprinttype   = {arXiv},
+  year         = {2024},
+  html         = {https://doi.org/10.48550/arXiv.2410.01308}
+}
+
+# journal articles
+
+
+@article{kuang2024transformer,
+	title = {When Transformer Meets Large Graphs: An Expressive and Efficient Two-View Architecture},
+	ISSN = {2326-3865},
+	html = {http://dx.doi.org/10.1109/tkde.2024.3381125},
+	DOI = {10.1109/tkde.2024.3381125},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Kuang, Weirui and Wang, Zhen and Wei, Zhewei and Li, Yaliang and Ding, Bolin},
+	year = {2024},
+	pages = {1–13},
+	abbr = {TKDE},
+	html = {https://ieeexplore.ieee.org/document/10479175}
+}
+
+
+@article{zheng2024survey,
+	abbr = {FCS},
+	author = {Zheng, Yanping and Yi, Lu and Wei*, Zhewei},
+	title = {A Survey of Dynamic Graph Neural Networks},
+	publisher = {Front. Comput. Sci.},
+	year = {2024},
+	journal = {Frontiers of Computer Science},
+	doi = {10.1007/s11704-024-3853-2},
+	html = {https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-3853-2}
+}
+
+
+@article{wang2024survey,
+	title = {A Survey on Large Language Model Based Autonomous Agents},
+	volume = {18},
+	ISSN = {2095-2236},
+	html = {http://dx.doi.org/10.1007/s11704-024-40231-1},
+	DOI = {10.1007/s11704-024-40231-1},
+	number = {6},
+	journal = {Frontiers of Computer Science},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and Zhao, Wayne Xin and Wei, Zhewei and Wen, Ji-Rong},
+	year = {2024},
+	month = {mar},
+	abbr = {FCS},
+	html = {https://link.springer.com/article/10.1007/s11704-024-40231-1},
+	arxiv = {2308.11432}
+}
+
+
+@article{yang2024efficient,
+	title = {Efficient Algorithms for Personalized PageRank Computation: A Survey},
+	volume = {36},
+	ISSN = {2326-3865},
+	html = {http://dx.doi.org/10.1109/tkde.2024.3376000},
+	DOI = {10.1109/tkde.2024.3376000},
+	number = {9},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Yang, Mingji and Wang, Hanzhi and Wei*, Zhewei and Wang, Sibo and Wen, Ji-Rong},
+	year = {2024},
+	month = {sep},
+	pages = {4582–4602},
+	abbr = {TKDE},
+	html = {https://doi.org/10.1109/TKDE.2024.3376000},
+	arxiv = {2403.05198}
+}
+
+
+@article{hu2023enabling,
+	title = {Enabling Efficient Random Access to Hierarchically Compressed Text Data on Diverse GPU Platforms},
+	volume = {34},
+	ISSN = {2161-9883},
+	html = {http://dx.doi.org/10.1109/tpds.2023.3294341},
+	DOI = {10.1109/tpds.2023.3294341},
+	number = {10},
+	journal = {IEEE Transactions on Parallel and Distributed Systems},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Hu, Yihua and Zhang, Feng and Xia, Yifei and Yao, Zhiming and Zeng, Letian and Ding, Haipeng and Wei, Zhewei and Zhang, Xiao and Zhai, Jidong and Du, Xiaoyong and Ma, Siqi},
+	year = {2023},
+	month = {oct},
+	pages = {2699–2717},
+	html = {https://ieeexplore.ieee.org/document/10178044},
+	abbr = {TPDS}
+}
+
+
+@article{guo2022influence,
+	title = {Influence Maximization Revisited: Efficient Sampling with Bound Tightened},
+	volume = {47},
+	ISSN = {1557-4644},
+	html = {http://dx.doi.org/10.1145/3533817},
+	DOI = {10.1145/3533817},
+	number = {3},
+	journal = {ACM Transactions on Database Systems},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Guo, Qintian and Wang, Sibo and Wei, Zhewei and Lin, Wenqing and Tang, Jing},
+	year = {2022},
+	month = {aug},
+	pages = {1–45},
+	html = {https://dl.acm.org/doi/pdf/10.1145/3533817},
+	abbr = {TODS}
+}
+
+
+@article{zeng2022persistent,
+	title = {Persistent Summaries},
+	volume = {47},
+	ISSN = {1557-4644},
+	html = {http://dx.doi.org/10.1145/3531053},
+	DOI = {10.1145/3531053},
+	number = {3},
+	journal = {ACM Transactions on Database Systems},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Zeng, Tianjing and Wei*, Zhewei and Luo, Ge and Yi, Ke and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2022},
+	month = {aug},
+	pages = {1–42},
+	html = {https://dl.acm.org/doi/10.1145/3531053},
+	abbr = {TODS},
+	selected = {true},
+	field = {Streaming Algorithms},
+	abstract = {We propose the persistent summaries for streaming algorithms, enabling them to answer queries about the streaming data at any prior time.}
+}
+
+
+@article{liu2022building,
+	title = {Building Graphs at Scale via Sequence of Edges: Model and Generation Algorithms},
+	volume = {34},
+	ISSN = {2326-3865},
+	html = {http://dx.doi.org/10.1109/tkde.2021.3081624},
+	DOI = {10.1109/tkde.2021.3081624},
+	number = {12},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Liu, Yu and Zou, Lei and Wei, Zhewei},
+	year = {2022},
+	month = {dec},
+	pages = {5649–5663},
+	html = {https://ieeexplore.ieee.org/document/9435056/},
+	abbr = {TKDE}
+}
+
+
+@article{wang2021exactsim,
+	title = {ExactSim: Benchmarking Single-Source SimRank Algorithms with High-Precision Ground Truths},
+	volume = {30},
+	ISSN = {0949-877X},
+	html = {http://dx.doi.org/10.1007/s00778-021-00672-7},
+	DOI = {10.1007/s00778-021-00672-7},
+	number = {6},
+	journal = {The VLDB Journal},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Wang, Hanzhi and Wei*, Zhewei and Liu, Yu and Yuan, Ye and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2021},
+	month = {jun},
+	pages = {989–1015},
+	html = {https://link.springer.com/article/10.1007/s00778-021-00672-7}
+}
+
+
+@article{yang2020gamebased,
+	title = {A Game-Based Framework for Crowdsourced Data Labeling},
+	volume = {29},
+	ISSN = {0949-877X},
+	html = {http://dx.doi.org/10.1007/s00778-020-00613-w},
+	DOI = {10.1007/s00778-020-00613-w},
+	number = {6},
+	journal = {The VLDB Journal},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Yang, Jingru and Fan, Ju and Wei, Zhewei and Li, Guoliang and Liu, Tongyu and Du, Xiaoyong},
+	year = {2020},
+	month = {may},
+	pages = {1311–1336},
+	html = {https://link.springer.com/article/10.1007/s00778-020-00613-w}
+}
+
+
+@article{wang2019efficient,
+	title = {Efficient Algorithms for Approximate Single-Source Personalized PageRank Queries},
+	volume = {44},
+	ISSN = {1557-4644},
+	html = {http://dx.doi.org/10.1145/3360902},
+	DOI = {10.1145/3360902},
+	number = {4},
+	journal = {ACM Transactions on Database Systems},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Wang, Sibo and Yang, Renchi and Wang, Runhui and Xiao, Xiaokui and Wei*, Zhewei and Lin, Wenqing and Yang, Yin and Tang, Nan},
+	year = {2019},
+	month = {oct},
+	pages = {1–37},
+	arxiv = {1908.10583},
+	html = {https://dl.acm.org/doi/10.1145/3360902},
+	abbr = {TODS}
+}
+
+
+@article{shang2019parallel,
+	title = {Parallel Trajectory-to-Location Join},
+	volume = {31},
+	ISSN = {2326-3865},
+	html = {http://dx.doi.org/10.1109/tkde.2018.2854705},
+	DOI = {10.1109/tkde.2018.2854705},
+	number = {6},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Shang, Shuo and Chen, Lisi and Zheng, Kai and Jensen, Christian S. and Wei, Zhewei and Kalnis, Panos},
+	year = {2019},
+	month = {jun},
+	pages = {1194–1207},
+	html = {https://link.springer.com/article/10.1007/s00778-017-0485-2},
+	abbr = {TKDE}
+}
+
+
+@article{fan2019distributionaware,
+	title = {Distribution-Aware Crowdsourced Entity Collection},
+	volume = {31},
+	ISSN = {2326-3865},
+	html = {http://dx.doi.org/10.1109/tkde.2016.2611509},
+	DOI = {10.1109/tkde.2016.2611509},
+	number = {7},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+	author = {Fan, Ju and Wei, Zhewei and Zhang, Dongxiang and Yang, Jingru and Du, Xiaoyong},
+	year = {2019},
+	month = {jul},
+	pages = {1312–1326},
+	html = {https://ieeexplore.ieee.org/document/7572151},
+	abbr = {TKDE}
+}
+
+
+@article{wei2018tight,
+	title = {Tight Space Bounds for Two-Dimensional Approximate Range Counting},
+	volume = {14},
+	ISSN = {1549-6333},
+	html = {http://dx.doi.org/10.1145/3205454},
+	DOI = {10.1145/3205454},
+	number = {2},
+	journal = {ACM Transactions on Algorithms},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Wei, Zhewei and Yi, Ke},
+	year = {2018},
+	month = {apr},
+	pages = {1–17},
+	html = {https://doi.org/10.1145/3205454},
+	abbr = {TALG},
+	selected = {true},
+	field = {Data Structures},
+	abstract = {We study the problem of two-dimensional orthogonal range counting with additive error and give tight space bounds.}
+}
+
+
+@article{lin2017optimal,
+	title = {Optimal Algorithms for Selecting Top-k Combinations of Attributes: Theory and Applications},
+	volume = {27},
+	ISSN = {0949-877X},
+	html = {http://dx.doi.org/10.1007/s00778-017-0485-2},
+	DOI = {10.1007/s00778-017-0485-2},
+	number = {1},
+	journal = {The VLDB Journal},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Lin, Chunbin and Lu, Jiaheng and Wei, Zhewei and Wang, Jianguo and Xiao, Xiaokui},
+	year = {2017},
+	month = {oct},
+	pages = {27–52},
+	html = {https://link.springer.com/article/10.1007/s00778-017-0485-2}
+}
+
+
+@article{shang2018parallel,
+	title = {Parallel Trajectory Similarity Joins in Spatial Networks},
+	volume = {27},
+	ISSN = {0949-877X},
+	html = {http://dx.doi.org/10.1007/s00778-018-0502-0},
+	DOI = {10.1007/s00778-018-0502-0},
+	number = {3},
+	journal = {The VLDB Journal},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Shang, Shuo and Chen, Lisi and Wei, Zhewei and Jensen, Christian S. and Zheng, Kai and Kalnis, Panos},
+	year = {2018},
+	month = {apr},
+	pages = {395–420},
+	html = {https://link.springer.com/article/10.1007/s00778-018-0502-0}
+}
+
+
+@article{shang2016dynamic,
+	title = {Dynamic Shortest Path Monitoring in Spatial Networks},
+	volume = {31},
+	ISSN = {1860-4749},
+	html = {http://dx.doi.org/10.1007/s11390-016-1653-3},
+	DOI = {10.1007/s11390-016-1653-3},
+	number = {4},
+	journal = {Journal of Computer Science and Technology},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Shang, Shuo and Chen, Lisi and Wei, Zhewei and Guo*, Danhuai and Wen, Ji-Rong},
+	year = {2016},
+	month = {jul},
+	pages = {637–648},
+	html = {https://link.springer.com/article/10.1007/s11390-016-1653-3},
+	abbr = {JCST}
+}
+
+
+@article{shang2015collective,
+	title = {Collective Travel Planning in Spatial Networks},
+	author = {Shang, Shuo and Chen, Lisi and Wei, Zhewei and Jensen, Christian S and Wen, Ji-Rong and Kalnis, Panos},
+	journal = {IEEE Transactions on Knowledge and Data Engineering},
+	volume = {28},
+	number = {5},
+	pages = {1132--1146},
+	year = {2015},
+	publisher = {IEEE},
+	html = {https://dl.acm.org/doi/abs/10.1109/TKDE.2015.2509998},
+	abbr = {TKDE}
+}
+
+
+@article{pagh2013cacheoblivious,
+	title = {**Cache-Oblivious Hashing},
+	volume = {69},
+	ISSN = {1432-0541},
+	html = {http://dx.doi.org/10.1007/s00453-013-9763-6},
+	DOI = {10.1007/s00453-013-9763-6},
+	number = {4},
+	journal = {Algorithmica},
+	publisher = {Springer Science and Business Media LLC},
+	author = {Pagh, Rasmus and Wei, Zhewei and Yi, Ke and Zhang, Qin},
+	year = {2013},
+	month = {mar},
+	pages = {864–883},
+	abstract = {We investigate the construction of cache-oblivious hash table and study the linear probing and block probing algorithms in cache-oblivious settings.}
+}
+
+
+@article{yi2014indexing,
+	title = {Indexing for Summary Queries: Theory and Practice},
+	volume = {39},
+	ISSN = {1557-4644},
+	html = {http://dx.doi.org/10.1145/2508702},
+	DOI = {10.1145/2508702},
+	number = {1},
+	journal = {ACM Transactions on Database Systems},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Yi, Ke and Wang, Lu and Wei*, Zhewei},
+	year = {2014},
+	month = {jan},
+	pages = {1–39},
+	abbr = {TODS},
+	selected = {true},
+	field = {Data Structures},
+	abstract = {We design efficient indexing techniques that enable extracting statistical summaries, such as frequent items, quantiles, and sketches with linear space requirements and optimal or near-optimal query cost.}
+}
+
+
+@article{agarwal2013mergeable,
+	title = {**Mergeable Summaries},
+	author = {Agarwal, Pankaj K and Cormode, Graham and Huang, Zengfeng and Phillips, Jeff M and Wei, Zhewei and Yi, Ke},
+	journal = {ACM Transactions on Database Systems},
+	volume = {38},
+	number = {4},
+	pages = {1--28},
+	year = {2013},
+	publisher = {ACM New York, NY, USA},
+	html = {https://dl.acm.org/doi/10.1145/2500128},
+	abbr = {TODS}
+}
+
+
+# Conference Articles
+
+@inproceedings{lei2024intruding,
+	title = {Intruding with Words: Towards Understanding Graph Injection Attacks at the Text Level},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	author = {Lei, Runlin and Hu, Yuwei and Ren, Yuchen and Wei, Zhewei},
+	year = {2024},
+	abbr = {NeurIPS},
+	toappear = {true}
+}
+
+
+@inproceedings{zhou2024smolsearch,
+	title = {S-MolSearch: 3D Semi-Supervised Contrastive Learning for Bioactive Molecule Search},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	author = {Zhou, Gengmo and Wang, Zhen and Yu, Feng and Ke, Guolin and Wei, Zhewei and Gao, Zhifeng},
+	year = {2024},
+	abbr = {NeurIPS},
+	toappear = {true}
+}
+
+
+@inproceedings{ji2024srapagent,
+	title = {SRAP-Agent: Simulating and Optimizing Scarce Resource Allocation Policy with LLM-Based Agent},
+	booktitle = {Conference on Empirical Methods in Natural Language Processing},
+	author = {Ji, Jiarui and Li, Yang and Liu, Hongtao and Du, Zhicheng and Wei, Zhewei and Qi, Qi and Shen, Weiran and Lin, Yankai},
+	year = {2024},
+	abbr = {EMNLP Findings},
+	toappear = {true}
+}
+
+
+@inproceedings{peng2024oversmoothing,
+	title = {Beyond Over-smoothing: Uncovering the Trainability Challenges in Deep Graph Neural Networks},
+	author = {Jie Peng and
+              Runlin Lei and
+              Zhewei Wei*},
+	booktitle = {The Conference on Information and Knowledge Management},
+	abbr = {CIKM},
+	year = {2024},
+	toappear = {true},
+	arxiv = {2408.03669}
+}
+
+
+@inproceedings{feng2024federated,
+	title = {Federated Heterogeneous Contrastive Distillation for Molecular Representation Learning},
+	author = {Jinjia Feng and
+              Zhen Wang and
+              Zhewei Wei* and
+			  Hongteng Xu and
+			  Yaliang Li and
+			  Bolin Ding},
+	booktitle = {The Conference on Information and Knowledge Management},
+	abbr = {CIKM},
+	year = {2024},
+	toappear = {true}
+}
+
+
+@inproceedings{ma2024polyformer,
+	series = {KDD ’24},
+	title = {PolyFormer: Scalable Node-wise Filters via Polynomial Graph Transformer},
+	volume = {202},
+	html = {http://dx.doi.org/10.1145/3637528.3671849},
+	DOI = {10.1145/3637528.3671849},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Ma, Jiahong and He, Mingguo and Wei*, Zhewei},
+	year = {2024},
+	month = {aug},
+	pages = {2118–2129},
+	collection = {KDD ’24},
+	abbr = {KDD},
+	arxiv = {2407.14459}
+}
+
+
+@inproceedings{Zhang_2024,
+	title = {EquiPocket: an E(3)-Equivariant Geometric Graph Neural Network for Ligand Binding Site Prediction},
+	author = {Zhang, Yang and Huang*, Wenbing and Wei*, Zhewei and Yuan, Ye and Li, Chongxuan},
+	booktitle = {International Conference on Machine Learning},
+	award = {Oral},
+	year = {2024},
+	arxiv = {2302.12177},
+	abbr = {ICML},
+	selected = {true},
+	field = {AI for Science},
+	html = {https://openreview.net/forum?id=1vGN3CSxVs},
+	abstract = {We propose EquiPocket, the first equivariant GNN-based method for ligand binding site prediction.}
+}
+
+
+@inproceedings{yin2024optimal,
+	booktitle = {International Conference on Very Large Data Bases},
+	abbr = {VLDB},
+	award = {Best Paper Nomination},
+	title = {Optimal Matrix Sketching over Sliding Windows},
+	author = {Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei*, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
+	arxiv = {2405.07792},
+	code = {https://github.com/yinhanyan/DS-FD},
+	doi = {10.14778/3665844.3665847},
+	html = {https://dl.acm.org/doi/10.14778/3665844.3665847},
+	year = {2024},
+	month = {aug},
+	field = {Streaming Algorithms},
+	volume = {17},
+	issue = {9},
+	pages = {2149--2161},
+	poster = {yin2024optimal_poster.pdf},
+	slides = {yin2024optimal_slides.pptx},
+	selected = {true},
+	abstract = {We introduce the DS-FD algorithm, which achieves the optimal \(O\left(d/\varepsilon\right)\)~space bound for matrix sketching over sliding windows.}
+}
+
+
+@inproceedings{Zhang2022predicting,
+	title = {HierAffinity: Predicting Protein-Ligand Binding Affinity With Hierarchical Modeling},
+	abbr = {DASFAA},
+	booktitle = {International Conference on Database Systems for Advanced Applications},
+	author = {Zhang, Yang and Wei*, Zhewei and Huang*, Wenbing and Li, Chongxuan},
+	year = {2024},
+	html = {https://doi.org/10.1007/978-981-97-5575-2_3}
+}
+
+
+@inproceedings{Li_2024,
+	title = {Learning-based Property Estimation with Polynomials},
+	volume = {2},
+	ISSN = {2836-6573},
+	html = {http://dx.doi.org/10.1145/3654994},
+	DOI = {10.1145/3654994},
+	number = {3},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Li, Jiajun and Lei, Runlin and Wang, Sibo and Wei*, Zhewei and Ding, Bolin},
+	year = {2024},
+	month = {may},
+	pages = {1–27},
+	html = {https://dl.acm.org/doi/abs/10.1145/3654994},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{wang2024revisiting,
+	series = {STOC ’24},
+	title = {**Revisiting Local Computation of PageRank: Simple and Optimal},
+	html = {http://dx.doi.org/10.1145/3618260.3649661},
+	DOI = {10.1145/3618260.3649661},
+	booktitle = {Annual ACM Symposium on Theory of Computing},
+	publisher = {ACM},
+	author = {Wang, Hanzhi and Wei*, Zhewei and Wen, Ji-Rong and Yang, Mingji},
+	year = {2024},
+	month = {jun},
+	collection = {STOC ’24},
+	html = {https://dl.acm.org/doi/10.1145/3618260.3649661},
+	arxiv = {2403.12648},
+	abbr = {STOC},
+	selected={true},
+	field = {Graph Algorithms},
+	abstract = {We use simple techniques and analyses to give matching upper and lower bounds for estimating PageRank contributions and single-node PageRank. Our results for the upper bounds are derived by revisiting the known algorithms of ApproxContributions (a.k.a. Backward Push) and BiPPR.},
+	video = {https://www.youtube.com/watch?v=ipWgICjGfRU},
+	slides = {./STOC24.pptx}
+}
+
+
+@inproceedings{wang2024exploring,
+	series = {WWW ’24},
+	title = {Exploring Neural Scaling Law and Data Pruning Methods For Node Classification on Large-scale Graphs},
+	award = {Oral},
+	volume = {201},
+	DOI = {10.1145/3589334.3645571},
+	booktitle = {The Web Conference},
+	publisher = {ACM},
+	author = {Wang, Zhen and Li, Yaliang and Ding, Bolin and Li, Yule and Wei, Zhewei},
+	year = {2024},
+	month = {may},
+	pages = {780–791},
+	collection = {TheWebConf},
+	abbr = {TheWebConf},
+	html = {https://dl.acm.org/doi/10.1145/3589334.3645571}
+}
+
+
+@inproceedings{He_2024,
+	series = {WWW ’24},
+	title = {Spectral Heterogeneous Graph Convolutions via Positive Noncommutative Polynomials},
+	award = {Oral},
+	volume = {202},
+	DOI = {10.1145/3589334.3645515},
+	booktitle = {The Web Conference},
+	publisher = {ACM},
+	author = {He, Mingguo and Wei*, Zhewei and Feng, Shikun and Huang, Zhengjie and Li, Weibin and Sun, Yu and Yu, Dianhai},
+	year = {2024},
+	month = {may},
+	pages = {685–696},
+	collection = {WWW ’24},
+	html = {https://dl.acm.org/doi/10.1145/3589334.3645515},
+	arxiv = {2305.19872},
+	abbr = {TheWebConf}
+}
+
+
+@inproceedings{chen2024polygcl,
+	title = {PolyGCL: GRAPH CONTRASTIVE LEARNING via Learnable Spectral Polynomial Filters},
+	author = {Chen, Jingyu and Lei, Runlin and Wei*, Zhewei},
+	booktitle = {International Conference on Learning Representations},
+	year = {2024},
+	html = {https://openreview.net/forum?id=y21ZO6M86t},
+	abbr = {ICLR},
+	award = {Spotlight},
+	selected = {true},
+	field = {Graph Learning},
+	abstract = {We propose POLYGCL, a GCL pipeline that utilizes polynomial filters to achieve contrastive learning between the low-pass and highpass views.},
+	code = {https://github.com/ChenJY-Count/PolyGCL}
+}
+
+
+@inproceedings{wei2024approximating,
+	title = {**Approximating Single-Source Personalized PageRank with Absolute Error Guarantees},
+	author = {Wei, Zhewei and Wen, Ji-Rong and Yang, Mingji},
+	booktitle = {International Conference on Database Theory},
+	year = {2024},
+	html = {https://doi.org/10.4230/LIPIcs.ICDT.2024.9},
+	arxiv = {2401.01019},
+	abbr = {ICDT}
+}
+
+
+@inproceedings{zhou2023deep,
+	title = {Do Deep Learning Methods Really Perform Better in Molecular Conformation Generation?},
+	author = {Zhou, Gengmo and Gao, Zhifeng and Wei, Zhewei and Zheng, Hang and Ke, Guolin},
+	booktitle = {International Conference on Learning Representations},
+	award = {MLDD Oral},
+	year = {2023},
+	html = {https://openreview.net/forum?id=W-Ikct539G},
+	arxiv = {2302.07061},
+	abbr = {ICLR}
+}
+
+
+@inproceedings{Wang_2023,
+	title = {Estimating Single-Node PageRank in \(\tilde\{O\}\left(\min\\{d_t, \sqrt\{m\}\\}\right)\) Time},
+	volume = {16},
+	ISSN = {2150-8097},
+	DOI = {10.14778/3611479.3611500},
+	number = {11},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Wang, Hanzhi and Wei*, Zhewei},
+	year = {2023},
+	month = {jul},
+	pages = {2949–2961},
+	html = {https://dl.acm.org/doi/10.14778/3611479.3611500},
+	arxiv = {2307.13162},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{Cui_2023,
+	series = {KDD ’23},
+	title = {MGNN: Graph Neural Networks Inspired by Distance Geometry Problem},
+	DOI = {10.1145/3580305.3599431},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Cui, Guanyu and Wei*, Zhewei},
+	year = {2023},
+	month = {aug},
+	collection = {KDD ’23},
+	html = {https://dl.acm.org/doi/10.1145/3580305.3599431},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Yi_2023,
+	series = {KDD ’23},
+	title = {Optimal Dynamic Subset Sampling: Theory and Applications},
+	DOI = {10.1145/3580305.3599458},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Yi, Lu and Wang, Hanzhi and Wei*, Zhewei},
+	year = {2023},
+	month = {aug},
+	collection = {KDD ’23},
+	html = {https://dl.acm.org/doi/10.1145/3580305.3599458},
+	arxiv = {2305.18785},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Guo_2023,
+	series = {KDD ’23},
+	title = {Clenshaw Graph Neural Networks},
+	DOI = {10.1145/3580305.3599275},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Guo, Yuhe and Wei*, Zhewei},
+	year = {2023},
+	month = {aug},
+	collection = {KDD ’23},
+	html = {https://dl.acm.org/doi/10.1145/3580305.3599275},
+	arxiv = {2210.16508},
+	abbr = {KDD}
+}
+
+
+@inproceedings{guo2023graph,
+	title = {Graph Neural Networks with Learnable and Optimal Polynomial Bases},
+	author = {Guo, Yuhe and Wei*, Zhewei},
+	booktitle = {International Conference on Machine Learning},
+	pages = {12077--12097},
+	year = {2023},
+	organization = {PMLR},
+	html = {https://proceedings.mlr.press/v202/guo23i.html},
+	arxiv = {2302.12432},
+	abbr = {ICML}
+}
+
+
+@inproceedings{afshani2023range,
+	title = {**On Range Summary Queries},
+	author = {Afshani, Peyman and Cheng, Pingan and Roy, Aniket Basu and Wei, Zhewei},
+	booktitle = {International Colloquium on Automata, Languages and Programming},
+	year = {2023},
+	html = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2023.7},
+	arxiv = {2305.03180},
+	abbr = {ICALP}
+}
+
+
+@inproceedings{Zheng_2023,
+	title = {Decoupled Graph Neural Networks for Large Dynamic Graphs},
+	volume = {16},
+	ISSN = {2150-8097},
+	DOI = {10.14778/3598581.3598595},
+	number = {9},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Zheng, Yanping and Wei*, Zhewei and Liu, Jiajun},
+	year = {2023},
+	month = {may},
+	pages = {2239–2247},
+	html = {https://dl.acm.org/doi/10.14778/3598581.3598595},
+	arxiv = {2305.08273},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{zhou2023uni,
+	title = {Uni-Mol: A Universal 3D Molecular Representation Learning Framework},
+	author = {Zhou, Gengmo and Gao, Zhifeng and Ding, Qiankun and Zheng, Hang and Xu, Hongteng and Wei, Zhewei and Zhang, Linfeng and Ke, Guolin},
+	booktitle = {International Conference on Learning Representations},
+	year = {2023},
+	html = {https://openreview.net/forum?id=6K2RM6wVqKu},
+	abbr = {ICLR},
+	selected = {true},
+	field = {AI for Science},
+	abstract = {Uni-Mol is the first pure 3D molecular pretraining framework that can predict 3D positions, and the first molecular pretraining framework that can be directly used in 3D tasks in the field of drug design.}
+}
+
+
+@inproceedings{Hou_2023,
+	title = {Personalized PageRank on Evolving Graphs with an Incremental Index-Update Scheme},
+	volume = {1},
+	ISSN = {2836-6573},
+	DOI = {10.1145/3588705},
+	number = {1},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Hou, Guanhao and Guo, Qintian and Zhang, Fangyuan and Wang, Sibo and Wei, Zhewei},
+	year = {2023},
+	month = {may},
+	pages = {1–26},
+	html = {https://dl.acm.org/doi/10.1145/3588705},
+	arxiv = {2212.10288},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{lei2022evennet,
+	title = {Evennet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks},
+	html = {https://dl.acm.org/doi/10.5555/3600270.3600609},
+	author = {Lei, Runlin and Wang, Zhen and Li, Yaliang and Ding, Bolin and Wei*, Zhewei},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	volume = {35},
+	pages = {4694--4706},
+	year = {2022},
+	arxiv = {2205.13892},
+	code = {https://github.com/Leirunlin/EvenNet},
+	abbr = {NeurIPS}
+}
+
+
+@inproceedings{he2022convolutional,
+	title = {Convolutional Neural Networks On Graphs With Chebyshev Approximation, Revisited},
+	html = {https://dl.acm.org/doi/10.5555/3600270.3600797},
+	author = {He, Mingguo and Wei*, Zhewei and Wen, Ji-Rong},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	award = {Oral},
+	volume = {35},
+	pages = {7264--7276},
+	year = {2022},
+	arxiv = {2202.03580},
+	code = {https://github.com/ivam-he/ChebNetII},
+	abbr = {NeurIPS},
+	selected = {true},
+	field = {Graph Learning},
+	abstract = {We revisit the problem of approximating the spectral graph convolutions with Chebyshev polynomials and then propose ChebNetII, a new GNN model based on Chebyshev interpolation, which enhances the original Chebyshev polynomial approximation while reducing the Runge phenomenon.}
+}
+
+
+@inproceedings{Yang_2022,
+	title = {Approximating Probabilistic Group Steiner Trees in Graphs},
+	volume = {16},
+	ISSN = {2150-8097},
+	html = {http://dx.doi.org/10.14778/3565816.3565834},
+	DOI = {10.14778/3565816.3565834},
+	number = {2},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Yang, Shuang and Sun, Yahui and Liu, Jiesong and Xiao, Xiaokui and Li, Rong-Hua and Wei, Zhewei},
+	year = {2022},
+	month = {oct},
+	pages = {343–355},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{feng2022mgmae,
+	title = {MGMAE: Molecular Representation Learning by Reconstructing Heterogeneous Graphs with A High Mask Ratio},
+	author = {Feng, Jinjia and Wang, Zhen and Li, Yaliang and Ding, Bolin and Wei*, Zhewei and Xu, Hongteng},
+	booktitle = {The Conference on Information and Knowledge Management},
+	pages = {509--519},
+	year = {2022},
+	html = {https://dl.acm.org/doi/abs/10.1145/3511808.3557395},
+	abbr = {CIKM}
+}
+
+
+@inproceedings{Zhang2022optimizing,
+	title = {Optimizing Random Access to Hierarchically-Compressed Data on GPU},
+	html = {http://dx.doi.org/10.1109/sc41404.2022.00023},
+	DOI = {10.1109/sc41404.2022.00023},
+	booktitle = {International Conference for High Performance Computing, Networking, Storage, and Analysis},
+	publisher = {IEEE},
+	author = {Zhang, Feng and Hu, Yihua and Ding, Haipeng and Yao, Zhiming and Wei, Zhewei and Zhang, Xiao and Du, Xiaoyong},
+	year = {2022},
+	month = {nov},
+	html = {https://www.computer.org/csdl/proceedings-article/sc/2022/544400a233/1I0bSQibWEw},
+	abbr = {SC}
+}
+
+
+@inproceedings{Li_2022,
+	series = {KDD ’22},
+	title = {Sampling-based Estimation of the Number of Distinct Values in Distributed Environment},
+	volume = {95},
+	html = {http://dx.doi.org/10.1145/3534678.3539390},
+	DOI = {10.1145/3534678.3539390},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Li, Jiajun and Wei*, Zhewei and Ding, Bolin and Dai, Xiening and Lu, Lu and Zhou, Jingren},
+	year = {2022},
+	month = {aug},
+	pages = {893–903},
+	collection = {KDD ’22},
+	arxiv = {2206.05476},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Wang_2022,
+	series = {KDD ’22},
+	title = {Graph Neural Networks with Node-wise Architecture},
+	html = {http://dx.doi.org/10.1145/3534678.3539387},
+	DOI = {10.1145/3534678.3539387},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Wang, Zhen and Wei, Zhewei and Li, Yaliang and Kuang, Weirui and Ding, Bolin},
+	year = {2022},
+	month = {aug},
+	pages = {1949–1958},
+	collection = {KDD ’22},
+	html = {https://dl.acm.org/doi/10.1145/3534678.3539387},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Zheng_2022,
+	series = {KDD ’22},
+	title = {Instant Graph Neural Networks for Dynamic Graphs},
+	volume = {21},
+	html = {http://dx.doi.org/10.1145/3534678.3539352},
+	DOI = {10.1145/3534678.3539352},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Zheng, Yanping and Wang, Hanzhi and Wei*, Zhewei and Liu, Jiajun and Wang, Sibo},
+	year = {2022},
+	month = {aug},
+	pages = {2605–2615},
+	collection = {KDD ’22},
+	arxiv = {2206.01379},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Wang2022edge,
+	title = {Edge-based Local Push for Personalized PageRank},
+	volume = {15},
+	ISSN = {2150-8097},
+	html = {http://dx.doi.org/10.14778/3523210.3523216},
+	DOI = {10.14778/3523210.3523216},
+	number = {7},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Wang, Hanzhi and Wei*, Zhewei and Gan, Junhao and Yuan, Ye and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2022},
+	month = {mar},
+	pages = {1376–1389},
+	arxiv = {2203.07937},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{Wu_2021,
+	title = {Learning to be a Statistician: Learned Estimator for Number of Distinct Values},
+	volume = {15},
+	ISSN = {2150-8097},
+	html = {http://dx.doi.org/10.14778/3489496.3489508},
+	DOI = {10.14778/3489496.3489508},
+	number = {2},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Wu, Renzhi and Ding, Bolin and Chu, Xu and Wei, Zhewei and Dai, Xiening and Guan, Tao and Zhou, Jingren},
+	year = {2021},
+	month = {oct},
+	pages = {272–284},
+	arxiv = {2202.02800},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{he2021bernnet,
+	title = {Bernnet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation},
+	author = {He, Mingguo and Wei*, Zhewei and Huang, Zengfeng and Xu*, Hongteng},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	volume = {34},
+	pages = {14239--14251},
+	year = {2021},
+	arxiv = {2106.10994},
+	html = {https://proceedings.neurips.cc/paper/2021/hash/76f1cfd7754a6e4fc3281bcccb3d0902-Abstract.html},
+	code = {https://github.com/ivam-he/BernNet},
+	abbr = {NeurIPS},
+	selected = {true},
+	field = {Graph Learning},
+	abstract = {We propose the BernNet, a graph neural network that provides a simple and intuitive mechanism for designing and learning an arbitrary spectral filter via Bernstein polynomial approximation.}
+}
+
+
+@inproceedings{wang2021approximate,
+	title = {Approximate Graph Propagation},
+	author = {Wang, Hanzhi and He, Mingguo and Wei*, Zhewei and Wang, Sibo and Yuan, Ye and Du, Xiaoyong and Wen, Ji-Rong},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	pages = {1686--1696},
+	year = {2021},
+	html = {https://dl.acm.org/doi/10.1145/3447548.3467243},
+	slides = {https://wanghzccls.github.io/slides/AGP_KDD'21_pre_final.pptx},
+	code = {https://github.com/wanghzccls/AGP-Approximate_Graph_Propagation},
+	arxiv = {2106.03058},
+	abbr = {KDD}
+}
+
+
+@inproceedings{yang2021graph,
+	title = {Graph Neural Networks Inspired by Classical Iterative Algorithms},
+	award = {Long Talk},
+	author = {Yang, Yongyi and Liu, Tang and Wang, Yangkun and Zhou, Jinjing and Gan, Quan and Wei, Zhewei and Zhang, Zheng and Huang, Zengfeng and Wipf, David},
+	booktitle = {International Conference on Machine Learning},
+	pages = {11773--11783},
+	year = {2021},
+	organization = {PMLR},
+	arxiv = {2103.06064},
+	html = {https://proceedings.mlr.press/v139/yang21g/yang21g.pdf},
+	abbr = {ICML}
+}
+
+
+@inproceedings{Hou_2021,
+	title = {Massively Parallel Algorithms for Personalized Pagerank},
+	volume = {14},
+	ISSN = {2150-8097},
+	DOI = {10.14778/3461535.3461554},
+	number = {9},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Hou, Guanhao and Chen, Xingguang and Wang*, Sibo and Wei*, Zhewei},
+	year = {2021},
+	month = {may},
+	pages = {1668–1680},
+	html = {https://dl.acm.org/doi/10.14778/3461535.3461554},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{Wu2021unifying,
+	series = {SIGMOD/PODS ’21},
+	title = {Unifying the Global and Local Approaches: An Efficient Power Iteration with Forward Push},
+	html = {http://dx.doi.org/10.1145/3448016.3457298},
+	DOI = {10.1145/3448016.3457298},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Wu, Hao and Gan, Junhao and Wei*, Zhewei and Zhang, Rui},
+	year = {2021},
+	month = {jun},
+	collection = {SIGMOD/PODS ’21},
+	arxiv = {2101.03652},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{yan2021flashp,
+	title = {FlashP: an Analytical Pipeline for Real-time Forecasting of Time-Series Relational Data},
+	html = {https://dl.acm.org/doi/10.14778/3446095.3446096},
+	author = {Yan, Shuyuan and Ding, Bolin and Guo, Wei and Zhou, Jingren and Wei, Zhewei and Jiang, Xiaowei and Xu, Sheng},
+	booktitle = {International Conference on Very Large Data Bases},
+	year = {2021},
+	arxiv = {2101.03298},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{chen2020scalable,
+	title = {Scalable Graph Neural Networks via Bidirectional Propagation},
+	author = {Chen, Ming and Wei*, Zhewei and Ding, Bolin and Li, Yaliang and Yuan, Ye and Du, Xiaoyong and Wen, Ji-Rong},
+	booktitle = {Annual Conference on Neural Information Processing Systems},
+	html = {https://dl.acm.org/doi/10.5555/3495724.3496944},
+	volume = {33},
+	pages = {14556--14566},
+	year = {2020},
+	arxiv = {2010.15421},
+	slides = {http://www.weizhewei.com/slides/gbp_slides.pptx},
+	code = {https://github.com/chennnM/GBP},
+	poster = {http://www.weizhewei.com/slides/gbp_poster.pptx},
+	abbr = {NeurIPS}
+}
+
+
+@inproceedings{liu2020simtab,
+	title = {SimTab: Accuracy-Guaranteed SimRank Queries Through Tighter Confidence Bounds and Multi-Armed Bandits},
+	author = {Liu, Yu and Zou, Lei and Ge, Qian and Wei*, Zhewei},
+	booktitle = {International Conference on Very Large Data Bases},
+	volume = {13},
+	number = {12},
+	pages = {2202--2214},
+	year = {2020},
+	publisher = {VLDB Endowment},
+	html = {https://doi.org/10.14778/3407790.3407819},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{chen2020simple,
+	title = {Simple and Deep Graph Convolutional Networks},
+	author = {Chen, Ming and Wei*, Zhewei and Huang, Zengfeng and Ding, Bolin and Li, Yaliang},
+	booktitle = {International Conference on Machine Learning},
+	award = {World Artificial Intelligence Conference Youth Outstanding Paper Nomination Award},
+	pages = {1725--1735},
+	year = {2020},
+	organization = {PMLR},
+	arxiv = {2007.02133},
+	code = {https://github.com/chennnM/GCNII},
+	html = {https://dl.acm.org/doi/10.5555/3524938.3525099},
+	abbr = {ICML},
+	selected = {true},
+	field = {Graph Learning},
+	abstract = {We propose the GCNII, an extension of the vanilla GCN model with two simple yet effective techniques: Initial residual and Identity mapping.}
+}
+
+
+@inproceedings{Wang_2020,
+	series = {KDD ’20},
+	title = {Personalized PageRank to a Target Node, Revisited},
+	html = {http://dx.doi.org/10.1145/3394486.3403108},
+	DOI = {10.1145/3394486.3403108},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Wang, Hanzhi and Wei*, Zhewei and Gan, Junhao and Wang, Sibo and Huang, Zengfeng},
+	year = {2020},
+	month = {aug},
+	collection = {KDD ’20},
+	arxiv = {2006.11876},
+	slides = {http://www.weizhewei.com/slides/RBS_KDD'20_pre_final.pptx},
+	abbr = {KDD},
+	selected={true},
+	field={Graph Algorithms},
+	abstract = {We propose Randomized Backward Search (RBS), a novel algorithm that answers approximate single-target personalized PageRank queries (also known as PageRank contribution queries) with near optimal time complexity.}
+}
+
+
+@inproceedings{Guo_2020,
+	series = {SIGMOD/PODS ’20},
+	title = {Influence Maximization Revisited: Efficient Reverse Reachable Set Generation with Bound Tightened},
+	html = {http://dx.doi.org/10.1145/3318464.3389740},
+	DOI = {10.1145/3318464.3389740},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Guo, Qintian and Wang, Sibo and Wei*, Zhewei and Chen, Ming},
+	year = {2020},
+	month = {may},
+	collection = {SIGMOD/PODS ’20},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{Wang2020Exact,
+	series = {SIGMOD/PODS ’20},
+	title = {Exact Single-Source SimRank Computation on Large Graphs},
+	html = {http://dx.doi.org/10.1145/3318464.3389781},
+	DOI = {10.1145/3318464.3389781},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Wang, Hanzhi and Wei*, Zhewei and Yuan, Ye and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2020},
+	month = {may},
+	collection = {SIGMOD/PODS ’20},
+	arxiv = {2004.03493},
+	slides = {http://www.weizhewei.com/slides/ExactSim_SIGMOD20.pptx},
+	code = {https://github.com/wanghzccls/ExactSim},
+	abbr = {SIGMOD},
+	selected = {true},
+	field = {Graph Algorithms},
+	abstract = {We propose ExactSim, the first algorithm that enables probabilistic exact single-source SimRank queries on large graphs. ExactSim can provide the ground truth with a precision up to 7 decimal places for single-source SimRank queries on large graphs within a reasonable query time.}
+}
+
+
+@inproceedings{liu2019crowdgame,
+	title = {Crowdgame: A Game-Based Crowdsourcing System for Cost-Effective Data Labeling},
+	author = {Liu, Tongyu and Yang, Jingru and Fan, Ju and Wei, Zhewei and Li, Guoliang and Du, Xiaoyong},
+	booktitle = {ACM Conference on Management of Data},
+	pages = {1957--1960},
+	year = {2019},
+	html = {https://dl.acm.org/doi/10.1145/3299869.3320221},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{Yin_2019,
+	series = {KDD ’19},
+	title = {Scalable Graph Embeddings via Sparse Transpose Proximities},
+	award = {Oral},
+	html = {http://dx.doi.org/10.1145/3292500.3330860},
+	DOI = {10.1145/3292500.3330860},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	publisher = {ACM},
+	author = {Yin, Yuan and Wei*, Zhewei},
+	year = {2019},
+	month = {jul},
+	collection = {KDD ’19},
+	arxiv = {1905.07245},
+	slides = {http://www.weizhewei.com/slides/STRAP_KDD19.pptx},
+	poster = {http://www.weizhewei.com/slides/STRAP_KDD19_poster.pptx},
+	code = {https://github.com/yinyuan1227/STRAP-git},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Yang_2019,
+	series = {SIGMOD/PODS ’19},
+	title = {Efficient Estimation of Heat Kernel PageRank for Local Clustering},
+	html = {http://dx.doi.org/10.1145/3299869.3319886},
+	DOI = {10.1145/3299869.3319886},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Yang, Renchi and Xiao, Xiaokui and Wei, Zhewei and Bhowmick, Sourav S. and Zhao, Jun and Li, Rong-Hua},
+	year = {2019},
+	month = {jun},
+	collection = {SIGMOD/PODS ’19},
+	arxiv = {1904.02707},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{wei2019prsim,
+	title = {PRSim: Sublinear Time SimRank Computation on Large Power-Law Graphs},
+	author = {Wei, Zhewei and He, Xiaodong and Xiao, Xiaokui and Wang, Sibo and Liu, Yu and Du, Xiaoyong and Wen, Ji-Rong},
+	booktitle = {ACM Conference on Management of Data},
+	pages = {1042--1059},
+	year = {2019},
+	arxiv = {1905.02354},
+	html={https://dl.acm.org/doi/10.1145/3299869.3319873},
+	slides = {http://www.weizhewei.com/slides/SIGMOD19_Slides_new.pptx},
+	poster = {http://www.weizhewei.com/slides/poster_sigmod19.pptx},
+	code = {https://github.com/wzskytop/PRSim-Code},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{yang2018cost,
+	title = {Cost-Effective Data Annotation Using Game-Based Crowdsourcing},
+	author = {Yang, Jingru and Fan, Ju and Wei, Zhewei and Li, Guoliang and Liu, Tongyu and Du, Xiaoyong},
+	booktitle = {International Conference on Very Large Data Bases},
+	volume = {12},
+	number = {1},
+	pages = {57--70},
+	year = {2018},
+	publisher = {VLDB Endowment},
+	html = {https://dl.acm.org/doi/10.14778/3275536.3275541},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{wei2018topppr,
+	title = {TopPPR: Top-k Personalized PageRank Queries with Precision Guarantees on Large Graphs},
+	author = {Wei, Zhewei and He, Xiaodong and Xiao, Xiaokui and Wang, Sibo and Shang, Shuo and Wen, Ji-Rong},
+	booktitle = {ACM Conference on Management of Data},
+	pages = {441--456},
+	year = {2018},
+	html = {https://doi.org/10.1145/3183713.3196920},
+	slides = {http://www.weizhewei.com/slides/slides_sigmod18.pptx},
+	poster = {http://www.weizhewei.com/slides/poster_sigmod18.pptx},
+	code = {https://github.com/wzskytop/TopPPR},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{afshani2017independent,
+	title = {**Independent Range Sampling, Revisited},
+	author = {Afshani, Peyman and Wei*, Zhewei},
+	booktitle = {European Symposium on Algorithms},
+	pages = {3--1},
+	year = {2017},
+	organization = {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik GmbH},
+	html = {http://www.weizhewei.com/papers/esa17-full.pdf},
+	abbr = {ESA}
+}
+
+
+@inproceedings{Shang_2017,
+	title = {Trajectory Similarity Join in Spatial Networks},
+	volume = {10},
+	ISSN = {2150-8097},
+	html = {http://dx.doi.org/10.14778/3137628.3137630},
+	DOI = {10.14778/3137628.3137630},
+	number = {11},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Shang, Shuo and Chen, Lisi and Wei, Zhewei and Jensen, Christian S. and Zheng, Kai and Kalnis, Panos},
+	year = {2017},
+	month = {aug},
+	pages = {1178–1189},
+	poster = {http://www.weizhewei.com/slides/vldb17_poster.pdf},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{liu2017probesim,
+	title = {ProbeSim: Scalable Single-Source and Top-k SimRank Computations on Dynamic Graphs},
+	author = {Liu, Yu and Zheng, Bolong and He, Xiaodong and Wei*, Zhewei and Xiao, Xiaokui and Zheng, Kai and Lu, Jiaheng},
+	booktitle = {International Conference on Very Large Data Bases},
+	year = {2017},
+	html = {https://dl.acm.org/doi/10.14778/3151113.3151115},
+	slides = {http://www.weizhewei.com/slides/slides_vldb18.pptx},
+	poster = {http://www.weizhewei.com/slides/poster_vldb18.pptx},
+	code = {https://github.com/dokirabbithole/ProbeSim_vldb_pub},
+	abbr = {VLDB},
+	arxiv = {1709.06955}
+}
+
+
+@inproceedings{Shang2017Collective,
+	title = {Collective Travel Planning in Spatial Networks},
+	html = {http://dx.doi.org/10.1109/icde.2017.36},
+	DOI = {10.1109/icde.2017.36},
+	booktitle = {IEEE International Conference on Data Engineering},
+	publisher = {IEEE},
+	author = {Shang, Shuo and Chen, Lisi and Wei, Zhewei and Jensen, Christian S. and Wen, Ji-Rong and Kalnis, Panos},
+	year = {2017},
+	month = {apr},
+	html = {https://ieeexplore.ieee.org/document/7929932},
+	abbr = {ICDE}
+}
+
+
+@inproceedings{Zhang_2017,
+	title = {Tracking Matrix Approximation over Distributed Sliding Windows},
+	html = {http://dx.doi.org/10.1109/icde.2017.133},
+	DOI = {10.1109/icde.2017.133},
+	booktitle = {IEEE International Conference on Data Engineering},
+	publisher = {IEEE},
+	author = {Zhang, Haida and Huang, Zengfeng and Wei, Zhewei and Zhang, Wenjie and Lin, Xuemin},
+	year = {2017},
+	month = {apr},
+	abbr = {ICDE}
+}
+
+
+@inproceedings{wang2017fora,
+	title = {FORA: Simple and Effective Approximate Single-Source Personalized PageRank},
+	author = {Wang, Sibo and Yang, Renchi and Xiao, Xiaokui and Wei*, Zhewei and Yang, Yin},
+	booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	pages = {505--514},
+	year = {2017},
+	html = {https://dl.acm.org/doi/10.1145/3097983.3098072},
+	slides = {http://www.weizhewei.com/slides/kdd17.pptx},
+	poster = {http://www.weizhewei.com/slides/kdd17_poster.pptx},
+	code = {https://github.com/wangsibovictor/fora},
+	abbr = {KDD}
+}
+
+
+@inproceedings{Wei_2016,
+	series = {SIGMOD/PODS’16},
+	title = {Matrix Sketching Over Sliding Windows},
+	html = {http://dx.doi.org/10.1145/2882903.2915228},
+	DOI = {10.1145/2882903.2915228},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Wei, Zhewei and Liu, Xuancheng and Li, Feifei and Shang, Shuo and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2016},
+	month = {jun},
+	collection = {SIGMOD/PODS’16},
+	slides = {http://www.weizhewei.com/slides/msketch.pdf},
+	poster = {http://www.weizhewei.com/slides/poster_sigmod16.pdf},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{Liu_2015,
+	title = {Towards Maximum Independent Sets on Massive Graphs},
+	volume = {8},
+	ISSN = {2150-8097},
+	html = {http://dx.doi.org/10.14778/2831360.2831366},
+	DOI = {10.14778/2831360.2831366},
+	number = {13},
+	booktitle = {International Conference on Very Large Data Bases},
+	publisher = {Association for Computing Machinery (ACM)},
+	author = {Liu, Yu and Lu, Jiaheng and Yang, Hua and Xiao, Xiaokui and Wei*, Zhewei},
+	year = {2015},
+	month = {sep},
+	pages = {2122–2133},
+	poster = {http://www.weizhewei.com/slides/poster_vldb16.pdf},
+	slides = {http://www.weizhewei.com/slides/VLDB16.ppt},
+	code = {https://github.com/dokirabbithole/mis_code_vldb15},
+	abbr = {VLDB}
+}
+
+
+@inproceedings{Wei_2015,
+	series = {SIGMOD/PODS’15},
+	title = {Persistent Data Sketching},
+	html = {http://dx.doi.org/10.1145/2723372.2749443},
+	DOI = {10.1145/2723372.2749443},
+	booktitle = {ACM Conference on Management of Data},
+	publisher = {ACM},
+	author = {Wei, Zhewei and Luo, Ge and Yi, Ke and Du, Xiaoyong and Wen, Ji-Rong},
+	year = {2015},
+	month = {may},
+	collection = {SIGMOD/PODS’15},
+	slides = {http://www.weizhewei.com/slides/psketch_slides.pdf},
+	poster = {http://www.weizhewei.com/slides/poster_sigmod15.pdf},
+	abbr = {SIGMOD}
+}
+
+
+@inproceedings{wei2014equivalence,
+	title = {**Equivalence between Priority Queues and Sorting in External Memory},
+	author = {Wei, Zhewei and Yi, Ke},
+	booktitle = {European Symposium on Algorithms},
+	pages = {830--841},
+	year = {2014},
+	organization = {Springer},
+	html = {https://doi.org/10.1007/978-3-662-44777-2_68},
+	slides = {http://www.weizhewei.com/slides/PQSorting.pptx},
+	abbr = {ESA},
+	arxiv ={1207.4383}
+}
+
+
+@inproceedings{Wei_2013,
+	title = {**The Space Complexity of 2-Dimensional Approximate Range Counting},
+	arxiv = {1207.4382v3},
+	html = {http://dx.doi.org/10.1137/1.9781611973105.19},
+	DOI = {10.1137/1.9781611973105.19},
+	booktitle = {ACM-SIAM Symposium on Discrete Algorithms},
+	publisher = {Society for Industrial and Applied Mathematics},
+	author = {Wei, Zhewei and Yi, Ke},
+	year = {2013},
+	month = {jan},
+	slides = {http://www.weizhewei.com/slides/2d-counting.pdf},
+	abbr = {SODA}
+}
+
+
+@inproceedings{Agarwal_2012,
+	series = {SIGMOD/PODS ’12},
+	title = {**Mergeable summaries},
+	html = {http://dx.doi.org/10.1145/2213556.2213562},
+	DOI = {10.1145/2213556.2213562},
+	booktitle = {ACM Symposium on Principles of Database Systems},
+	publisher = {ACM},
+	author = {Agarwal, Pankaj K. and Cormode, Graham and Huang, Zengfeng and Phillips, Jeff and Wei, Zhewei and Yi*, Ke},
+	year = {2012},
+	month = {may},
+	collection = {SIGMOD/PODS ’12},
+	slides = {http://www.weizhewei.com/slides/pods12.pdf},
+	poster = {http://www.weizhewei.com/slides/pods12_poster.pdf},
+	abbr = {PODS},
+	selected = {true},
+	field = {Streaming Algorithms},
+	abstract = {We study the mergeability of data summaries and propose methods to make summaries mergeable while preserving error and size guarantees.},
+	award = {Test of Time Award}
+}
+
+
+@inproceedings{wei2011beyond,
+	title = {**Beyond Simple Aggregates: Indexing for Summary Queries},
+	author = {Wei, Zhewei and Yi, Ke},
+	booktitle = {ACM Symposium on Principles of Database Systems},
+	pages = {117--128},
+	year = {2011},
+	html = {https://doi.org/10.1145/1989284.1989299},
+	slides = {http://www.weizhewei.com/slides/pods11.pdf},
+	abbr = {PODS}
+}
+
+
+@inproceedings{pagh2010cache,
+	title = {**Cache-Oblivious Hashing},
+	author = {Pagh, Rasmus and Wei, Zhewei and Yi, Ke and Zhang, Qin},
+	booktitle = {ACM Symposium on Principles of Database Systems},
+	pages = {297--304},
+	year = {2010},
+	html = {https://doi.org/10.1145/1807085.1807124},
+	slides = {http://www.weizhewei.com/slides/pods10.pdf},
+	abbr = {PODS},
+	selected = {true},
+	field = {Data Structures},
+}
+
+
+@inproceedings{Wei_2009,
+	series = {SPAA 09},
+	title = {**Dynamic External Hashing: The Limit of Buffering},
+	html = {http://dx.doi.org/10.1145/1583991.1584055},
+	DOI = {10.1145/1583991.1584055},
+	booktitle = {ACM Symposium on Parallelism in Algorithms and Architectures},
+	publisher = {ACM},
+	author = {Wei, Zhewei and Yi, Ke and Zhang, Qin},
+	year = {2009},
+	month = {aug},
+	collection = {SPAA 09},
+	abbr = {SPAA}
+}
+
+
+# Theses
+
+
+@phdthesis{wei2012classic,
+	title = {Classic and New Data Structure Problems in External Memory},
+	author = {Wei, Zhewei},
+	year = {2012},
+	month = {February},
+	school = {Hong Kong University of Science and Technology},
+	html = {http://www.weizhewei.com/papers/thesis.pdf}
+}
+
+
+@phdthesis{wei2010hashing,
+	title = {Hashing Based Dictionaries in Different Memory Models},
+	author = {Wei, Zhewei},
+	year = {2010},
+	school = {PhD quantify exam survey},
+	html = {http://www.weizhewei.com/papers/survey.pdf}
+}
