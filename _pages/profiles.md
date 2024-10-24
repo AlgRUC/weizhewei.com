@@ -166,7 +166,7 @@ students:
     image: yu_liu.jpg
     link: https://faculty.bjtu.edu.cn/9759/
     more_info: >
-      <li>Lecturer of Beijing Jiaotong University</li><li>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)</li><li>Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc Researcher)</li>
+      <li>Lecturer of Beijing Jiaotong University</li><li>Dissertation: <cite>Structural-Based Approximate Algorithms for Massive Graphs</cite> (基于网络结构的大图近似算法)</li><li>Awards: Former Peking University Boya Postdoc Fellowship (Outstanding Postdoc Researcher), National Scholarship</li>
     category: Graduated PhD Students
     text_muted: 2014 - 2018 (co-supervised with <a href="https://www.cs.helsinki.fi/u/jilu/">Jiaheng Lu</a>)
   - name: Hanzhi Wang
@@ -231,7 +231,7 @@ students:
     image: weirui.jpg
     link: https://www.weiruikuang.com/
     more_info: >
-      <li>Alibaba DAMO Academy</li><li>Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite> (基于元路径的异构网络多视角对比学习)</li>
+      <li>Alibaba Tongyi Lab</li><li>Thesis: <cite>Meta-path based Contrastive Multi-View Representation Learning on Heterogeneous Graphs</cite> (基于元路径的异构网络多视角对比学习)</li>
     category: Graduated Master Students
     text_muted: 2018 - 2021
   - name: Tianjing Zeng
@@ -239,7 +239,7 @@ students:
     image: tianjing.jpg
     link: 
     more_info: >
-      <li>Alibaba DAMO Academy</li><li>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)</li>
+      <li>Alibaba Tongyi Lab</li><li>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)</li>
     category: Graduated Master Students
     text_muted: 2020 - 2023
   - name: Gengmo Zhou
