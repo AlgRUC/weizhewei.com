@@ -277,14 +277,11 @@ students:
 ---
 
 <swiper-container class="album" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" autoplay-delay="5000" rewind="true" autoplay-disable-on-interaction="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="0" coverflow-effect-stretch="-75" coverflow-effect-depth="150" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.10.24.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Oct 24, 2024: CNCC 2024 in Hengdian, Zhejiang" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.10.17.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Oct 17, 2024: Getting Together" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.9.10.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 10, 2024: Celebrating Teachers' Day" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2024.7.1.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jul 01, 2024: Getting Together" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.9.21.jpg" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Sep 21, 2023: Getting Together" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.7.3.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jul 03, 2023: Getting Together" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.6.27.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Jun 27, 2023: Master's Graduation" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.3.26.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Mar 26, 2023: IACC 2023" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2022.10.29.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Oct 29, 2022: Getting Together" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.3.26.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Mar 26, 2023: IACC 2023 in Huangpu, Guangzhou" %}</swiper-slide>
 </swiper-container>
 
 {% for category in page.display_categories %}
