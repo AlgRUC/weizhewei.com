@@ -46,7 +46,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
   </a>
 </p>
 
-{% bibliography --query @*[key=He_2024]* %}
+{% bibliography --query @*[key=he2024spectral]* %}
 
 #### Citation
 
@@ -59,17 +59,17 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
                   Weibin Li and
                   Yu Sun and
                   Dianhai Yu},
-  editor       = {Tat{-}Seng Chua and
-                  Chong{-}Wah Ngo and
+  editor       = {Tat-Seng Chua and
+                  Chong-Wah Ngo and
                   Ravi Kumar and
                   Hady W. Lauw and
-                  Roy Ka{-}Wei Lee},
+                  Roy Ka-Wei Lee},
   title        = {Spectral Heterogeneous Graph Convolutions via Positive Noncommutative
                   Polynomials},
-  booktitle    = {Proceedings of the {ACM} on Web Conference 2024, {WWW} 2024, Singapore,
+  booktitle    = {Proceedings of the ACM on Web Conference 2024, WWW 2024, Singapore,
                   May 13-17, 2024},
   pages        = {685--696},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2024},
   url          = {https://doi.org/10.1145/3589334.3645515},
   doi          = {10.1145/3589334.3645515},
@@ -110,12 +110,12 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
                   Sivan Sabato and
                   Jonathan Scarlett},
   title        = {Graph Neural Networks with Learnable and Optimal Polynomial Bases},
-  booktitle    = {International Conference on Machine Learning, {ICML} 2023, 23-29 July
-                  2023, Honolulu, Hawaii, {USA}},
+  booktitle    = {International Conference on Machine Learning, ICML 2023, 23-29 July
+                  2023, Honolulu, Hawaii, USA},
   series       = {Proceedings of Machine Learning Research},
   volume       = {202},
   pages        = {12077--12097},
-  publisher    = {{PMLR}},
+  publisher    = {PMLR},
   year         = {2023},
   url          = {https://proceedings.mlr.press/v202/guo23i.html},
 }
@@ -140,7 +140,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
   </a>
 </p>
 
-{% bibliography --query @*[key=Guo_2023]* %}
+{% bibliography --query @*[key=guo2023clenshaw]* %}
 
 #### Citation
 
@@ -157,10 +157,10 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
                   Fatma Ozcan and
                   Jieping Ye},
   title        = {Clenshaw Graph Neural Networks},
-  booktitle    = {Proceedings of the 29th {ACM} {SIGKDD} Conference on Knowledge Discovery
-                  and Data Mining, {KDD} 2023, Long Beach, CA, USA, August 6-10, 2023},
+  booktitle    = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery
+                  and Data Mining, KDD 2023, Long Beach, CA, USA, August 6-10, 2023},
   pages        = {614--625},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2023},
   url          = {https://doi.org/10.1145/3580305.3599275},
   doi          = {10.1145/3580305.3599275},
