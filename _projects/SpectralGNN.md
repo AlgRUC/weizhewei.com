@@ -29,7 +29,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 
 {% endtab %}
 
-{% tab spectralgnn pshgcn %}
+{% tab spectralgnn PSHGCN %}
 
 ### Spectral Heterogeneous Graph Convolutions via Positive Noncommutative Polynomials {% cite He_2024 %} [[WWW 2024](https://www2024.thewebconf.org/)]
 
@@ -77,7 +77,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 ```
 
 {% endtab %}
-{% tab spectralgnn Far Opt Basis %}
+{% tab spectralgnn FarOptBasis %}
 
 ### Graph Neural Networks with Learnable and Optimal Polynomial Bases {% cite guo2023graph %} [[ICML 2023](https://icml.cc/Conferences/2023)]
 
@@ -122,7 +122,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 ```
 
 {% endtab %}
-{% tab spectralgnn clenshaw GNN %}
+{% tab spectralgnn ClenshawGNN %}
 
 ### Clenshaw Graph Neural Networks {% cite Guo_2023 %} [[KDD 2023](https://kdd.org/kdd2023/index.html#)]
 
@@ -232,7 +232,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 ```
 
 {% endtab %}
-{% tab spectralgnn Bern net %}
+{% tab spectralgnn BernNet %}
 
 ### BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation {% cite he2021bernnet %} [[NeurIPS 2021](https://nips.cc/Conferences/2021)]
 

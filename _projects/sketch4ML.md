@@ -72,7 +72,7 @@ graph LR
 
 {% endtab %}
 
-{% tab sketch4ml our work:<br>optimal matrix sketch<br>over sliding windows %}
+{% tab sketch4ml Our Work:<br>Optimal Matrix Sketch<br>over Sliding Windows %}
 
 <!-- Badges -->
 <p>
@@ -183,11 +183,21 @@ We implemented all the algorithms across various data streams, both synthetic an
 ### Citation
 
 ```bibtex
-@article{yin2024optimal,
-  title={Optimal Matrix Sketching over Sliding Windows},
-  author={Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
-  journal={arXiv preprint arXiv:2405.07792},
-  year={2024}
+@article{10.14778/3665844.3665847,
+  author = {Yin, Hanyan and Wen, Dongxie and Li, Jiajun and Wei, Zhewei and Zhang, Xiao and Huang, Zengfeng and Li, Feifei},
+  title = {Optimal Matrix Sketching over Sliding Windows},
+  year = {2024},
+  issue_date = {May 2024},
+  publisher = {VLDB Endowment},
+  volume = {17},
+  number = {9},
+  issn = {2150-8097},
+  url = {https://doi.org/10.14778/3665844.3665847},
+  doi = {10.14778/3665844.3665847},
+  journal = {Proc. VLDB Endow.},
+  month = aug,
+  pages = {2149–2161},
+  numpages = {13}
 }
 ```
 
@@ -200,7 +210,7 @@ We implemented all the algorithms across various data streams, both synthetic an
 
 {% endtab %}
 
-{% tab sketch4ml our work:<br>Dyadic Sketched Bandit %}
+{% tab sketch4ml Our Work:<br>Dyadic Sketched Bandit %}
 
 <p>
   <a href="https://arxiv.org/abs/2410.10258">

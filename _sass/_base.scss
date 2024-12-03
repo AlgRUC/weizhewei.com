@@ -857,6 +857,10 @@ code {
   padding: 3px 3px;
 }
 
+code * {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
 // Transitioning Themes
 html.transition,
 html.transition *,
