@@ -31,7 +31,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 
 {% tab spectralgnn PSHGCN %}
 
-### Spectral Heterogeneous Graph Convolutions via Positive Noncommutative Polynomials {% cite He_2024 %} [[WWW 2024](https://www2024.thewebconf.org/)]
+### Spectral Heterogeneous Graph Convolutions via Positive Noncommutative Polynomials {% cite he2024spectral %} [[WWW 2024](https://www2024.thewebconf.org/)]
 
 <p>
   <a href="https://arxiv.org/abs/2305.19872">
@@ -124,7 +124,7 @@ Spectral GNNs often involve computationally expensive operations like eigen-deco
 {% endtab %}
 {% tab spectralgnn ClenshawGNN %}
 
-### Clenshaw Graph Neural Networks {% cite Guo_2023 %} [[KDD 2023](https://kdd.org/kdd2023/index.html#)]
+### Clenshaw Graph Neural Networks {% cite guo2023clenshaw %} [[KDD 2023](https://kdd.org/kdd2023/index.html#)]
 
 <!-- Badges -->
 <p>
