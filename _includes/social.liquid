@@ -10,6 +10,9 @@
 {% if site.scholar_userid %}
   <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
 {% endif %}
+{% if site.dblp_url %}
+  <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a>
+{% endif %}
 {% if site.semanticscholar_id %}
   <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
 {% endif %}
@@ -75,9 +78,6 @@
 {% endif %}
 {% if site.gitlab_username %}
   <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
-{% endif %}
-{% if site.dblp_url %}
-  <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a>
 {% endif %}
 {% if site.stackoverflow_id %}
   <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
