@@ -300,7 +300,7 @@ graph TD
   </a>
 </p>
 
-> This survey paper provides a systematic and comprehensive review of several <b style="color: blue">basic techniques</b> and <b style="color: blue">recent algorithms</b> for PPR computation **from an algorithmic perspective**.
+> This <b style="color: blue">survey paper</b> provides a systematic and comprehensive review of several <b style="color: blue">basic techniques</b> and <b style="color: blue">recent algorithms</b> for PPR computation **from an algorithmic perspective**.
 {: .block-tip }
 
 {% bibliography --query @*[key=yang2024efficient]* %}
@@ -514,7 +514,7 @@ graph TD
   </a>
 </p>
 
-> We propose <b style="color: blue">Randomized Backward Search (RBS)</b>, a novel algorithm that answers <b style="color: blue">approximate single-target personalized PageRank queries</b> (also known as PageRank contribution queries) with **nearly optimal time complexity**.
+> We propose <b style="color: blue">Randomized Backward Search (RBS)</b>, a novel algorithm that answers <b style="color: blue">approximate single-target personalized PageRank queries</b> (a.k.a. PageRank contribution queries) with **nearly optimal time complexity**.
 {: .block-tip }
 
 {% bibliography --query @*[key=wang2020personalized]* %}
