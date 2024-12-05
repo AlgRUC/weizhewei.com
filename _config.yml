@@ -349,6 +349,7 @@ filtered_bibtex_keywords:
     altmetric,
     annotation,
     arxiv,
+    chemrxiv,
     award,
     award_name,
     bibtex_show,

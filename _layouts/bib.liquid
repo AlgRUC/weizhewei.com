@@ -26,15 +26,17 @@
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
-        {% assign coauthor_url = null %}
+        {%- assign coauthor_url = null -%}
+        {%- assign author_is_student = false -%}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
+        {%- if site.data.coauthors[clean_last_name] -%}
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
+            {%- if coauthor.firstname contains author.first -%}
+              {%- assign author_is_student = true -%}
               {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {% endif %}
-          {% endfor %}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
@@ -48,16 +50,23 @@
           </b>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
+            <a href="{{ coauthor_url }}" style="color: var(--global-text-color)">
               {{- author.first }}
               {{ author_last_html -}}
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+            {%- if author_is_student -%}
+              <a style="color: var(--global-text-color)">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {%- else -%}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {%- endif -%}
+          {%- endif -%}
         {%- endif -%}
-      {% endfor %}
+      {%- endfor -%}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
@@ -157,6 +166,9 @@
       {% endif %}  {% endcomment %}
       {% if entry.arxiv %}
         [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="" role="button">arXiv</a>]
+      {% endif %}
+      {% if entry.chemrxiv %}
+        [<a href="{{ entry.chemrxiv }}" class="" role="button">ChemRxiv</a>]
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

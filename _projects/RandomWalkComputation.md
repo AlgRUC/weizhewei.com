@@ -42,8 +42,8 @@ graph TD
 
     B --> B1[ProbeSim]:::work
     B1 --> B2[PRSim]:::work
-    B2 --> B3[SimTab]:::work
-    B3 --> B4[ExactSim]:::work
+    B2 --> B3[ExactSim]:::work
+    B --> B4[SimTab]:::work
 
     C --> C1[...... see below]:::link
     click C1 href "#PPR"

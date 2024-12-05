@@ -1,34 +1,119 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"cui":
+  - firstname: ["Guanyu"]
+    url: https://guanyucui.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"chen":
+  - firstname: ["Jingyu"]
+    url: 
+  - firstname: ["Ming"]
+    url: 
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"ding":
+  - firstname: ["Haipeng"]
+    url: 
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"feng":
+  - firstname: ["Jinjia"]
+    url: https://xkxxfyf.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"fei":
+  - firstname: ["Yuzhang"]
+    url: 
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"guo":
+  - firstname: ["Yuhe"]
+    url: https://yuziguo.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"he":
+  - firstname: ["Mingguo"]
+    url: https://ivam-he.github.io/
+  - firstname: ["Xiaodong"]
+    url: 
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"hu":
+  - firstname: ["Yuwei"]
+    url: 
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"ji":
+  - firstname: ["Jiarui"]
+    url: 
+
+"kuang":
+  - firstname: ["Weirui"]
+    url: https://www.weiruikuang.com/
+
+"lei":
+  - firstname: ["Runlin"]
+    url: https://leirunlin.github.io/
+
+"li":
+  - firstname: ["Jiajun"]
+    url: https://llijiajun.github.io/github-io/
+
+"liu":
+  - firstname: ["Xu"]
+    url: 
+  - firstname: ["Yu"]
+    url: https://faculty.bjtu.edu.cn/9759/
+
+"lyu":
+  - firstname: ["Fangrui"]
+    url: 
+
+"ma":
+  - firstname: ["Jiahong"]
+    url: 
+
+"peng":
+  - firstname: ["Jie"]
+    url: https://lucas-pj.github.io/
+
+"tong":
+  - firstname: ["Suijun"]
+    url: 
+
+"wang":
+  - firstname: ["Hanzhi"]
+    url: https://wanghzccls.github.io
+  - firstname: ["Wenda"]
+    url: 
+
+"wen":
+  - firstname: ["Dongxie"]
+    url: 
+
+"yang":
+  - firstname: ["Mingji"]
+    url: https://kyleyoung-ymj.github.io/
+
+"yi":
+  - firstname: ["Lu"]
+    url: https://luyi256.github.io/
+
+"yin":
+  - firstname: ["Hanyan"]
+    url: https://yinhanyan.github.io/
+  - firstname: ["Yuan"]
+    url: 
+
+"yu":
+  - firstname: ["Chenmiao"]
+    url: 
+
+"zeng":
+  - firstname: ["Tianjing"]
+    url: 
+
+"zhang":
+  - firstname: ["Yang"]
+    url: https://fengyuewuya.github.io/
+  - firstname: ["Ruoqi"]
+    url: 
+
+"zheng":
+  - firstname: ["Yanping"]
+    url: https://zheng-yp.github.io/
+
+"zhou":
+  - firstname: ["Gengmo"]
+    url: https://zhougengmo.github.io/
