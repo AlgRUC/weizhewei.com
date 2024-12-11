@@ -237,7 +237,7 @@ students:
   - name: Tianjing Zeng
     native_written_name: 曾恬静
     image: tianjing.jpg
-    link: 
+    link: https://stcarmen.github.io/
     more_info: >
       <li>Alibaba Tongyi Lab</li><li>Thesis: <cite>Persistent Summaries</cite> (持久化数据摘要)</li>
     category: Graduated Master Students
