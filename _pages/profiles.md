@@ -300,7 +300,7 @@ students:
             <a href="{{ project.link }}" class="no-decoration">
             {% endif %}
               <img
-                src="{{ profile_image_path | prepend: site.baseurl }}"
+                src="/{{ profile_image_path | prepend: site.baseurl }}"
                 class="img-fluid rounded-circle d-block m-2"
                 style="max-width: 150px; max-height: 150px; width: 100%; height: auto;"  
                 loading="lazy"
@@ -341,7 +341,7 @@ students:
                 <a href="{{ project.link }}" class="no-decoration">
               {% endif %}
                 <img
-                  src="{{ profile_image_path | prepend: site.baseurl }}"
+                  src="/{{ profile_image_path | prepend: site.baseurl }}"
                   class="img-fluid rounded-circle d-block m-2"
                   style="max-width: 150px; max-height: 150px; width: 100%; height: auto;"  
                   loading="lazy"
