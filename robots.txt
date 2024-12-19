@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://algruc.github.io/weizhewei.com//sitemap.xml
