@@ -42,6 +42,14 @@ nologo: true
         <dd>NSFC Grant (Youth Program), PI.<br>2016.01 - 2018.12, No.61502503, 240,000 RMB.</dd>
     </li>
     <li>
+        <dt>Cutting-edge Research on Large-scale Recommendation Systems Based on Graph Neural Networks</dt>
+        <dd>Huawei's Next-generation Intelligent Information Distribution Technology Research Project, PI.<br>2024 - 2025, 560,000 RMB.</dd>
+    </li>
+    <li>
+        <dt>Research on the Generalization Ability and Application of Graph Neural Network Based on Large Model Multi-agent</dt>
+        <dd>CCF-Ant Research Fund Graph Computing Project, PI.<br>2024 - 2025, 400,000 RMB.</dd>
+    </li>
+    <li>
         <dt>Implementations and Applications of Efficient Samplers in Database Systems</dt>
         <dd>Alibaba DAMO Academy Air Project, PI.<br>2023.01 - 2023.12, 500,000 RMB.</dd>
     </li>
