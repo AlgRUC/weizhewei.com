@@ -174,7 +174,7 @@ students:
     image: hanzhi2.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      <li>Postdoc Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a></li><li>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)</li><li>Awards: Baidu Scholarship, MSRA Fellowship, Wu Yuzhang Scholarship, National Scholarship</li>
+      <li>Postdoc Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a></li><li>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)</li><li>Awards: Baidu Scholarship, Microsoft Research Asia Fellowship, Wu Yuzhang Scholarship, China Computer Federation (CCF) Outstanding Doctoral Dissertation Award</li>
     category: Graduated PhD Students
     text_muted: 2019 - 2024
   - name: Yanping Zheng
