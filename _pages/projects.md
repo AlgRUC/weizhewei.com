@@ -16,8 +16,8 @@ children:
     permalink: /projects/GNN4Science/
   - title: Graph Agent
     permalink: /projects/graphagent/
-  # - title: Jittor-Geometric
-  #   permalink: /projects/jittor/
+  - title: Jittor Geometric
+    permalink: /projects/jittor/
   - title: Random-Walk Computation
     permalink: /projects/RandomWalkComputation/
   - title: Spectral GNN
