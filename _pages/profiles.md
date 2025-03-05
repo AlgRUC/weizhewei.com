@@ -263,7 +263,7 @@ students:
     image: ruoqi.jpg
     link: 
     more_info: >
-      <li>Metabit Trading</li><li>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)</li>
+      <li>Private Equity</li><li>Thesis: <cite>A Fine-Grained Execution Optimization Algorithm Based on Deep Reinforcement Learning</cite> (基于深度强化学习的细粒度交易执行算法)</li>
     category: Graduated Master Students
     text_muted: 2021 - 2024
   - name: Xu Liu
