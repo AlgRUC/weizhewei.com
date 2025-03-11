@@ -271,7 +271,7 @@ students:
     image: xu_liu.jpg
     link: 
     more_info: >
-      <li>Postal Savings Bank of China</li><li>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)</li>
+      <li>State-owned enterprises</li><li>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)</li>
     category: Graduated Master Students
     text_muted: 2021 - 2024
 ---
