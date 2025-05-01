@@ -64,7 +64,7 @@ students:
   - name: Haipeng Ding
     native_written_name: 丁海鹏
     image: haipeng.jpg
-    link: 
+    link: https://dinghaipeng.com/homepage/
     more_info: <li>Large-Scale Graph Learning</li><li>LLM for Graph</li>
     category: Current PhD Students
     text_muted: 2022 - Present
