@@ -10,6 +10,14 @@ nologo: true
 
 <ul>
     <li>
+        <dt>Spatio-Temporal Graph Modeling and Intelligent Simulation for Dynamic Marketing Optimization</dt>
+        <dd>Alimama AIR Project, PI.<br>2025 - 2026, 500,000 RMB.</dd>
+    </li>
+    <li>
+        <dt>Theory, Methods and Applications of Graph Neural Networks</dt>
+        <dd>NSFC Grant (Major Research Program Cultivation Projects), PI.<br>2025.01 - 2027.12, No.92470128, 700,000 RMB.</dd>
+    </li>
+    <li>
         <dt>Theory, Methods and Applications of Graph Neural Networks</dt>
         <dd>NSFC Grant (Major Research Program Cultivation Projects), PI.<br>2025.01 - 2027.12, No.92470128, 700,000 RMB.</dd>
     </li>
