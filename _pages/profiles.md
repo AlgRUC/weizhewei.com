@@ -12,34 +12,14 @@ images:
 students:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - name: Mingguo He
-    native_written_name: 何明国
-    image: mingguo.jpg
-    link: https://ivam-he.github.io/
-    more_info: <li>Graph Learning</li><li>Graph Neural Networks</li>
-    category: Current PhD Students
-    text_muted: 2020 - Present
   - name: Yanping Zheng
     native_written_name: 郑艳萍
     image: yanping.jpg
     link: https://zheng-yp.github.io/
-    more_info: <li>Graph Neural Networks</li><li>Dynamic Graph Representation Learning</li>
+    more_info: >
+      <li>Postdoc Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) </li>
     category: Postdoc Researcher
     text_muted: 2024 - Present
-  - name: Jiajun Li
-    native_written_name: 李家郡
-    image: jiajun.jpg
-    link: https://llijiajun.github.io/github-io/
-    more_info: <li>Streaming Algorithms</li><li>AI for DB</li>
-    category: Current PhD Students
-    text_muted: 2021 - Present
-  - name: Yang Zhang
-    native_written_name: 张阳
-    image: yang_zhang.jpg
-    link: https://fengyuewuya.github.io/
-    more_info: <li>AI for Drug</li>
-    category: Current PhD Students
-    text_muted: 2021 - Present
   - name: Yuhe Guo
     native_written_name: 郭雨荷
     image: yuhe.jpg
@@ -121,31 +101,10 @@ students:
     native_written_name: 王闻达
     image: wenda.jpg
     link: 
-    more_info: <li>Deep Learning for Bioinformatics</li>
+    more_info: <li>Graph-based generation of molecules and proteins</li>
     category: Current PhD Students
     text_muted: 2024 - Present
 
-  - name: Guanyu Cui
-    native_written_name: 崔冠宇
-    image: guanyu.jpg
-    link: https://guanyucui.github.io/
-    more_info: <li>Graph Neural Networks</li><li>Graph Algorithms</li><li>Graph Algorithm Alignment</li>
-    category: Current Master Students
-    text_muted: 2022 - Present
-  - name: Jingyu Chen
-    native_written_name: 陈靖宇
-    image: jingyu.jpg
-    link: 
-    more_info: <li>Graph Self-Supervised Learning</li><li>Spectral GNN</li>
-    category: Current Master Students
-    text_muted: 2022 - Present
-  - name: Jiahong Ma
-    native_written_name: 马嘉鸿
-    image: jiahong.jpg
-    link: 
-    more_info: <li>Spectral GNN</li><li>Graph Transformer</li>
-    category: Current Master Students
-    text_muted: 2022 - Present
   - name: Jiarui Ji
     native_written_name: 季嘉蕊
     image: jiarui.jpg
@@ -174,7 +133,9 @@ students:
     image: hanzhi2.jpg
     link: https://wanghzccls.github.io/
     more_info: >
-      <li>Postdoc Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a></li><li>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)</li><li>Awards: Baidu Scholarship, Microsoft Research Asia Fellowship, Wu Yuzhang Scholarship, China Computer Federation (CCF) Outstanding Doctoral Dissertation Award</li>
+      <li>Postdoc Researcher at <a href="https://barc.ku.dk/">BARC (Basic Algorithm Research Copenhagen)</a>, <a href="https://www.ku.dk/english/">University of Copenhagen</a></li>
+      <li>Expected to join the <a href="https://www.unimelb.edu.au/">University of Melbourne</a> as Lecturer sponsored by Doreen Thomas</li>
+      <li>Dissertation: <cite>Efficient Random-Walk Probability Computations on Large-Scale Graphs</cite> (大图上随机游走概率的高效计算)</li><li>Awards: Baidu Scholarship, Microsoft Research Asia Fellowship, Wu Yuzhang Scholarship, China Computer Federation (CCF) Outstanding Doctoral Dissertation Award</li>
     category: Graduated PhD Students
     text_muted: 2019 - 2024
   - name: Yanping Zheng
@@ -185,6 +146,32 @@ students:
       <li>Postdoc Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) </li>
     category: Graduated PhD Students
     text_muted: 2020 - 2024
+  - name: Mingguo He
+    native_written_name: 何明国
+    image: mingguo.jpg
+    link: https://ivam-he.github.io/
+    more_info: >
+      <li>Postdoc Researcher of <a href="https://nus.edu.sg/">National University of Singapore</a></li><li>Dissertation: <cite>Research on Key Technologies of Graph Convolutional Networks</cite> (图卷积网络关键技术研究) </li>
+      <li>Awards: National Scholarship</li>
+    category: Graduated PhD Students
+    text_muted: 2020 - 2025
+  - name: Jiajun Li
+    native_written_name: 李家郡
+    image: jiajun.jpg
+    link: https://llijiajun.github.io/github-io/
+    more_info: >
+      <li>Postdoc Researcher of <a href="https://english.pku.edu.cn/">Peking University</a></li><li>Dissertation: <cite>Research on Property Estimation Based on Sampling and Sketch</cite> (基于采样和摘要的数据性质估计研究)</li>
+    category: Graduated PhD Students
+    text_muted: 2021 - 2025
+  - name: Yang Zhang
+    native_written_name: 张阳
+    image: yang_zhang.jpg
+    link: https://fengyuewuya.github.io/
+    more_info: >
+      <li>Researcher of <a href="https://en.cnis.ac.cn/">China National Institute of Standardization (CNIS)</a></li><li>Dissertation: <cite>Research for Protein-Ligand Binding Based on Graph Neural Networks</cite> (基于图神经网络的蛋白质-配体结合关键算法研究)</li>
+      <li>Awards: National Scholarship, Wu Yuzhang Scholarship</li>
+    category: Graduated PhD Students
+    text_muted: 2021 - 2025
 
   - name: Suijun Tong
     native_written_name: 童绥俊
@@ -274,6 +261,30 @@ students:
       <li>State-owned enterprises</li><li>Thesis: <cite>Research on Inductive Bias in Stock Price Prediction</cite> (股票价格预测的归纳偏置研究)</li>
     category: Graduated Master Students
     text_muted: 2021 - 2024
+  - name: Jiahong Ma
+    native_written_name: 马嘉鸿
+    image: jiahong.jpg
+    link: 
+    more_info: >
+      <li>ByteDance</li><li>Thesis: <cite>Scalable Graph Transformer via Polynomial Attention</cite> (基于多项式注意力机制的大规模图 Transformer)</li>
+    category: Graduated Master Students
+    text_muted: 2022 - 2025
+  - name: Jingyu Chen
+    native_written_name: 陈靖宇
+    image: jingyu.jpg
+    link: 
+    more_info: >
+      <li>Alimama</li><li>Thesis: <cite>Graph Contrastive Learning via Learnable Spectral Polynomial Filters</cite> (基于可学习多项式谱滤波器的图对比学习算法研究)</li>
+    category: Graduated Master Students
+    text_muted: 2022 - 2025
+  - name: Guanyu Cui
+    native_written_name: 崔冠宇
+    image: guanyu.jpg
+    link: https://guanyucui.github.io/
+    more_info: >
+      <li>PhD Student of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Thesis: <cite>Bidirectional Local Estimation for Single-Pair Effective Resistance on Undirected Graphs</cite> (无向图上单节点对间有效电阻的双向局部估计算法)</li>
+    category: Graduated Master Students
+    text_muted: 2022 - 2025
 ---
 
 <swiper-container class="album" keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" autoplay-delay="5000" rewind="true" autoplay-disable-on-interaction="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="0" coverflow-effect-stretch="-75" coverflow-effect-depth="150" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
@@ -284,8 +295,54 @@ students:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/albums/2023.3.26.JPG" class="preview img-fluid rounded z-depth-1" zoomable=true caption="Mar 26, 2023: IACC 2023 in Huangpu, Guangzhou" %}</swiper-slide>
 </swiper-container>
 
+{% assign category = "Postdoc Researcher" %}
+<h2 class="category">{{ category }}</h2>
+{% assign categorized_projects = page.students | where: "category", category %}
+<div class="row row-cols-1">
+  {% for project in categorized_projects %}
+    {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
+    {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+    <div class="col my-1 px-1">
+      <div class="card hoverable h-100 d-flex flex-column justify-content-center">
+        <div class="d-flex justify-content-center align-items-center w-100">
+          <div class="col-3 d-flex justify-content-center">
+            {% if project.link | strip != "" %}
+              <a href="{{ project.link }}" class="no-decoration">
+            {% endif %}
+              <img
+                src="/{{ profile_image_path | prepend: site.baseurl }}"
+                class="img-fluid rounded-circle d-block m-2"
+                style="max-width: 150px; max-height: 150px; width: 100%; height: auto;"  
+                loading="lazy"
+              />
+            {% if project.link | strip != "" %} </a> {% endif %}
+          </div>
+          <div class="col-9">
+            <div class="card-body d-flex flex-column justify-content-center">
+              <h4 class="card-title mb-1">
+                {% if project.link | strip != "" %}
+                  <a href="{{ project.link }}">
+                {% endif %}
+                  <b style="color: var(--global-theme-color);">{{ project.name }}</b>
+                {% if project.link | strip != "" %}
+                  </a>
+                {% endif %}
+              </h4>
+              <div class="mb-2"> {{ project.native_written_name }}</div>
+              <div class="text-muted">{{ project.text_muted }}</div>
+              <div class="card-text">
+                <ul class="pl-3">{{ project.more_info }}</ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 {% for category in page.display_categories %}
-  {% if category == "Current PhD Students" or category == "Current Master Students" or category == "Postdoc Researcher" %}
+  {% if category == "Current PhD Students" or category == "Current Master Students" %}
   <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category %}
   <div class="row row-cols-1 row-cols-sm-2">
