@@ -86,7 +86,7 @@ students:
   - name: Yuwei Hu
     native_written_name: 胡雨韦
     image: yuwei.jpg
-    link: 
+    link: https://hyworrywart.github.io/
     more_info: <li>LLM for Graph</li>
     category: Current PhD Students
     text_muted: 2024 - Present
@@ -108,7 +108,7 @@ students:
   - name: Jiarui Ji
     native_written_name: 季嘉蕊
     image: jiarui.jpg
-    link: 
+    link: https://ji-cather.github.io/homepage/
     more_info: <li>LLM Multi-Agent</li><li>AI for Social Science</li>
     category: Current Master Students
     text_muted: 2023 - Present
