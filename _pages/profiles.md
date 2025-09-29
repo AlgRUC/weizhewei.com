@@ -110,15 +110,22 @@ students:
     image: jiarui.jpg
     link: https://ji-cather.github.io/homepage/
     more_info: <li>LLM Multi-Agent</li><li>AI for Social Science</li>
-    category: Current Master Students
-    text_muted: 2023 - Present
+    category: Current Phd Students
+    text_muted: 2025 - Present
   - name: Hanyan Yin
     native_written_name: 尹涵燕
     image: hanyan.jpg
     link: https://yinhanyan.github.io/
     more_info: <li>Streaming Algorithms</li>
-    category: Current Master Students
-    text_muted: 2023 - Present
+    category: Current PhD Students
+    text_muted: 2025 - Present
+  - name: Guanyu Cui
+    native_written_name: 崔冠宇
+    image: guanyu.jpg
+    link: https://guanyucui.github.io/
+    more_info: <li>Graph Model</li>
+    category: Current PhD Students
+    text_muted: 2025 - Present
 
   - name: Yu Liu
     native_written_name: 刘钰
