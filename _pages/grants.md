@@ -18,10 +18,6 @@ nologo: true
         <dd>NSFC Grant (Major Research Program Cultivation Projects), PI.<br>2025.01 - 2027.12, No.92470128, 700,000 RMB.</dd>
     </li>
     <li>
-        <dt>Theory, Methods and Applications of Graph Neural Networks</dt>
-        <dd>NSFC Grant (Major Research Program Cultivation Projects), PI.<br>2025.01 - 2027.12, No.92470128, 700,000 RMB.</dd>
-    </li>
-    <li>
         <dt>Rapid Streaming Computation under Restricted Resources</dt>
         <dd>National Science and Technology Major Project, PI.<br>2022.12 - 2025.11, 2022ZD0114802, 1,700,000 RMB.</dd>
     </li>

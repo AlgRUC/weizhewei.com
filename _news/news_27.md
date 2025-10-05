@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper "Future Link Prediction Without Memory or Aggregation" has been accepted by NeurIPS 2025!
+One paper "Future Link Prediction Without Memory or Aggregation" has been accepted by NeurIPS 2025.

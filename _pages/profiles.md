@@ -110,7 +110,7 @@ students:
     image: jiarui.jpg
     link: https://ji-cather.github.io/homepage/
     more_info: <li>LLM Multi-Agent</li><li>AI for Social Science</li>
-    category: Current Phd Students
+    category: Current PhD Students
     text_muted: 2025 - Present
   - name: Hanyan Yin
     native_written_name: 尹涵燕
@@ -350,8 +350,9 @@ students:
 
 {% for category in page.display_categories %}
   {% if category == "Current PhD Students" or category == "Current Master Students" %}
-  <h2 class="category">{{ category }}</h2>
   {% assign categorized_projects = page.students | where: "category", category %}
+  {% if categorized_projects.size > 0 %}
+  <h2 class="category">{{ category }}</h2>
   <div class="row row-cols-1 row-cols-sm-2">
   {% for project in categorized_projects %}
     {% assign profile_image_path = project.image | prepend: 'assets/img/students/' %}
@@ -386,6 +387,7 @@ students:
     </div>
   {% endfor %}
   </div>
+  {% endif %}
   {% endif %}
 {% endfor %}
 
