@@ -587,8 +587,8 @@ third_party_libraries:
       map: "sha256-lbF5CsospW93otqvWOIbbhj80CjazrZXvamD7nC7TBI="
     url:
       css: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Swiper/{{version}}/swiper-bundle.min.css"
-      js: "https://weizhewei.com/assets/libs/swiper/swiper-element-bundle.min.js"
-      map: "https://weizhewei.com/assets/libs/swiper/swiper-element-bundle.min.js.map"
+      js: "/assets/libs/swiper/swiper-element-bundle.min.js"
+      map: "/assets/libs/swiper/swiper-element-bundle.min.js.map"
     version: "11.0.5"
   swiper-map:
     integrity:

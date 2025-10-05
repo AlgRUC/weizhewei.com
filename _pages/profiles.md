@@ -17,7 +17,7 @@ students:
     image: yanping.jpg
     link: https://zheng-yp.github.io/
     more_info: >
-      <li>Postdoc Researcher of <a href="http://ai.ruc.edu.cn/english/">Gaoling School of Artificial Intelligence</a>, <a href="https://en.ruc.edu.cn/">Renmin University of China</a></li><li>Dissertation: <cite>Research on Key Technologies of Dynamic Graph Neural Network</cite> (动态图神经网络关键技术研究) </li>
+      <li>Dynamic Graph Machine Learning</li>
     category: Postdoc Researcher
     text_muted: 2024 - Present
   - name: Yuhe Guo
