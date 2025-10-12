@@ -123,7 +123,7 @@ students:
     native_written_name: 崔冠宇
     image: guanyu.jpg
     link: https://guanyucui.github.io/
-    more_info: <li>Graph Model</li>
+    more_info: <li>Machine learning model theory, graph algorithms</li>
     category: Current PhD Students
     text_muted: 2025 - Present
 
@@ -176,7 +176,6 @@ students:
     link: https://fengyuewuya.github.io/
     more_info: >
       <li>Researcher of <a href="https://en.cnis.ac.cn/">China National Institute of Standardization (CNIS)</a></li><li>Dissertation: <cite>Research for Protein-Ligand Binding Based on Graph Neural Networks</cite> (基于图神经网络的蛋白质-配体结合关键算法研究)</li>
-      <li>Awards: National Scholarship, Wu Yuzhang Scholarship</li>
     category: Graduated PhD Students
     text_muted: 2021 - 2025
 
