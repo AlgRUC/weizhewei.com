@@ -123,7 +123,7 @@ students:
     native_written_name: 崔冠宇
     image: guanyu.jpg
     link: https://guanyucui.github.io/
-    more_info: <li>Machine learning model theory, graph algorithms</li>
+    more_info: <li>Machine learning model theory</li><li>graph algorithms</li>
     category: Current PhD Students
     text_muted: 2025 - Present
 
