@@ -65,7 +65,7 @@ students:
   - name: Dongxie Wen
     native_written_name: 文东勰
     image: dongxie.jpg
-    link: 
+    link: https://henry-ruc.github.io/homepage/
     more_info: <li>Sketch for ML</li><li>Steaming Algorithms</li><li>Online Learning</li>
     category: Current PhD Students
     text_muted: 2023 - Present
