@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title>The ALGO Lab | Zhewei Wei	魏哲巍</title>
+		<style>
+			html { background: #fff; margin: 0 1em; }
+			body { font: .8125em/1.5 arial, sans-serif; text-align: center; }
+			h1 { font-size: 1.5em; font-weight: normal; margin: 1em 0 0; }
+			p#footer { color: #767676 !important; font-size: .77em !important; }
+			ul { margin: 2em; padding: 0; }
+			li { display: inline; padding: 0 2em; }
+			div { -moz-border-radius: 20px; -webkit-border-radius: 20px; border: 1px solid #ccc; border-radius: 20px; margin: 2em auto 1em; max-width: 650px; min-width: 544px; }
+			div:hover, div:hover * { cursor: pointer; }
+			div:hover { border-color: #999; }
+			div p { margin: .5em 0 1.5em; }
+			img { border: 0; }
+		</style>
+        <script>
+            // 当页面加载完成后执行脚本
+            window.onload = function() {
+                var countdown = 3; // 初始倒计时时间（秒）
+                var countdownElement = document.getElementById('countdown'); // 获取显示倒计时的元素
+
+                // 显示初始倒计时
+                countdownElement.textContent = countdown + " seconds before redirecting to the new page...";
+
+                // 设置每秒执行一次的定时器
+                var interval = setInterval(function() {
+                    countdown--; // 倒计时减1
+                    if (countdown > 0) {
+                        // 更新显示的倒计时
+                        countdownElement.textContent = countdown + " seconds before redirecting to the new page...";
+                    } else {
+                        // 清除定时器，停止倒计时
+                        clearInterval(interval);
+                        // 执行页面跳转
+                        window.location.href = "https://weizhewei.com/"; // 替换为目标URL
+                    }
+                }, 1000); // 1000毫秒 = 1秒
+            };
+        </script>
+	</head>
+	<body>
+		<div>
+			<a href="https://weizhewei.com/">
+				<img src="ALGO_LAB_LOGO-path-2.svg" alt="The ALGO Lab" width="586" height="257">
+			</a>
+			<h1><a href="https://weizhewei.com/"><strong id="target">https://weizhewei.com/</strong></a></h1>
+			<p>Please bookmark our website 请收藏我们的网址</p>
+            <p id="countdown">3 seconds before redirecting to the new page...</p>
+		</div>
+	</body>
+</html>
