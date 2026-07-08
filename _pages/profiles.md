@@ -100,7 +100,7 @@ students:
   - name: Wenda Wang
     native_written_name: 王闻达
     image: wenda.jpg
-    link: 
+    link: https://wangwenda87.github.io/
     more_info: <li>Graph-based generation of molecules and proteins</li>
     category: Current PhD Students
     text_muted: 2024 - Present
